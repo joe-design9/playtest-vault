@@ -1,0 +1,71 @@
+name: Playtest Vault QA
+on:
+  workflow_dispatch:
+jobs:
+  qa:
+    name: Simulator QA screenshots
+    runs-on: macos-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+      - name: Select latest stable Xcode
+        uses: maxim-lobanov/setup-xcode@v1
+        with:
+          xcode-version: latest-stable
+      - name: Build QA configuration (simulator)
+        run: |
+          xcodebuild \
+            -project PlaytestVault.xcodeproj \
+            -scheme PlaytestVault \
+            -configuration QA \
+            -sdk iphonesimulator \
+            -derivedDataPath "$PWD/build-qa" \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            build
+      - name: Boot iPhone 15 Pro Max simulator
+        run: |
+          RUNTIME=$(xcrun simctl list runtimes | grep -Eo 'com.apple.CoreSimulator.SimRuntime.iOS-[0-9-]+' | tail -1)
+          echo "Runtime: $RUNTIME"
+          DEVICE_ID=$(xcrun simctl create "QA-iPhone-15-Pro-Max" "iPhone 15 Pro Max" "$RUNTIME")
+          echo "Device: $DEVICE_ID"
+          xcrun simctl boot "$DEVICE_ID"
+          xcrun simctl bootstatus booted -b
+          xcrun simctl ui booted appearance dark
+      - name: Install app
+        run: |
+          APP_PATH="build-qa/Build/Products/QA-iphonesimulator/PlaytestVault.app"
+          if [ ! -d "$APP_PATH" ]; then
+            echo "QA app not found at $APP_PATH"
+            find build-qa -name "*.app" -maxdepth 5
+            exit 1
+          fi
+          xcrun simctl install booted "$APP_PATH"
+      - name: Home screen icon (fresh install)
+        run: |
+          mkdir -p shots
+          sleep 2
+          xcrun simctl io booted screenshot shots/icon-home-fresh.png
+      - name: Capture screenshots
+        run: |
+          mkdir -p shots
+          capture() {
+            name="$1"; wait_s="$2"; shift 2
+            xcrun simctl launch --terminate-running-process booted dev.joe.playtestvault "$@" || true
+            sleep "$wait_s"
+            xcrun simctl io booted screenshot "shots/$name.png"
+          }
+          capture discover 6 -UITestMode
+          capture demos 6 -UITestMode -QAStartTab 1
+          capture vault 6 -UITestMode -QAStartTab 2
+          capture more 6 -UITestMode -QAStartTab 3
+          capture vault-real 6 -QAStartTab 2
+          capture discover-real 12
+          capture demos-real 14 -QAStartTab 1
+          ls -la shots
+      - name: Upload screenshots
+        uses: actions/upload-artifact@v4
+        with:
+          name: vault-qa-screenshots
+          path: shots/
+          if-no-files-found: error
