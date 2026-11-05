@@ -129,8 +129,7 @@ private struct VaultEntryCard: View {
                     .font(.headline)
                     .foregroundStyle(.white)
                     .multilineTextAlignment(.leading)
-                GlassEffectContainer(spacing: 8) {
-                    HStack(spacing: 8) {
+                HStack(spacing: 8) {
                         TintedPill(text: entry.platform, color: .white)
                         TintedPill(text: entry.status.label, color: entry.status.color)
                         if let deadline = entry.deadline {
@@ -138,7 +137,6 @@ private struct VaultEntryCard: View {
                         }
                         Spacer()
                     }
-                }
                 if !entry.notes.isEmpty {
                     Text(entry.notes)
                         .font(.caption)

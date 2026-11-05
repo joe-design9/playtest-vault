@@ -67,7 +67,8 @@ enum SteamService {
             seen.insert(demoID)
             let title = TextTools.stripHTML(rawTitle)
             guard !title.isEmpty else { continue }
-            demos.append(SteamDemo(demoAppID: demoID, fullGameID: fullID, title: title))
+            let imageURL = firstCapture(pattern: "<img[^>]+src=\"([^\"]+)\"", in: chunk).flatMap { URL(string: $0) }
+            demos.append(SteamDemo(demoAppID: demoID, fullGameID: fullID, title: title, imageURL: imageURL))
         }
         return demos
     }

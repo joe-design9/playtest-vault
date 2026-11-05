@@ -138,7 +138,7 @@ private struct DemoRow: View {
     private var capsule: some View {
         ZStack {
             CoverArt(title: demo.title, height: 48)
-            if demo.demoAppID > 0, let url = demo.capsuleURL {
+            if demo.demoAppID > 0, let url = demo.imageURL ?? demo.capsuleURL {
                 AsyncImage(url: url) { phase in
                     if case .success(let image) = phase {
                         image

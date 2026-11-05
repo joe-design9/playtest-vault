@@ -37,7 +37,7 @@ struct SteamDetailView: View {
     private var header: some View {
         ZStack {
             CoverArt(title: demo.title, height: 190)
-            if let imageURL = details?.headerImage ?? (demo.demoAppID > 0 ? demo.headerURL : nil) {
+            if let imageURL = details?.headerImage ?? demo.imageURL ?? (demo.demoAppID > 0 ? demo.headerURL : nil) {
                 AsyncImage(url: imageURL) { phase in
                     if case .success(let image) = phase {
                         image

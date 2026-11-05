@@ -148,8 +148,7 @@ private struct PlaytestCard: View {
                         .font(.headline)
                         .foregroundStyle(.white)
                         .multilineTextAlignment(.leading)
-                    GlassEffectContainer(spacing: 8) {
-                        HStack(spacing: 8) {
+                    HStack(spacing: 8) {
                             TintedPill(text: item.platform, color: .white)
                             TintedPill(text: item.status, color: feedStatusColor(item.status))
                             if let deadline = item.deadline {
@@ -157,7 +156,6 @@ private struct PlaytestCard: View {
                             }
                             Spacer()
                         }
-                    }
                     if !item.tags.isEmpty {
                         Text(item.tags.map { "#\($0)" }.joined(separator: "  "))
                             .font(.caption)

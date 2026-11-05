@@ -244,6 +244,10 @@ struct SteamDemo: Identifiable, Equatable {
     /// The full game's app id (from the row href) — used for appdetails.
     var fullGameID: Int
     var title: String
+    /// Exact capsule asset URL parsed from the search row's <img> tag
+    /// (Steam's hashed asset path — constructing it from the id 404s
+    /// for many demos). Nil when the row carried no image.
+    var imageURL: URL? = nil
 
     var id: Int { demoAppID }
 
