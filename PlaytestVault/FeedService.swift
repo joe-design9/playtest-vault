@@ -76,40 +76,40 @@ enum SampleData {
         let now = Date()
         return [
             PlaytestItem(
-                id: "sample-mecha-arena",
-                title: "Mecha Arena — Playtest",
+                id: "god-save-birmingham",
+                title: "God Save Birmingham \u{2014} Beta 2",
                 platform: "Steam",
                 status: "Live now",
-                deadline: now.addingTimeInterval(3 * 86400),
-                url: "https://store.steampowered.com",
-                image: nil,
-                descEN: "Closed multiplayer playtest for the arena mech battler. Servers are live all weekend, feedback survey at the end.",
-                descDE: "Geschlossener Multiplayer-Playtest für den Arena-Mech-Battler. Server laufen das ganze Wochenende, Feedback-Umfrage am Ende.",
-                tags: ["Multiplayer", "Action", "Mechs"]
+                deadline: now.addingTimeInterval(4 * 86400),
+                url: "https://store.steampowered.com/app/3073940/God_Save_Birmingham/",
+                image: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3073940/header.jpg",
+                descEN: "Public Beta 2 of the medieval zombie survival game, adding four-player co-op. Everyone who requests access gets in, with no NDA.",
+                descDE: "\u{00D6}ffentliche Beta 2 des mittelalterlichen Zombie-Survival-Spiels: Neu ist der Koop-Modus f\u{00FC}r bis zu vier Spieler. Wer Zugang anfordert, kommt rein, ganz ohne NDA.",
+                tags: ["Survival", "Zombies", "Co-op"]
             ),
             PlaytestItem(
-                id: "sample-deep-sea",
-                title: "Deep Sea Tactics — Beta",
-                platform: "Xbox",
+                id: "soulframe",
+                title: "Soulframe \u{2014} Open Preludes",
+                platform: "PC",
                 status: "Signups open",
-                deadline: now.addingTimeInterval(30 * 3600),
-                url: "https://www.xbox.com",
+                deadline: nil,
+                url: "https://soulframe.com",
                 image: nil,
-                descEN: "Sign up for the console beta of the turn-based deep sea strategy game. Invites go out in waves.",
-                descDE: "Melde dich für die Konsolen-Beta des rundenbasierten Tiefsee-Strategiespiels an. Einladungen kommen in Wellen.",
-                tags: ["Strategy", "Beta", "Console"]
+                descEN: "Digital Extremes (Warframe) opens its fantasy RPG alpha to everyone: a free account on soulframe.com plus the standalone launcher is all you need \u{2014} no key required.",
+                descDE: "Digital Extremes (Warframe) \u{00F6}ffnet die Alpha seines Fantasy-RPGs f\u{00FC}r alle: Ein kostenloser Account auf soulframe.com plus der eigene Launcher reichen \u{2013} kein Key mehr n\u{00F6}tig.",
+                tags: ["RPG", "Alpha", "Free"]
             ),
             PlaytestItem(
-                id: "sample-kart-legends",
-                title: "Kart Legends — Demo Weekend",
-                platform: "PlayStation",
-                status: "Coming soon",
-                deadline: now.addingTimeInterval(10 * 86400),
-                url: "https://www.playstation.com",
-                image: nil,
-                descEN: "A demo weekend is planned ahead of launch. Wishlist the game to get notified when the demo drops.",
-                descDE: "Ein Demo-Wochenende ist vor dem Launch geplant. Setz das Spiel auf die Wunschliste, um beim Demo-Start benachrichtigt zu werden.",
-                tags: ["Racing", "Demo", "Arcade"]
+                id: "escape-from-playtime",
+                title: "Escape From Playtime",
+                platform: "Steam",
+                status: "Ended",
+                deadline: nil,
+                url: "https://store.steampowered.com/app/2087540/Escape_from_Playtime/",
+                image: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2087540/header.jpg",
+                descEN: "The playtest is over: the open beta ran in early October, and Mob Entertainment's co-op horror game has been out in Steam Early Access since October 21, 2026 ($9.99).",
+                descDE: "Der Playtest ist vorbei: Die Open Beta lief Anfang Oktober, seit dem 21. Oktober 2026 ist das Co-op-Horror-Spiel von Mob Entertainment im Early Access auf Steam erh\u{00E4}ltlich (9,99 $).",
+                tags: ["Horror", "Co-op", "Released"]
             ),
         ]
     }

@@ -11,21 +11,27 @@ enum VaultAccent {
     }
 }
 
-/// Pure black backdrop with a barely-there teal glow at the top, so the
-/// Liquid Glass surfaces have a whisper of color to refract while the
-/// screens still read as black.
+/// Pure black backdrop with soft color fields (teal top, violet middle,
+/// deep blue bottom), so the Liquid Glass surfaces have real color to
+/// refract while the screens still read as black.
 struct AppBackdrop: View {
     var body: some View {
         ZStack {
             Color.black
             RadialGradient(
-                colors: [VaultAccent.teal.opacity(0.13), .clear],
+                colors: [VaultAccent.teal.opacity(0.20), .clear],
                 center: .top,
                 startRadius: 10,
                 endRadius: 420
             )
             RadialGradient(
-                colors: [Color(red: 0.15, green: 0.35, blue: 0.85).opacity(0.07), .clear],
+                colors: [Color(red: 0.55, green: 0.25, blue: 0.85).opacity(0.10), .clear],
+                center: .center,
+                startRadius: 10,
+                endRadius: 460
+            )
+            RadialGradient(
+                colors: [Color(red: 0.15, green: 0.35, blue: 0.85).opacity(0.13), .clear],
                 center: .bottomTrailing,
                 startRadius: 10,
                 endRadius: 380

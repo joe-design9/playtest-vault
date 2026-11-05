@@ -8,11 +8,39 @@ struct DiscoverView: View {
 
     private var filtered: [PlaytestItem] {
         let q = query.trimmingCharacters(in: .whitespacesAndNewlines).lowercased()
-        guard !q.isEmpty else { return feedStore.items }
-        return feedStore.items.filter { item in
-            item.title.lowercased().contains(q)
-                || item.platform.lowercased().contains(q)
-                || item.tags.contains { $0.lowercased().contains(q) }
+        let base: [PlaytestItem]
+        if q.isEmpty {
+            base = feedStore.items
+        } else {
+            base = feedStore.items.filter { item in
+                item.title.lowercased().contains(q)
+                    || item.platform.lowercased().contains(q)
+                    || item.tags.contains { $0.lowercased().contains(q) }
+            }
+        }
+        return base.sorted(by: Self.feedOrder)
+    }
+
+    /// Live tests first, then open sign-ups, coming soon, ended last;
+    /// inside a group the nearest deadline wins.
+    private static func feedOrder(_ a: PlaytestItem, _ b: PlaytestItem) -> Bool {
+        let ra = statusRank(a.status), rb = statusRank(b.status)
+        if ra != rb { return ra < rb }
+        switch (a.deadline, b.deadline) {
+        case let (da?, db?): return da < db
+        case (_?, nil): return true
+        case (nil, _?): return false
+        case (nil, nil): return a.title < b.title
+        }
+    }
+
+    private static func statusRank(_ status: String) -> Int {
+        switch status {
+        case "Live now": return 0
+        case "Signups open": return 1
+        case "Coming soon": return 2
+        case "Ended": return 3
+        default: return 1
         }
     }
 
@@ -21,6 +49,9 @@ struct DiscoverView: View {
             ScrollView {
                 VStack(spacing: 14) {
                     searchField
+                    if !feedStore.items.isEmpty {
+                        heroHeader
+                    }
                     if let updated = feedStore.feedUpdated {
                         HStack {
                             Text(store.tr("Stand: ", "Updated: ") + updated.formatted(.dateTime.day().month().year().locale(Lang.locale)))
@@ -40,7 +71,7 @@ struct DiscoverView: View {
             .scrollDismissesKeyboard(.interactively)
             .onTapGesture { searchFocused = false }
             .refreshable { await feedStore.refresh() }
-            .navigationTitle(store.tr("Entdecken", "Discover"))
+            .navigationTitle(store.tr("Playtest", "Playtest"))
             .navigationBarTitleDisplayMode(.large)
             .task { await feedStore.loadIfNeeded() }
         }
@@ -69,6 +100,48 @@ struct DiscoverView: View {
         .padding(.horizontal, 16)
         .padding(.vertical, 12)
         .glassPill()
+    }
+
+    /// Living summary card at the top of the Playtest tab: how many
+    /// tests are live right now, how many sign-ups are open and when
+    /// the next deadline hits.
+    private var heroHeader: some View {
+        let live = feedStore.items.filter { $0.status == "Live now" }.count
+        let open = feedStore.items.filter { $0.status == "Signups open" }.count
+        let next = feedStore.items.compactMap { $0.deadline }.filter { $0 > Date() }.min()
+        return GlassCard {
+            HStack(spacing: 14) {
+                ZStack {
+                    Circle()
+                        .fill(VaultAccent.gradient)
+                        .frame(width: 52, height: 52)
+                    Image(systemName: "gamecontroller.fill")
+                        .font(.title3.weight(.bold))
+                        .foregroundStyle(.white)
+                }
+                VStack(alignment: .leading, spacing: 3) {
+                    Text(store.tr("\(live) Playtests laufen gerade", "\(live) playtests live right now"))
+                        .font(.headline)
+                        .foregroundStyle(.white)
+                    Text(heroSubline(open: open, next: next))
+                        .font(.caption)
+                        .foregroundStyle(.white.opacity(0.65))
+                }
+                Spacer()
+            }
+            .padding(16)
+        }
+    }
+
+    private func heroSubline(open: Int, next: Date?) -> String {
+        var parts: [String] = []
+        if open > 0 {
+            parts.append(store.tr("\(open) Anmeldungen offen", "\(open) sign-ups open"))
+        }
+        if let next {
+            parts.append(store.tr("Nächste Frist: ", "Next deadline: ") + Countdown.chipText(deadline: next))
+        }
+        return parts.joined(separator: " \u{00B7} ")
     }
 
     @ViewBuilder
@@ -116,6 +189,7 @@ struct DiscoverView: View {
                     PlaytestDetailView(item: item)
                 } label: {
                     PlaytestCard(item: item)
+                        .opacity(item.status == "Ended" ? 0.72 : 1)
                 }
                 .buttonStyle(.plain)
             }

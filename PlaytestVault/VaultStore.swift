@@ -20,6 +20,7 @@ final class VaultStore: ObservableObject {
         if let data = UserDefaults.standard.data(forKey: Self.entriesKey),
            let decoded = try? Self.decoder.decode([VaultEntry].self, from: data) {
             entries = decoded
+            applyDataFixes()
         } else if !UserDefaults.standard.bool(forKey: Self.seededKey) {
             entries = Self.seedEntries()
             UserDefaults.standard.set(true, forKey: Self.seededKey)
@@ -93,6 +94,22 @@ final class VaultStore: ObservableObject {
         for offset in offsets { delete(sorted[offset]) }
     }
 
+    /// One-time data corrections for entries stored by older versions.
+    /// Self-limiting: once corrected, the condition no longer matches.
+    private func applyDataFixes() {
+        var changed = false
+        for idx in entries.indices
+        where entries[idx].title == "Escape From Playtime" && entries[idx].status == .applied {
+            entries[idx].status = .done
+            entries[idx].notes = Lang.tr(
+                "Playtest vorbei \u{2013} seit 21.10.2026 im Early Access auf Steam",
+                "Playtest over \u{2014} in Steam Early Access since Oct 21, 2026"
+            )
+            changed = true
+        }
+        if changed { persist() }
+    }
+
     private func persist() {
         guard !uiTestMode else { return }
         if let data = try? Self.encoder.encode(entries) {
@@ -133,8 +150,8 @@ final class VaultStore: ObservableObject {
             ),
             VaultEntry(
                 title: "Escape From Playtime",
-                platform: "Steam", source: "steam", status: .applied,
-                notes: Lang.tr("Early Access 8,99 \u{20AC}, Test & ggf. Refund geplant", "Early Access EUR 8.99, test & refund planned if needed"),
+                platform: "Steam", source: "steam", status: .done,
+                notes: Lang.tr("Seit 21.10.2026 im Early Access auf Steam erschienen", "Released in Steam Early Access on Oct 21, 2026"),
                 dateAdded: now
             ),
             VaultEntry(

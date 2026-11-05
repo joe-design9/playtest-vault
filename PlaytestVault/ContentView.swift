@@ -31,7 +31,7 @@ struct ContentView: View {
         ZStack {
             TabView(selection: $store.selectedTab) {
                 VaultPage { DiscoverView() }
-                    .tabItem { Label(store.tr("Entdecken", "Discover"), systemImage: "safari") }
+                    .tabItem { Label(store.tr("Playtest", "Playtest"), systemImage: "safari") }
                     .tag(0)
                 VaultPage { DemosView() }
                     .tabItem { Label(store.tr("Demos", "Demos"), systemImage: "gamecontroller") }

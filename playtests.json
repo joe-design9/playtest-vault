@@ -1,1 +1,373 @@
-{"playtests":[{"deadline":null,"desc_de":"Der von Poppy Playtime inspirierte Escape-Horror-Titel ist im Early Access auf Steam. Kurze Sessions machen Testen und Feedback geben leicht.","desc_en":"The Poppy Playtime-inspired escape horror title is out in Early Access on Steam. Short sessions make it easy to test and give feedback.","id":"escape-from-playtime","image":null,"platform":"Steam","status":"Live now","tags":["Horror","Early Access","Co-op"],"title":"Escape From Playtime","url":"https://store.steampowered.com/search/?term=Escape+From+Playtime"},{"deadline":null,"desc_de":"Die geschlossene Alpha des unangekündigten Bagger-Simulators ist abgeschlossen. Die Abschluss-Umfrage war der letzte Schritt für Tester.","desc_en":"The closed alpha of the unannounced digging simulator has wrapped up. The closing survey was the final step for testers.","id":"project-scoop","image":null,"platform":"FirstLook","status":"Ended","tags":["Simulation","Closed Alpha","Ended"],"title":"Project SCOOP (DIG SIMULATOR)","url":"https://firstlook.gg"},{"deadline":null,"desc_de":"Microsofts laufendes Preview-Programm: Über die Xbox-Insider-Hub-App testen Mitglieder System-Updates, Spiele und Apps vor Release. Ringe öffnen sich mit der Zeit.","desc_en":"Microsoft's ongoing preview program: join via the Xbox Insider Hub app to test system updates, games and apps before release. Rings open up over time.","id":"xbox-insider-program","image":null,"platform":"Xbox","status":"Signups open","tags":["Program","Console","Preview"],"title":"Xbox Insider Program","url":"https://www.xbox.com/en-US/xbox-insider-program"},{"deadline":null,"desc_de":"Sonys Beta-Programm für PS5: Einmal registrieren und für Systemsoftware-Betas und Spiel-Playtests berücksichtigt werden. Einladungen kommen per E-Mail.","desc_en":"Sony's beta program for PS5: register once to be considered for system software betas and game playtests. Invites are sent by email.","id":"playstation-beta-program","image":null,"platform":"PlayStation","status":"Signups open","tags":["Program","Console","Beta"],"title":"PlayStation Beta Program","url":"https://www.playstation.com/en-us/support/games/beta-program-at-playstation/"},{"deadline":null,"desc_de":"Valves wiederkehrendes Demo-Festival: Hunderte kostenlose Demos kommender Spiele sind pro Ausgabe eine Woche lang live. Die nächste Ausgabe wird für Februar 2027 erwartet.","desc_en":"Valve's recurring demo festival: hundreds of free demos for upcoming games go live for one week per edition. The next edition is expected in February 2027.","id":"steam-next-fest","image":null,"platform":"Steam","status":"Coming soon","tags":["Demos","Festival","Free"],"title":"Steam Next Fest","url":"https://store.steampowered.com/sale/nextfest"},{"deadline":null,"desc_de":"Playtest-Plattform mit wechselnden geschlossenen Alphas und Betas (Project SCOOP lief hier). Kostenlosen Account erstellen und für passende Tests bewerben.","desc_en":"Playtest platform with rotating closed alphas and betas (Project SCOOP ran here). Create a free account and apply for tests that match your library.","id":"firstlook-playtests","image":null,"platform":"FirstLook","status":"Signups open","tags":["Platform","Alpha","Beta"],"title":"FirstLook — Playtests & Alphas","url":"https://firstlook.gg"}],"updated":"2026-11-05T00:00:00Z"}
+{
+  "updated": "2026-11-05T16:33:07Z",
+  "playtests": [
+    {
+      "deadline": "2026-11-09T18:00:00Z",
+      "desc_de": "Öffentliche Beta 2 des mittelalterlichen Zombie-Survival-Spiels: Neu ist der Koop-Modus für bis zu vier Spieler. Läuft vom 2. bis 9. November 2026 auf Steam – wer Zugang anfordert, kommt rein, ganz ohne NDA.",
+      "desc_en": "Public Beta 2 of the medieval zombie survival game, adding four-player co-op. Runs November 2–9, 2026 on Steam — everyone who requests access gets in, with no NDA.",
+      "id": "god-save-birmingham",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3073940/header.jpg",
+      "platform": "Steam",
+      "status": "Live now",
+      "tags": [
+        "Survival",
+        "Zombies",
+        "Co-op"
+      ],
+      "title": "God Save Birmingham — Beta 2",
+      "url": "https://store.steampowered.com/app/3073940/God_Save_Birmingham/"
+    },
+    {
+      "deadline": "2026-11-09T23:59:00Z",
+      "desc_de": "Offener Playtest des psychologischen First-Person-Adventures rund um Geheimnis, Erinnerung und Klang: Kapitel 1 ist spielbar, Zugang auf der Steam-Seite wird sofort freigeschaltet. Verlängert bis 9. November 2026.",
+      "desc_en": "Open playtest of the first-person psychological adventure about mystery, memory and sound: Chapter One is playable, with instant approval via the Steam page. Extended through November 9, 2026.",
+      "id": "sublustrum",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4151300/header.jpg",
+      "platform": "Steam",
+      "status": "Live now",
+      "tags": [
+        "Adventure",
+        "Puzzle",
+        "Horror"
+      ],
+      "title": "Sublustrum",
+      "url": "https://store.steampowered.com/app/4151300/Sublustrum/"
+    },
+    {
+      "deadline": null,
+      "desc_de": "Offener Steam-Playtest des Pixel-Art-JRPGs von Pixelated Milk: Jeder, der sich über die Store-Seite anmeldet, bekommt Zugang. Wer den Playtest-Boss besiegt, sichert sich einen exklusiven Begleiter zum Release.",
+      "desc_en": "Open Steam playtest for Pixelated Milk's pixel-art JRPG: everyone who signs up on the store page gets access. Beat the playtest's final boss and keep the save to unlock an exclusive pet at launch.",
+      "id": "sacrifire",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1661330/header.jpg",
+      "platform": "Steam",
+      "status": "Live now",
+      "tags": [
+        "JRPG",
+        "Pixel Art",
+        "RPG"
+      ],
+      "title": "SacriFire",
+      "url": "https://store.steampowered.com/app/1661330/SacriFire/"
+    },
+    {
+      "deadline": null,
+      "desc_de": "Kostenloser Steam-Playtest des Top-Down-Koop-Roguelikes, in dem Gummienten ihren Teich verteidigen: Die ersten drei Karten samt Bossen sind spielbar, solo oder mit bis zu drei Freunden online.",
+      "desc_en": "Free Steam playtest for the top-down co-op roguelike where rubber ducks defend their pond: the first three maps and their bosses are playable, solo or online with up to three friends.",
+      "id": "lets-duck",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5428530/header.jpg",
+      "platform": "Steam",
+      "status": "Live now",
+      "tags": [
+        "Roguelike",
+        "Co-op",
+        "Indie"
+      ],
+      "title": "Let's Duck!",
+      "url": "https://store.steampowered.com/app/5428530/Lets_Duck/"
+    },
+    {
+      "deadline": null,
+      "desc_de": "Isometrisches Echtzeit-Taktikspiel: Als Operator einer Weltraum-Söldnertruppe nimmst du Aufträge in einer feindlichen Galaxis an. Der Steam-Playtest ist offen – Zugang auf der Store-Seite anfordern und sofort losspielen.",
+      "desc_en": "An isometric real-time tactics game where you command a space-mercenary outfit taking contracts across a hostile galaxy. The Steam playtest is open — request access on the store page and you're in right away.",
+      "id": "engines-of-hate",
+      "image": null,
+      "platform": "Steam",
+      "status": "Live now",
+      "tags": [
+        "Strategy",
+        "Tactics",
+        "Indie"
+      ],
+      "title": "Engines of Hate",
+      "url": "https://failosipher.itch.io/engines-of-hate"
+    },
+    {
+      "deadline": null,
+      "desc_de": "Digital Extremes (Warframe) öffnet die Alpha seines Fantasy-RPGs für alle: Ab dem 6. November 2026 reicht ein kostenloser Account auf soulframe.com plus der eigene Launcher – kein Key mehr nötig. Registrierung ist schon offen.",
+      "desc_en": "Digital Extremes (Warframe) opens its fantasy RPG alpha to everyone: from November 6, 2026, a free account on soulframe.com plus the standalone launcher is all you need — no key required. Registration is already open.",
+      "id": "soulframe",
+      "image": null,
+      "platform": "PC",
+      "status": "Signups open",
+      "tags": [
+        "RPG",
+        "Alpha",
+        "Free"
+      ],
+      "title": "Soulframe — Open Preludes",
+      "url": "https://soulframe.com"
+    },
+    {
+      "deadline": "2026-11-07T05:00:00Z",
+      "desc_de": "Physik-Partyspiel für 16 Spieler, in dem man seine Freunde frisst. Der Playtest läuft über FirstLook in zwei Sessions am 6. und 7. November 2026 – Anmeldung ist offen.",
+      "desc_en": "A 16-player online physics party game where you eat your friends. The playtest runs via FirstLook in two sessions on November 6 and 7, 2026 — sign-ups are open.",
+      "id": "pecking-order",
+      "image": null,
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "tags": [
+        "Party",
+        "Physics",
+        "Multiplayer"
+      ],
+      "title": "Pecking Order",
+      "url": "https://pecking-order.firstlook.gg/"
+    },
+    {
+      "deadline": "2026-11-22T01:59:00Z",
+      "desc_de": "HoYoverse rekrutiert ab sofort für die finale Closed Beta des Kreaturen-Sammel-RPGs: Fragebogen auf der offiziellen Seite ausfüllen, Bewerbungsschluss ist der 22. November 2026. Der Test startet am 25. November auf PC, Android und iOS, alle Daten werden danach gelöscht.",
+      "desc_en": "HoYoverse is now recruiting for the final closed beta of its creature-collecting RPG: fill out the survey on the official site by November 22, 2026. The test starts November 25 on PC, Android and iOS, with a full data wipe at the end.",
+      "id": "honkai-nexus-anima",
+      "image": null,
+      "platform": "PC",
+      "status": "Signups open",
+      "tags": [
+        "RPG",
+        "Closed Beta",
+        "Mobile"
+      ],
+      "title": "Honkai: Nexus Anima — Final Closed Beta",
+      "url": "https://hoyo.link/gXA5dV4eK"
+    },
+    {
+      "deadline": null,
+      "desc_de": "Taktischer Horror-FPS im SCP-Universum, solo oder im Koop: Die Foundation hat sich gegen die Menschheit gewandt. Über player.gg für den Playtest anmelden und auf dem Weg zum 1.0-Release Feedback geben.",
+      "desc_en": "A co-op or solo tactical horror FPS set in the SCP universe, where the Foundation has turned on humanity. Sign up via player.gg and help shape the game on its way to the 1.0 release.",
+      "id": "scp-5k",
+      "image": null,
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "tags": [
+        "Horror",
+        "FPS",
+        "Co-op"
+      ],
+      "title": "SCP: 5K",
+      "url": "https://player.gg/publications/player-gg/posts/sign-up-for-these-playtests-including-scp-5k"
+    },
+    {
+      "deadline": null,
+      "desc_de": "Der nächste Teil der Märchen-Puzzle-Reihe von Frozenbyte: Rätsel-Plattformer für 1–4 Spieler. Playtest-Anmeldung läuft über player.gg.",
+      "desc_en": "The next entry in Frozenbyte's fairytale puzzle series: a co-op puzzle platformer for 1–4 players. Playtest sign-ups run through player.gg.",
+      "id": "trine-6-together-in-time",
+      "image": null,
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "tags": [
+        "Puzzle",
+        "Platformer",
+        "Co-op"
+      ],
+      "title": "Trine 6: Together in Time",
+      "url": "https://player.gg/publications/player-gg/posts/sign-up-for-these-playtests-including-scp-5k"
+    },
+    {
+      "deadline": null,
+      "desc_de": "Psychologischer Horror-Plattformer aus der Ego-Perspektive: Der Herzschlag der Hauptfigur steuert Umgebung, Fallen und das steigende Blut. Playtest-Anmeldung über player.gg.",
+      "desc_en": "A first-person psychological horror platformer where the protagonist's heartbeat controls the environment, traps and the rising blood. Playtest sign-ups run through player.gg.",
+      "id": "throb",
+      "image": null,
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "tags": [
+        "Horror",
+        "Platformer",
+        "Indie"
+      ],
+      "title": "THROB",
+      "url": "https://player.gg/publications/player-gg/posts/sign-up-for-these-playtests-including-scp-5k"
+    },
+    {
+      "deadline": null,
+      "desc_de": "Online-Partyspiel für 16 Spieler: Schwebende Roboter rasen, springen und schleudern sich in fünf chaotischen Minispielen gegenseitig von der Karte. Playtest über player.gg.",
+      "desc_en": "A 16-player online party game where hovering robots dash, jump and slam each other off the map across five chaotic minigames. Playtest sign-ups run through player.gg.",
+      "id": "robosquare-recharged",
+      "image": null,
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "tags": [
+        "Party",
+        "Multiplayer",
+        "Arcade"
+      ],
+      "title": "RoboSquare: Recharged",
+      "url": "https://player.gg/publications/player-gg/posts/sign-up-for-these-playtests-including-scp-5k"
+    },
+    {
+      "deadline": null,
+      "desc_de": "Ubisoft baut den Strategie-Klassiker in der Snowdrop-Engine neu: Die Registrierung für den geschlossenen PC-Playtest im November 2026 ist offen – Ubisoft-Konto, Plattform wählen, kurze Umfrage ausfüllen. Ausgewählte Tester werden per E-Mail benachrichtigt.",
+      "desc_en": "Ubisoft is rebuilding the strategy classic in the Snowdrop engine: registration for the closed PC playtest in November 2026 is open — sign in with a Ubisoft account, pick PC and complete a short survey. Selected testers are contacted by email.",
+      "id": "heroes-of-might-and-magic-3-remake",
+      "image": null,
+      "platform": "PC",
+      "status": "Signups open",
+      "tags": [
+        "Strategy",
+        "Closed Playtest",
+        "Ubisoft"
+      ],
+      "title": "Heroes of Might and Magic III Remake — Closed Playtest",
+      "url": "https://register.ubisoft.com/heroes-of-might-and-magic-3-remake"
+    },
+    {
+      "deadline": null,
+      "desc_de": "EAs offizielles Community-Playtesting-Programm: Profil anlegen (ab 18) und Einladungen zu Tests kommender EA-Spiele auf allen Plattformen per E-Mail bekommen. Plätze sind begrenzt und werden nach Reihenfolge vergeben.",
+      "desc_en": "EA's official community playtesting program: create a profile (18+) to receive email invites for tests of upcoming EA games across all platforms. Spaces are limited and filled first come, first served.",
+      "id": "ea-playtesting",
+      "image": null,
+      "platform": "PC",
+      "status": "Signups open",
+      "tags": [
+        "Program",
+        "Publisher",
+        "Beta"
+      ],
+      "title": "EA Playtesting",
+      "url": "https://www.ea.com/playtesting"
+    },
+    {
+      "deadline": null,
+      "desc_de": "Ubisofts neue Playtest-Plattform: Kostenlos registrieren, NDA unterschreiben und für frühe Prototypen und Live-Spiele bewerben – zum Start u. a. Codename Split Point, Codename Rook, Riders Republic und Atomega. Mehr Feedback schaltet höhere Zugangsstufen frei.",
+      "desc_en": "Ubisoft's new playtest platform: register for free, sign an NDA and apply to test early prototypes and live games — launch projects include Codename Split Point, Codename Rook, Riders Republic and Atomega. More feedback unlocks higher access tiers.",
+      "id": "ubisoft-player-council",
+      "image": null,
+      "platform": "PC",
+      "status": "Signups open",
+      "tags": [
+        "Program",
+        "Publisher",
+        "NDA"
+      ],
+      "title": "Ubisoft — The Player Council",
+      "url": "https://playercouncil.gg"
+    },
+    {
+      "deadline": null,
+      "desc_de": "Activisions Playtest-Programm für unveröffentlichte Spiele – allerdings als User Research vor Ort in Sherman Oaks, Kalifornien, nicht als Beta von zu Hause. Anmeldung ist für alle offen, eine Einladung erfolgt nach Auswahl.",
+      "desc_en": "Activision's playtest program for unreleased games — as on-site user research in Sherman Oaks, California, not an at-home beta. Sign-up is open to everyone, with invitations sent to selected participants.",
+      "id": "activision-playtest",
+      "image": null,
+      "platform": "PC",
+      "status": "Signups open",
+      "tags": [
+        "Program",
+        "Publisher",
+        "On-Site"
+      ],
+      "title": "Activision Playtest (User Research)",
+      "url": "https://www.activision.com/company/playtest"
+    },
+    {
+      "deadline": "2026-11-22T23:59:00Z",
+      "desc_de": "NEXONs Cross-Plattform-MMORPG sucht Tester für den Free Life Test vom 25. bis 30. November 2026 auf PC, iOS und Android. Achtung: Die Rekrutierung gilt nur für Südostasien (u. a. Philippinen, Thailand, Singapur), Bewerbung bis 22. November.",
+      "desc_en": "NEXON's cross-platform MMORPG is recruiting for its Free Life Test, running November 25–30, 2026 on PC, iOS and Android. Note: recruitment is limited to Southeast Asia (incl. the Philippines, Thailand, Singapore); applications close November 22.",
+      "id": "mabinogi-mobile",
+      "image": null,
+      "platform": "Mobile",
+      "status": "Signups open",
+      "tags": [
+        "MMORPG",
+        "Mobile",
+        "Region: SEA"
+      ],
+      "title": "Mabinogi Mobile — Free Life Test",
+      "url": "https://mabinogimobile.game-tree.com/actv/2026/questionnaire/index.html"
+    },
+    {
+      "deadline": null,
+      "desc_de": "Microsofts laufendes Preview-Programm: Über die Xbox-Insider-Hub-App testen Mitglieder System-Updates, Spiele und Apps vor Release. Ringe öffnen sich mit der Zeit.",
+      "desc_en": "Microsoft's ongoing preview program: join via the Xbox Insider Hub app to test system updates, games and apps before release. Rings open up over time.",
+      "id": "xbox-insider-program",
+      "image": null,
+      "platform": "Xbox",
+      "status": "Signups open",
+      "tags": [
+        "Program",
+        "Console",
+        "Preview"
+      ],
+      "title": "Xbox Insider Program",
+      "url": "https://support.xbox.com/en-US/help/games-apps/my-games-apps/xbox-insider-program"
+    },
+    {
+      "deadline": null,
+      "desc_de": "Sonys Beta-Programm für PS5: Einmal registrieren und für Systemsoftware-Betas und Spiel-Playtests berücksichtigt werden. Einladungen kommen per E-Mail.",
+      "desc_en": "Sony's beta program for PS5: register once to be considered for system software betas and game playtests. Invites are sent by email.",
+      "id": "playstation-beta-program",
+      "image": null,
+      "platform": "PlayStation",
+      "status": "Signups open",
+      "tags": [
+        "Program",
+        "Console",
+        "Beta"
+      ],
+      "title": "PlayStation Beta Program",
+      "url": "https://www.playstation.com/en-us/support/games/beta-program-at-playstation/"
+    },
+    {
+      "deadline": null,
+      "desc_de": "Playtest-Plattform von FirstLook (früher firstlook.gg, jetzt player.gg) mit wechselnden geschlossenen Alphas und Betas. Kostenlosen Account erstellen und für passende Tests bewerben.",
+      "desc_en": "FirstLook's playtest platform (formerly firstlook.gg, now player.gg) with rotating closed alphas and betas. Create a free account and apply for tests that match your library.",
+      "id": "firstlook-playtests",
+      "image": null,
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "tags": [
+        "Platform",
+        "Alpha",
+        "Beta"
+      ],
+      "title": "player.gg (FirstLook) — Playtests & Alphas",
+      "url": "https://firstlook.gg"
+    },
+    {
+      "deadline": null,
+      "desc_de": "Valves wiederkehrendes Demo-Festival: Hunderte kostenlose Demos kommender Spiele sind pro Ausgabe eine Woche lang live. Die nächste Ausgabe läuft bestätigt vom 22. Februar bis 1. März 2027.",
+      "desc_en": "Valve's recurring demo festival: hundreds of free demos for upcoming games go live for one week per edition. The next edition is confirmed for February 22 to March 1, 2027.",
+      "id": "steam-next-fest",
+      "image": null,
+      "platform": "Steam",
+      "status": "Coming soon",
+      "tags": [
+        "Demos",
+        "Festival",
+        "Free"
+      ],
+      "title": "Steam Next Fest",
+      "url": "https://store.steampowered.com/sale/nextfest"
+    },
+    {
+      "deadline": null,
+      "desc_de": "Die geschlossene Alpha des unangekündigten Bagger-Simulators ist abgeschlossen. Die Abschluss-Umfrage war der letzte Schritt für Tester.",
+      "desc_en": "The closed alpha of the unannounced digging simulator has wrapped up. The closing survey was the final step for testers.",
+      "id": "project-scoop",
+      "image": null,
+      "platform": "FirstLook",
+      "status": "Ended",
+      "tags": [
+        "Simulation",
+        "Closed Alpha",
+        "Ended"
+      ],
+      "title": "Project SCOOP (DIG SIMULATOR)",
+      "url": "https://firstlook.gg"
+    },
+    {
+      "deadline": null,
+      "desc_de": "Der Playtest ist vorbei: Die Open Beta lief Anfang Oktober, seit dem 21. Oktober 2026 ist das Co-op-Horror-Spiel von Mob Entertainment im Early Access auf Steam erhältlich (9,99 $). Kein Test mehr – das Spiel ist regulär kaufbar.",
+      "desc_en": "The playtest is over: the open beta ran in early October, and Mob Entertainment's co-op horror game has been out in Steam Early Access since October 21, 2026 ($9.99). No more testing — the game is on sale now.",
+      "id": "escape-from-playtime",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2087540/header.jpg",
+      "platform": "Steam",
+      "status": "Ended",
+      "tags": [
+        "Horror",
+        "Co-op",
+        "Released"
+      ],
+      "title": "Escape From Playtime",
+      "url": "https://store.steampowered.com/app/2087540/Escape_from_Playtime/"
+    }
+  ]
+}
