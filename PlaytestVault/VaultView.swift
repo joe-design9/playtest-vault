@@ -123,7 +123,7 @@ private struct VaultEntryCard: View {
     var entry: VaultEntry
 
     var body: some View {
-        GlassCard(cornerRadius: 22) {
+        GlassCard(cornerRadius: 22, accent: entry.status.color) {
             VStack(alignment: .leading, spacing: 9) {
                 Text(entry.title)
                     .font(.headline)

@@ -1,6 +1,20 @@
 import SwiftUI
 import UIKit
 
+extension Color {
+    /// Parses a "#RRGGBB" (or "RRGGBB") hex string; nil when malformed.
+    init?(hexString: String) {
+        var raw = hexString.trimmingCharacters(in: .whitespacesAndNewlines)
+        if raw.hasPrefix("#") { raw.removeFirst() }
+        guard raw.count == 6, let value = UInt32(raw, radix: 16) else { return nil }
+        self.init(
+            red: Double((value >> 16) & 0xFF) / 255,
+            green: Double((value >> 8) & 0xFF) / 255,
+            blue: Double(value & 0xFF) / 255
+        )
+    }
+}
+
 /// Accent world for Playtest Vault: electric teal on pure black.
 enum VaultAccent {
     static let teal = Color(red: 0.176, green: 0.831, blue: 0.749) // #2DD4BF
@@ -11,30 +25,43 @@ enum VaultAccent {
     }
 }
 
-/// Pure black backdrop with soft color fields (teal top, violet middle,
-/// deep blue bottom), so the Liquid Glass surfaces have real color to
-/// refract while the screens still read as black.
+/// Pure black backdrop with strong, layered color fields (teal top,
+/// violet center, deep blue bottom, warm amber low-left, mint right),
+/// so the Liquid Glass surfaces have real color to refract while the
+/// screens still read as black.
 struct AppBackdrop: View {
     var body: some View {
         ZStack {
             Color.black
             RadialGradient(
-                colors: [VaultAccent.teal.opacity(0.20), .clear],
+                colors: [VaultAccent.teal.opacity(0.32), .clear],
                 center: .top,
                 startRadius: 10,
-                endRadius: 420
+                endRadius: 430
             )
             RadialGradient(
-                colors: [Color(red: 0.55, green: 0.25, blue: 0.85).opacity(0.10), .clear],
+                colors: [Color(red: 0.58, green: 0.25, blue: 0.90).opacity(0.20), .clear],
                 center: .center,
                 startRadius: 10,
-                endRadius: 460
+                endRadius: 470
             )
             RadialGradient(
-                colors: [Color(red: 0.15, green: 0.35, blue: 0.85).opacity(0.13), .clear],
+                colors: [Color(red: 0.15, green: 0.38, blue: 0.90).opacity(0.22), .clear],
                 center: .bottomTrailing,
                 startRadius: 10,
-                endRadius: 380
+                endRadius: 400
+            )
+            RadialGradient(
+                colors: [Color(red: 0.95, green: 0.55, blue: 0.15).opacity(0.10), .clear],
+                center: .bottomLeading,
+                startRadius: 10,
+                endRadius: 340
+            )
+            RadialGradient(
+                colors: [Color(red: 0.15, green: 0.85, blue: 0.55).opacity(0.10), .clear],
+                center: .trailing,
+                startRadius: 10,
+                endRadius: 320
             )
         }
         .ignoresSafeArea()
@@ -56,28 +83,42 @@ struct VaultPage<Content: View>: View {
 }
 
 /// A Liquid Glass card, Hub recipe: clear fill, regular glass effect
-/// with a light tint, and a hairline gradient border.
+/// with a light tint, and a hairline gradient border. When an accent
+/// is given, the glass tint, the border and a soft outer glow all pick
+/// up that color, so every card carries its own game's identity.
 struct GlassCard<Content: View>: View {
     var cornerRadius: CGFloat = 26
+    var accent: Color? = nil
     @ViewBuilder var content: Content
+
+    private var shape: RoundedRectangle {
+        RoundedRectangle(cornerRadius: cornerRadius, style: .continuous)
+    }
 
     var body: some View {
         content
             .background {
-                RoundedRectangle(cornerRadius: cornerRadius, style: .continuous)
+                shape
                     .fill(.clear)
-                    .glassEffect(.regular.tint(.white.opacity(0.08)), in: RoundedRectangle(cornerRadius: cornerRadius, style: .continuous))
+                    .glassEffect(
+                        .regular.tint(accent?.opacity(0.16) ?? .white.opacity(0.08)),
+                        in: shape
+                    )
                     .overlay {
-                        RoundedRectangle(cornerRadius: cornerRadius, style: .continuous)
+                        shape
                             .strokeBorder(
                                 LinearGradient(
-                                    colors: [Color.white.opacity(0.30), Color.white.opacity(0.04)],
+                                    colors: [
+                                        (accent ?? .white).opacity(accent == nil ? 0.30 : 0.55),
+                                        Color.white.opacity(0.04),
+                                    ],
                                     startPoint: .top, endPoint: .bottom
                                 ),
                                 lineWidth: 1
                             )
                     }
             }
+            .shadow(color: accent?.opacity(0.22) ?? .clear, radius: 16, x: 0, y: 6)
     }
 }
 
@@ -148,11 +189,15 @@ struct DeadlineChip: View {
     }
 }
 
-/// Deterministic gradient placeholder art for items without an image:
-/// a rich gradient plus the title initials, so every card looks designed.
+/// Fallback art for items without a (loadable) image. With an accent
+/// it renders as a designed brand tile: a rich duotone gradient in the
+/// entry's own color, an oversized translucent game-controller glyph
+/// and the title wordmark. Without an accent it falls back to the
+/// deterministic title-hash palettes with initials.
 struct CoverArt: View {
     var title: String
     var height: CGFloat = 150
+    var accent: Color? = nil
 
     private static let palettes: [[Color]] = [
         [Color(red: 0.05, green: 0.55, blue: 0.50), Color(red: 0.10, green: 0.25, blue: 0.60)],
@@ -174,13 +219,43 @@ struct CoverArt: View {
         return words.compactMap { $0.first }.map { String($0) }.joined().uppercased()
     }
 
+    /// Short wordmark for the brand tile: title without any em-dash
+    /// subtitle, capped so it fits the cover width.
+    private var wordmark: String {
+        let head = title.components(separatedBy: " \u{2014}").first ?? title
+        return head.count > 22 ? String(head.prefix(22)) : head
+    }
+
     var body: some View {
         ZStack {
-            LinearGradient(colors: palette, startPoint: .topLeading, endPoint: .bottomTrailing)
-            RadialGradient(colors: [Color.white.opacity(0.22), .clear], center: .topLeading, startRadius: 4, endRadius: 190)
-            Text(initials.isEmpty ? "?" : initials)
-                .font(.system(size: height * 0.34, weight: .black, design: .rounded))
-                .foregroundStyle(.white.opacity(0.85))
+            if let accent {
+                LinearGradient(
+                    colors: [accent.opacity(0.95), accent.opacity(0.45), Color.black.opacity(0.55)],
+                    startPoint: .topLeading, endPoint: .bottomTrailing
+                )
+                RadialGradient(colors: [Color.white.opacity(0.28), .clear], center: .topLeading, startRadius: 4, endRadius: 200)
+                Image(systemName: "gamecontroller.fill")
+                    .font(.system(size: height * 0.95))
+                    .foregroundStyle(.white.opacity(0.13))
+                    .offset(x: height * 0.42, y: height * 0.16)
+                VStack(spacing: 4) {
+                    Text(wordmark.uppercased())
+                        .font(.system(size: height * 0.17, weight: .black, design: .rounded))
+                        .foregroundStyle(.white.opacity(0.92))
+                        .multilineTextAlignment(.center)
+                        .lineLimit(2)
+                        .padding(.horizontal, 18)
+                    Capsule()
+                        .fill(.white.opacity(0.55))
+                        .frame(width: 44, height: 3)
+                }
+            } else {
+                LinearGradient(colors: palette, startPoint: .topLeading, endPoint: .bottomTrailing)
+                RadialGradient(colors: [Color.white.opacity(0.22), .clear], center: .topLeading, startRadius: 4, endRadius: 190)
+                Text(initials.isEmpty ? "?" : initials)
+                    .font(.system(size: height * 0.34, weight: .black, design: .rounded))
+                    .foregroundStyle(.white.opacity(0.85))
+            }
         }
         .frame(maxWidth: .infinity)
         .frame(height: height)
@@ -188,15 +263,16 @@ struct CoverArt: View {
 }
 
 /// Cover image with graceful fallback: remote image when it loads,
-/// gradient placeholder art otherwise (and while loading).
+/// designed fallback art otherwise (and while loading).
 struct CoverImage: View {
     var url: URL?
     var title: String
     var height: CGFloat = 150
+    var accent: Color? = nil
 
     var body: some View {
         ZStack {
-            CoverArt(title: title, height: height)
+            CoverArt(title: title, height: height, accent: accent)
             if let url {
                 AsyncImage(url: url) { phase in
                     switch phase {

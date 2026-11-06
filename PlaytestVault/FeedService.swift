@@ -83,6 +83,7 @@ enum SampleData {
                 deadline: now.addingTimeInterval(4 * 86400),
                 url: "https://store.steampowered.com/app/3073940/God_Save_Birmingham/",
                 image: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3073940/header.jpg",
+                accent: "#D97706",
                 descEN: "Public Beta 2 of the medieval zombie survival game, adding four-player co-op. Everyone who requests access gets in, with no NDA.",
                 descDE: "\u{00D6}ffentliche Beta 2 des mittelalterlichen Zombie-Survival-Spiels: Neu ist der Koop-Modus f\u{00FC}r bis zu vier Spieler. Wer Zugang anfordert, kommt rein, ganz ohne NDA.",
                 tags: ["Survival", "Zombies", "Co-op"]
@@ -94,7 +95,8 @@ enum SampleData {
                 status: "Signups open",
                 deadline: nil,
                 url: "https://soulframe.com",
-                image: nil,
+                image: "https://www-static.soulframe.com/images/opengraph-image6.jpg",
+                accent: "#C9A86A",
                 descEN: "Digital Extremes (Warframe) opens its fantasy RPG alpha to everyone: a free account on soulframe.com plus the standalone launcher is all you need \u{2014} no key required.",
                 descDE: "Digital Extremes (Warframe) \u{00F6}ffnet die Alpha seines Fantasy-RPGs f\u{00FC}r alle: Ein kostenloser Account auf soulframe.com plus der eigene Launcher reichen \u{2013} kein Key mehr n\u{00F6}tig.",
                 tags: ["RPG", "Alpha", "Free"]
@@ -107,6 +109,7 @@ enum SampleData {
                 deadline: nil,
                 url: "https://store.steampowered.com/app/2087540/Escape_from_Playtime/",
                 image: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2087540/89c440a7eda7dc33db8233c8d843f7e1f85af0da/header_alt_assets_0.jpg",
+                accent: "#E11D48",
                 descEN: "The playtest is over: the open beta ran in early October, and Mob Entertainment's co-op horror game has been out in Steam Early Access since October 21, 2026 ($9.99).",
                 descDE: "Der Playtest ist vorbei: Die Open Beta lief Anfang Oktober, seit dem 21. Oktober 2026 ist das Co-op-Horror-Spiel von Mob Entertainment im Early Access auf Steam erh\u{00E4}ltlich (9,99 $).",
                 tags: ["Horror", "Co-op", "Released"]

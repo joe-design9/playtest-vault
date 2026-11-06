@@ -109,29 +109,42 @@ struct DiscoverView: View {
         let live = feedStore.items.filter { $0.status == "Live now" }.count
         let open = feedStore.items.filter { $0.status == "Signups open" }.count
         let next = feedStore.items.compactMap { $0.deadline }.filter { $0 > Date() }.min()
-        return GlassCard {
-            HStack(spacing: 14) {
-                ZStack {
-                    Circle()
-                        .fill(VaultAccent.gradient)
-                        .frame(width: 52, height: 52)
-                    Image(systemName: "gamecontroller.fill")
-                        .font(.title3.weight(.bold))
-                        .foregroundStyle(.white)
+        return ZStack {
+            RoundedRectangle(cornerRadius: 26, style: .continuous)
+                .fill(
+                    LinearGradient(
+                        colors: [
+                            VaultAccent.teal.opacity(0.50),
+                            Color(red: 0.20, green: 0.45, blue: 0.95).opacity(0.45),
+                            Color(red: 0.58, green: 0.25, blue: 0.90).opacity(0.50),
+                        ],
+                        startPoint: .topLeading, endPoint: .bottomTrailing
+                    )
+                )
+            GlassCard {
+                HStack(spacing: 14) {
+                    ZStack {
+                        Circle()
+                            .fill(VaultAccent.gradient)
+                            .frame(width: 52, height: 52)
+                        Image(systemName: "gamecontroller.fill")
+                            .font(.title3.weight(.bold))
+                            .foregroundStyle(.white)
+                    }
+                    VStack(alignment: .leading, spacing: 3) {
+                        Text(live == 1
+                            ? store.tr("1 Playtest läuft gerade", "1 playtest live right now")
+                            : store.tr("\(live) Playtests laufen gerade", "\(live) playtests live right now"))
+                            .font(.headline)
+                            .foregroundStyle(.white)
+                        Text(heroSubline(open: open, next: next))
+                            .font(.caption)
+                            .foregroundStyle(.white.opacity(0.80))
+                    }
+                    Spacer()
                 }
-                VStack(alignment: .leading, spacing: 3) {
-                    Text(live == 1
-                        ? store.tr("1 Playtest läuft gerade", "1 playtest live right now")
-                        : store.tr("\(live) Playtests laufen gerade", "\(live) playtests live right now"))
-                        .font(.headline)
-                        .foregroundStyle(.white)
-                    Text(heroSubline(open: open, next: next))
-                        .font(.caption)
-                        .foregroundStyle(.white.opacity(0.65))
-                }
-                Spacer()
+                .padding(16)
             }
-            .padding(16)
         }
     }
 
@@ -214,9 +227,9 @@ private struct PlaytestCard: View {
     var item: PlaytestItem
 
     var body: some View {
-        GlassCard {
+        GlassCard(accent: item.accentColor) {
             VStack(alignment: .leading, spacing: 0) {
-                CoverImage(url: item.imageURL, title: item.title, height: 140)
+                CoverImage(url: item.imageURL, title: item.title, height: 140, accent: item.accentColor)
                     .clipShape(RoundedRectangle(cornerRadius: 18, style: .continuous))
                     .padding(10)
                 VStack(alignment: .leading, spacing: 9) {
@@ -235,7 +248,7 @@ private struct PlaytestCard: View {
                     if !item.tags.isEmpty {
                         Text(item.tags.map { "#\($0)" }.joined(separator: "  "))
                             .font(.caption)
-                            .foregroundStyle(.white.opacity(0.45))
+                            .foregroundStyle(item.accentColor.opacity(0.75))
                             .lineLimit(1)
                     }
                 }

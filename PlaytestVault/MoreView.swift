@@ -149,7 +149,7 @@ struct MoreView: View {
                         .font(.subheadline)
                         .foregroundStyle(.white.opacity(0.75))
                     Spacer()
-                    Text("1.1.0")
+                    Text("1.2.0")
                         .font(.subheadline.weight(.semibold))
                         .foregroundStyle(.white)
                 }

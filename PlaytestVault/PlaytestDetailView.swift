@@ -13,7 +13,7 @@ struct PlaytestDetailView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 16) {
-                CoverImage(url: item.imageURL, title: item.title, height: 210)
+                CoverImage(url: item.imageURL, title: item.title, height: 210, accent: item.accentColor)
                     .clipShape(RoundedRectangle(cornerRadius: 22, style: .continuous))
 
                 Text(item.title)
@@ -30,7 +30,7 @@ struct PlaytestDetailView: View {
                 if !item.tags.isEmpty {
                     Text(item.tags.map { "#\($0)" }.joined(separator: "  "))
                         .font(.caption)
-                        .foregroundStyle(.white.opacity(0.5))
+                        .foregroundStyle(item.accentColor.opacity(0.75))
                 }
 
                 actions
@@ -45,7 +45,7 @@ struct PlaytestDetailView: View {
     }
 
     private var infoCard: some View {
-        GlassCard {
+        GlassCard(accent: item.accentColor) {
             VStack(spacing: 0) {
                 infoRow(label: store.tr("Plattform", "Platform"), value: item.platform)
                 Divider().overlay(Color.white.opacity(0.12))
@@ -105,7 +105,7 @@ struct PlaytestDetailView: View {
                     .foregroundStyle(.black)
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 14)
-                    .background(Capsule().fill(VaultAccent.teal))
+                    .background(Capsule().fill(item.accentColor))
                 }
                 .buttonStyle(.plain)
             }

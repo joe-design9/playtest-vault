@@ -109,6 +109,9 @@ struct PlaytestItem: Identifiable, Equatable {
     var deadline: Date?
     var url: String
     var image: String?
+    /// Brand/artwork accent as a hex string (e.g. "#E8442E") from the
+    /// feed; drives the card's colored glass tint, glow and chips.
+    var accent: String? = nil
     var descEN: String
     var descDE: String
     var tags: [String]
@@ -116,11 +119,18 @@ struct PlaytestItem: Identifiable, Equatable {
     var pageURL: URL? { URL(string: url) }
     var imageURL: URL? { image.flatMap { URL(string: $0) } }
     var description: String { Lang.isEN ? descEN : descDE }
+
+    /// Parsed accent color, falling back to the app teal when the feed
+    /// carries no (or an invalid) value.
+    var accentColor: Color {
+        if let accent, let parsed = Color(hexString: accent) { return parsed }
+        return VaultAccent.teal
+    }
 }
 
 extension PlaytestItem: Codable {
     private enum CodingKeys: String, CodingKey {
-        case id, title, platform, status, deadline, url, image, tags
+        case id, title, platform, status, deadline, url, image, accent, tags
         case descEN = "desc_en"
         case descDE = "desc_de"
     }
@@ -138,6 +148,7 @@ extension PlaytestItem: Codable {
         }
         url = try c.decode(String.self, forKey: .url)
         image = try c.decodeIfPresent(String.self, forKey: .image)
+        accent = try c.decodeIfPresent(String.self, forKey: .accent)
         descEN = try c.decode(String.self, forKey: .descEN)
         descDE = try c.decode(String.self, forKey: .descDE)
         tags = try c.decodeIfPresent([String].self, forKey: .tags) ?? []
@@ -156,6 +167,7 @@ extension PlaytestItem: Codable {
         }
         try c.encode(url, forKey: .url)
         try c.encodeIfPresent(image, forKey: .image)
+        try c.encodeIfPresent(accent, forKey: .accent)
         try c.encode(descEN, forKey: .descEN)
         try c.encode(descDE, forKey: .descDE)
         try c.encode(tags, forKey: .tags)
