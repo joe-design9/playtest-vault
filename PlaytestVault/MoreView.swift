@@ -79,7 +79,7 @@ struct MoreView: View {
                     .foregroundStyle(.white.opacity(0.55))
                 sourceRow(
                     icon: "safari",
-                    title: store.tr("Entdecken-Feed", "Discover feed"),
+                    title: store.tr("Playtest-Feed", "Playtest feed"),
                     note: store.tr(
                         "Kuratierte Playtests aus der playtests.json (GitHub). Lädt beim Start, aktualisiert per Nach-unten-Ziehen und bleibt offline aus dem Cache lesbar.",
                         "Curated playtests from playtests.json (GitHub). Loads at launch, refreshes via pull-to-refresh and stays readable offline from the cache."

@@ -106,7 +106,7 @@ enum SampleData {
                 status: "Ended",
                 deadline: nil,
                 url: "https://store.steampowered.com/app/2087540/Escape_from_Playtime/",
-                image: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2087540/header.jpg",
+                image: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2087540/89c440a7eda7dc33db8233c8d843f7e1f85af0da/header_alt_assets_0.jpg",
                 descEN: "The playtest is over: the open beta ran in early October, and Mob Entertainment's co-op horror game has been out in Steam Early Access since October 21, 2026 ($9.99).",
                 descDE: "Der Playtest ist vorbei: Die Open Beta lief Anfang Oktober, seit dem 21. Oktober 2026 ist das Co-op-Horror-Spiel von Mob Entertainment im Early Access auf Steam erh\u{00E4}ltlich (9,99 $).",
                 tags: ["Horror", "Co-op", "Released"]

@@ -120,7 +120,9 @@ struct DiscoverView: View {
                         .foregroundStyle(.white)
                 }
                 VStack(alignment: .leading, spacing: 3) {
-                    Text(store.tr("\(live) Playtests laufen gerade", "\(live) playtests live right now"))
+                    Text(live == 1
+                        ? store.tr("1 Playtest läuft gerade", "1 playtest live right now")
+                        : store.tr("\(live) Playtests laufen gerade", "\(live) playtests live right now"))
                         .font(.headline)
                         .foregroundStyle(.white)
                     Text(heroSubline(open: open, next: next))

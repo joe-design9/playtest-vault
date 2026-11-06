@@ -102,8 +102,8 @@ struct VaultView: View {
                         .font(.headline)
                         .foregroundStyle(.white)
                     Text(store.tr(
-                        "Füge Playtests aus Entdecken und Demos hinzu oder lege oben rechts mit + deinen ersten Eintrag an.",
-                        "Add playtests from Discover and Demos, or create your first entry with + at the top right."
+                        "Füge Playtests aus dem Playtest-Tab und Demos hinzu oder lege oben rechts mit + deinen ersten Eintrag an.",
+                        "Add playtests from the Playtest tab and Demos, or create your first entry with + at the top right."
                     ))
                     .font(.subheadline)
                     .foregroundStyle(.white.opacity(0.6))
