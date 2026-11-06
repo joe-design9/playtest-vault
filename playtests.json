@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-06T05:00:00Z",
+  "updated": "2026-11-06T10:22:28Z",
   "playtests": [
     {
       "deadline": "2026-11-09T18:00:00Z",
@@ -34,6 +34,23 @@
       "title": "Sublustrum",
       "url": "https://store.steampowered.com/app/4151300/Sublustrum/",
       "accent": "#38BDF8"
+    },
+    {
+      "id": "squad-oskil-river-playtest",
+      "title": "Squad — Update 10.7 / Oskil River Open Playtest",
+      "platform": "Steam",
+      "status": "Live now",
+      "deadline": "2026-11-09T18:00:00Z",
+      "tags": [
+        "FPS",
+        "MilSim",
+        "Multiplayer"
+      ],
+      "desc_de": "Offener Playtest für alle Squad-Besitzer: Vom 6. bis 9. November 2026 (Start und Ende jeweils 18:00 UTC) testet Offworld die neue Osteuropa-Karte Oskil River, World-Partition-Performance und Änderungen für Update 10.7. Gespielt wird über die separate App 'Squad – Public Testing' in der Steam-Bibliothek.",
+      "desc_en": "Open playtest for all Squad owners: from November 6 to 9, 2026 (starting and ending at 18:00 UTC), Offworld is testing the new Eastern European map Oskil River, World Partition performance and changes headed for Update 10.7. It runs through the separate 'Squad – Public Testing' app in your Steam library.",
+      "url": "https://store.steampowered.com/app/393380/Squad/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/393380/0b19b50aabea356bd8f534fbe7d6db9bd227810a/header.jpg",
+      "accent": "#9C7C4C"
     },
     {
       "deadline": null,
@@ -88,12 +105,12 @@
     },
     {
       "deadline": null,
-      "desc_de": "Digital Extremes (Warframe) öffnet die Alpha seines Fantasy-RPGs für alle: Ab dem 6. November 2026 reicht ein kostenloser Account auf soulframe.com plus der eigene Launcher – kein Key mehr nötig. Registrierung ist schon offen.",
-      "desc_en": "Digital Extremes (Warframe) opens its fantasy RPG alpha to everyone: from November 6, 2026, a free account on soulframe.com plus the standalone launcher is all you need — no key required. Registration is already open.",
+      "desc_de": "Digital Extremes (Warframe) hat die Alpha seines Fantasy-RPGs für alle geöffnet: Seit dem 6. November 2026 reicht ein kostenloser Account auf soulframe.com plus der eigene Launcher – kein Key und kein Founder-Pack mehr nötig. Das Preludes-17-Update 'Verse of the Veilands' folgt noch im November.",
+      "desc_en": "Digital Extremes (Warframe) has opened its fantasy RPG alpha to everyone: since November 6, 2026, a free account on soulframe.com plus the standalone launcher is all you need — no key and no Founder's Pack required. The Preludes 17 update 'Verse of the Veilands' follows later in November.",
       "id": "soulframe",
       "image": "https://www-static.soulframe.com/images/opengraph-image6.jpg",
       "platform": "PC",
-      "status": "Signups open",
+      "status": "Live now",
       "tags": [
         "RPG",
         "Alpha",
@@ -102,6 +119,22 @@
       "title": "Soulframe — Open Preludes",
       "url": "https://soulframe.com",
       "accent": "#C9A86A"
+    },
+    {
+      "deadline": null,
+      "desc_de": "Neue Playtest-Runde des Koop-Shooters von Aska Studios: große Systemänderungen und neue Gameplay-Inhalte. Der Playtest startet am 12. November 2026, die Anmeldung über FirstLook ist offen.",
+      "desc_en": "A new playtest round for Aska Studios' co-op shooter, with big system changes and new gameplay content. The playtest starts November 12, 2026 — sign-ups are open via FirstLook.",
+      "id": "gang-of-frogs",
+      "image": "https://gang-of-frogs.firstlook.gg/api/assets/header",
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "tags": [
+        "Co-op",
+        "Shooter"
+      ],
+      "title": "Gang of Frogs",
+      "url": "https://gang-of-frogs.firstlook.gg/",
+      "accent": "#22C55E"
     },
     {
       "deadline": "2026-11-07T05:00:00Z",
@@ -121,6 +154,23 @@
       "accent": "#84CC16"
     },
     {
+      "id": "time-takers-playtest-2",
+      "title": "TIME TAKERS — Steam Playtest #2",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": "2026-11-15T23:00:00Z",
+      "tags": [
+        "Shooter",
+        "Free-to-Play",
+        "Multiplayer"
+      ],
+      "desc_de": "Zweiter Steam-Playtest von NCs Free-to-Play-Team-Survival-Shooter (vier Dreier-Squads, das letzte Team steht): Läuft vom 12. November, 23:00 UTC, bis 15. November 2026, 23:00 UTC – mit überarbeitetem Kampfgefühl, neuem Matchmaking und täglichen Login-Belohnungen. Zugang einfach auf der Steam-Seite anfordern.",
+      "desc_en": "Second Steam playtest for NC's free-to-play team survival shooter (four squads of three, last team standing): runs from November 12, 23:00 UTC to November 15, 2026, 23:00 UTC — with reworked combat, a revamped matchmaking system and daily login rewards. Just request access on the Steam page.",
+      "url": "https://store.steampowered.com/app/3596040/Time_Takers/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3596040/6eff7f70da4c93fa253baa4fc518e5bd064557be/header.jpg",
+      "accent": "#4A90C2"
+    },
+    {
       "deadline": "2026-11-22T01:59:00Z",
       "desc_de": "HoYoverse rekrutiert ab sofort für die finale Closed Beta des Kreaturen-Sammel-RPGs: Fragebogen auf der offiziellen Seite ausfüllen, Bewerbungsschluss ist der 22. November 2026. Der Test startet am 25. November auf PC, Android und iOS, alle Daten werden danach gelöscht.",
       "desc_en": "HoYoverse is now recruiting for the final closed beta of its creature-collecting RPG: fill out the survey on the official site by November 22, 2026. The test starts November 25 on PC, Android and iOS, with a full data wipe at the end.",
@@ -136,6 +186,22 @@
       "title": "Honkai: Nexus Anima — Final Closed Beta",
       "url": "https://hoyo.link/gXA5dV4eK",
       "accent": "#C084FC"
+    },
+    {
+      "id": "wolcen-2-closed-alpha-2",
+      "title": "Wolcen 2 — Closed Alpha 2",
+      "platform": "PC",
+      "status": "Signups open",
+      "deadline": "2026-11-30T22:59:00Z",
+      "tags": [
+        "ARPG",
+        "Closed Alpha"
+      ],
+      "desc_de": "Die Closed Alpha 2 des Action-RPGs läuft vom 26. November (10:00 Uhr MEZ) bis 30. November 2026 (23:59 Uhr MEZ): Neuer Pistolen-Skill Havoc Orb, neue Shadow-Form-Mechanik Parasitic Shadows und ein Abschnitt von Akt I. Die Plätze sind begrenzt – Anmeldung über die Contributors-Seite von Wolcen Studio.",
+      "desc_en": "Closed Alpha 2 of the action RPG runs from November 26 (10 AM CET) to November 30, 2026 (11:59 PM CET): the new pistol ability Havoc Orb, the new Shadow Form mechanic Parasitic Shadows and a section of Act I. Spots are limited — sign up via Wolcen Studio's contributors page.",
+      "url": "https://contributors.wolcenstudio.com/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4216080/ee29b35b29a505d41901ba931ed0d5920b5fd41b/header.jpg",
+      "accent": "#B91C1C"
     },
     {
       "deadline": null,
@@ -204,6 +270,23 @@
       "title": "RoboSquare: Recharged",
       "url": "https://player.gg/publications/player-gg/posts/sign-up-for-these-playtests-including-scp-5k",
       "accent": "#06B6D4"
+    },
+    {
+      "id": "when-sirens-fall-silent",
+      "title": "When Sirens Fall Silent — Closed Alpha",
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Horror",
+        "Thriller",
+        "Closed Alpha"
+      ],
+      "desc_de": "Geschlossene Alpha im November: LKAs psychologischer Thriller (die Macher von Martha Is Dead und The Town of Light) spielt im Italien der frühen 1990er – Polizistin Mila jagt einen aufsehenerregenden Fall aus Entführungen und Morden. Anmeldung über player.gg (FirstLook).",
+      "desc_en": "Closed alpha in November: LKA's psychological thriller (from the makers of Martha Is Dead and The Town of Light) is set in early-1990s Italy, where police officer Mila hunts a high-profile case of kidnappings and murders. Sign up via player.gg (FirstLook).",
+      "url": "https://playtest.firstlook.gg/posts/new-playtests-just-dropped",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2600920/aa6394d2ab5c438d364aa5dc2b3f3f9dc05e7d76/header.jpg",
+      "accent": "#9E8E2E"
     },
     {
       "deadline": null,
@@ -292,8 +375,8 @@
     },
     {
       "deadline": null,
-      "desc_de": "Microsofts laufendes Preview-Programm: Über die Xbox-Insider-Hub-App testen Mitglieder System-Updates, Spiele und Apps vor Release. Ringe öffnen sich mit der Zeit.",
-      "desc_en": "Microsoft's ongoing preview program: join via the Xbox Insider Hub app to test system updates, games and apps before release. Rings open up over time.",
+      "desc_de": "Microsofts laufendes Preview-Programm: Über die Xbox-Insider-Hub-App testen Mitglieder System-Updates, Spiele und Apps vor Release. Seit dem 5. November 2026 testen Insider außerdem eine überarbeitete Xbox-PC-App, die laut Microsoft bis zu 60 % schneller startet.",
+      "desc_en": "Microsoft's ongoing preview program: join via the Xbox Insider Hub app to test system updates, games and apps before release. Since November 5, 2026, Insiders are also testing a redesigned Xbox PC app that Microsoft says launches up to 60% faster.",
       "id": "xbox-insider-program",
       "image": "https://xboxwire.thesourcemediaassets.com/sites/2/2026/08/0.-Hero-084f525242e84a93a939-1024x576.png",
       "platform": "Xbox",
