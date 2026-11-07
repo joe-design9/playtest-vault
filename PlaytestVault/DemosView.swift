@@ -139,15 +139,7 @@ private struct DemoRow: View {
         ZStack {
             CoverArt(title: demo.title, height: 48)
             if demo.demoAppID > 0, let url = demo.imageURL ?? demo.capsuleURL {
-                AsyncImage(url: url) { phase in
-                    if case .success(let image) = phase {
-                        image
-                            .resizable()
-                            .scaledToFill()
-                    } else {
-                        Color.clear
-                    }
-                }
+                RemoteImage(url: url)
             }
         }
         .frame(width: 118, height: 48)

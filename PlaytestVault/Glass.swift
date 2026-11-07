@@ -34,31 +34,31 @@ struct AppBackdrop: View {
         ZStack {
             Color.black
             RadialGradient(
-                colors: [VaultAccent.teal.opacity(0.32), .clear],
+                colors: [VaultAccent.teal.opacity(0.40), .clear],
                 center: .top,
                 startRadius: 10,
                 endRadius: 430
             )
             RadialGradient(
-                colors: [Color(red: 0.58, green: 0.25, blue: 0.90).opacity(0.20), .clear],
+                colors: [Color(red: 0.58, green: 0.25, blue: 0.90).opacity(0.27), .clear],
                 center: .center,
                 startRadius: 10,
                 endRadius: 470
             )
             RadialGradient(
-                colors: [Color(red: 0.15, green: 0.38, blue: 0.90).opacity(0.22), .clear],
+                colors: [Color(red: 0.15, green: 0.38, blue: 0.90).opacity(0.29), .clear],
                 center: .bottomTrailing,
                 startRadius: 10,
                 endRadius: 400
             )
             RadialGradient(
-                colors: [Color(red: 0.95, green: 0.55, blue: 0.15).opacity(0.10), .clear],
+                colors: [Color(red: 0.95, green: 0.55, blue: 0.15).opacity(0.15), .clear],
                 center: .bottomLeading,
                 startRadius: 10,
                 endRadius: 340
             )
             RadialGradient(
-                colors: [Color(red: 0.15, green: 0.85, blue: 0.55).opacity(0.10), .clear],
+                colors: [Color(red: 0.15, green: 0.85, blue: 0.55).opacity(0.15), .clear],
                 center: .trailing,
                 startRadius: 10,
                 endRadius: 320
@@ -262,6 +262,50 @@ struct CoverArt: View {
     }
 }
 
+/// Shared in-memory cache so covers are not refetched while scrolling.
+final class RemoteImageCache: @unchecked Sendable {
+    static let shared = RemoteImageCache()
+    private let cache = NSCache<NSURL, UIImage>()
+
+    private init() { cache.countLimit = 150 }
+
+    func image(for url: URL) -> UIImage? { cache.object(forKey: url as NSURL) }
+    func store(_ image: UIImage, for url: URL) { cache.setObject(image, forKey: url as NSURL) }
+}
+
+/// Robust remote image: downloads the bytes with URLSession and
+/// decodes them with UIImage, IGNORING the server's Content-Type.
+/// Some CDNs (Activision's, for one) serve perfectly valid image
+/// bytes as application/octet-stream, which makes AsyncImage fail
+/// silently. On any failure this renders nothing, so the caller's
+/// designed fallback art underneath stays visible.
+struct RemoteImage: View {
+    var url: URL
+    @State private var loaded: UIImage?
+
+    var body: some View {
+        Group {
+            if let loaded {
+                Image(uiImage: loaded)
+                    .resizable()
+                    .scaledToFill()
+            } else {
+                Color.clear
+            }
+        }
+        .task(id: url) {
+            if let cached = RemoteImageCache.shared.image(for: url) {
+                loaded = cached
+                return
+            }
+            guard let data = try? await HTTP.get(url),
+                  let decoded = UIImage(data: data) else { return }
+            RemoteImageCache.shared.store(decoded, for: url)
+            loaded = decoded
+        }
+    }
+}
+
 /// Cover image with graceful fallback: remote image when it loads,
 /// designed fallback art otherwise (and while loading).
 struct CoverImage: View {
@@ -274,19 +318,10 @@ struct CoverImage: View {
         ZStack {
             CoverArt(title: title, height: height, accent: accent)
             if let url {
-                AsyncImage(url: url) { phase in
-                    switch phase {
-                    case .success(let image):
-                        image
-                            .resizable()
-                            .scaledToFill()
-                            .frame(maxWidth: .infinity)
-                            .frame(height: height)
-                            .clipped()
-                    default:
-                        Color.clear
-                    }
-                }
+                RemoteImage(url: url)
+                    .frame(maxWidth: .infinity)
+                    .frame(height: height)
+                    .clipped()
             }
         }
         .frame(maxWidth: .infinity)

@@ -1,6 +1,23 @@
 {
-  "updated": "2026-11-06T10:22:28Z",
+  "updated": "2026-11-07T02:45:00Z",
   "playtests": [
+    {
+      "deadline": null,
+      "desc_de": "Isometrisches Echtzeit-Taktikspiel: Als Operator einer Weltraum-Söldnertruppe nimmst du Aufträge in einer feindlichen Galaxis an. Der Steam-Playtest ist offen – Zugang auf der Store-Seite anfordern und sofort losspielen.",
+      "desc_en": "An isometric real-time tactics game where you command a space-mercenary outfit taking contracts across a hostile galaxy. The Steam playtest is open — request access on the store page and you're in right away.",
+      "id": "engines-of-hate",
+      "image": "https://img.itch.zone/aW1nLzMxMTg4MjI4LnBuZw==/original/ea8aJJ.png",
+      "platform": "Steam",
+      "status": "Live now",
+      "tags": [
+        "Strategy",
+        "Tactics",
+        "Indie"
+      ],
+      "title": "Engines of Hate",
+      "url": "https://failosipher.itch.io/engines-of-hate",
+      "accent": "#EF4444"
+    },
     {
       "deadline": "2026-11-09T18:00:00Z",
       "desc_de": "Öffentliche Beta 2 des mittelalterlichen Zombie-Survival-Spiels: Neu ist der Koop-Modus für bis zu vier Spieler. Läuft vom 2. bis 9. November 2026 auf Steam – wer Zugang anfordert, kommt rein, ganz ohne NDA.",
@@ -19,38 +36,55 @@
       "accent": "#D97706"
     },
     {
-      "deadline": "2026-11-09T23:59:00Z",
-      "desc_de": "Offener Playtest des psychologischen First-Person-Adventures rund um Geheimnis, Erinnerung und Klang: Kapitel 1 ist spielbar, Zugang auf der Steam-Seite wird sofort freigeschaltet. Verlängert bis 9. November 2026.",
-      "desc_en": "Open playtest of the first-person psychological adventure about mystery, memory and sound: Chapter One is playable, with instant approval via the Steam page. Extended through November 9, 2026.",
-      "id": "sublustrum",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4151300/74c7afa0d72783b7ecf01d10271162cba94f15dd/header_alt_assets_1.jpg",
+      "id": "grave-mistakes-playtest",
+      "title": "Grave Mistakes — Playtest",
       "platform": "Steam",
       "status": "Live now",
+      "deadline": null,
+      "url": "https://store.steampowered.com/app/4635290/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4635290/030756c1074184aec7df1c2b35e1e7bb8bc5c550/header.jpg?t=1793717702",
+      "accent": "#6D28D9",
+      "desc_en": "Manage the Good Mourning funeral home in two-to-four-player co-op and give grieving families a passionate send-off. The current playtest wave runs on Steam until November 9.",
+      "desc_de": "Führe das Bestattungshaus Good Mourning im Koop für zwei bis vier Spieler und bereite trauernden Familien einen würdevollen Abschied. Die aktuelle Playtest-Welle läuft auf Steam bis zum 9. November.",
       "tags": [
-        "Adventure",
-        "Puzzle",
-        "Horror"
-      ],
-      "title": "Sublustrum",
-      "url": "https://store.steampowered.com/app/4151300/Sublustrum/",
-      "accent": "#38BDF8"
+        "Co-op",
+        "Simulation",
+        "Comedy"
+      ]
     },
     {
-      "id": "squad-oskil-river-playtest",
-      "title": "Squad — Update 10.7 / Oskil River Open Playtest",
+      "deadline": null,
+      "desc_de": "Kostenloser Steam-Playtest des Top-Down-Koop-Roguelikes, in dem Gummienten ihren Teich verteidigen: Die ersten drei Karten samt Bossen sind spielbar, solo oder mit bis zu drei Freunden online.",
+      "desc_en": "Free Steam playtest for the top-down co-op roguelike where rubber ducks defend their pond: the first three maps and their bosses are playable, solo or online with up to three friends.",
+      "id": "lets-duck",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5428530/145e683e7524860d1f9138e05e6e78b26ef29e21/header.jpg",
       "platform": "Steam",
       "status": "Live now",
-      "deadline": "2026-11-09T18:00:00Z",
       "tags": [
-        "FPS",
-        "MilSim",
-        "Multiplayer"
+        "Roguelike",
+        "Co-op",
+        "Indie"
       ],
-      "desc_de": "Offener Playtest für alle Squad-Besitzer: Vom 6. bis 9. November 2026 (Start und Ende jeweils 18:00 UTC) testet Offworld die neue Osteuropa-Karte Oskil River, World-Partition-Performance und Änderungen für Update 10.7. Gespielt wird über die separate App 'Squad – Public Testing' in der Steam-Bibliothek.",
-      "desc_en": "Open playtest for all Squad owners: from November 6 to 9, 2026 (starting and ending at 18:00 UTC), Offworld is testing the new Eastern European map Oskil River, World Partition performance and changes headed for Update 10.7. It runs through the separate 'Squad – Public Testing' app in your Steam library.",
-      "url": "https://store.steampowered.com/app/393380/Squad/",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/393380/0b19b50aabea356bd8f534fbe7d6db9bd227810a/header.jpg",
-      "accent": "#9C7C4C"
+      "title": "Let's Duck!",
+      "url": "https://store.steampowered.com/app/5428530/Lets_Duck/",
+      "accent": "#FACC15"
+    },
+    {
+      "id": "model-kit-studio-playtest",
+      "title": "Model Kit Studio — Playtest",
+      "platform": "Steam",
+      "status": "Live now",
+      "deadline": null,
+      "url": "https://store.steampowered.com/app/4040060/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4040060/6f2e11a246fb52f94816a37b309d23e3671feb41/header_alt_assets_0.jpg?t=1793628013",
+      "accent": "#7DD3FC",
+      "desc_en": "A rich and relaxing model-building simulator: build, pose, paint and display your kits to a soothing soundtrack. The Steam playtest is live until November 16 — request access on the store page.",
+      "desc_de": "Reichhaltiger, entspannter Modellbau-Simulator: Kits bauen, posieren, bemalen und ausstellen, dazu ein ruhiger Soundtrack. Der Steam-Playtest läuft bis zum 16. November – Zugang auf der Store-Seite anfordern.",
+      "tags": [
+        "Simulation",
+        "Relaxing",
+        "Building"
+      ]
     },
     {
       "deadline": null,
@@ -71,40 +105,6 @@
     },
     {
       "deadline": null,
-      "desc_de": "Kostenloser Steam-Playtest des Top-Down-Koop-Roguelikes, in dem Gummienten ihren Teich verteidigen: Die ersten drei Karten samt Bossen sind spielbar, solo oder mit bis zu drei Freunden online.",
-      "desc_en": "Free Steam playtest for the top-down co-op roguelike where rubber ducks defend their pond: the first three maps and their bosses are playable, solo or online with up to three friends.",
-      "id": "lets-duck",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5428530/145e683e7524860d1f9138e05e6e78b26ef29e21/header.jpg",
-      "platform": "Steam",
-      "status": "Live now",
-      "tags": [
-        "Roguelike",
-        "Co-op",
-        "Indie"
-      ],
-      "title": "Let's Duck!",
-      "url": "https://store.steampowered.com/app/5428530/Lets_Duck/",
-      "accent": "#FACC15"
-    },
-    {
-      "deadline": null,
-      "desc_de": "Isometrisches Echtzeit-Taktikspiel: Als Operator einer Weltraum-Söldnertruppe nimmst du Aufträge in einer feindlichen Galaxis an. Der Steam-Playtest ist offen – Zugang auf der Store-Seite anfordern und sofort losspielen.",
-      "desc_en": "An isometric real-time tactics game where you command a space-mercenary outfit taking contracts across a hostile galaxy. The Steam playtest is open — request access on the store page and you're in right away.",
-      "id": "engines-of-hate",
-      "image": "https://img.itch.zone/aW1nLzMxMTg4MjI4LnBuZw==/original/ea8aJJ.png",
-      "platform": "Steam",
-      "status": "Live now",
-      "tags": [
-        "Strategy",
-        "Tactics",
-        "Indie"
-      ],
-      "title": "Engines of Hate",
-      "url": "https://failosipher.itch.io/engines-of-hate",
-      "accent": "#EF4444"
-    },
-    {
-      "deadline": null,
       "desc_de": "Digital Extremes (Warframe) hat die Alpha seines Fantasy-RPGs für alle geöffnet: Seit dem 6. November 2026 reicht ein kostenloser Account auf soulframe.com plus der eigene Launcher – kein Key und kein Founder-Pack mehr nötig. Das Preludes-17-Update 'Verse of the Veilands' folgt noch im November.",
       "desc_en": "Digital Extremes (Warframe) has opened its fantasy RPG alpha to everyone: since November 6, 2026, a free account on soulframe.com plus the standalone launcher is all you need — no key and no Founder's Pack required. The Preludes 17 update 'Verse of the Veilands' follows later in November.",
       "id": "soulframe",
@@ -119,6 +119,210 @@
       "title": "Soulframe — Open Preludes",
       "url": "https://soulframe.com",
       "accent": "#C9A86A"
+    },
+    {
+      "id": "squad-oskil-river-playtest",
+      "title": "Squad — Update 10.7 / Oskil River Open Playtest",
+      "platform": "Steam",
+      "status": "Live now",
+      "deadline": "2026-11-09T18:00:00Z",
+      "tags": [
+        "FPS",
+        "MilSim",
+        "Multiplayer"
+      ],
+      "desc_de": "Offener Playtest für alle Squad-Besitzer: Vom 6. bis 9. November 2026 (Start und Ende jeweils 18:00 UTC) testet Offworld die neue Osteuropa-Karte Oskil River, World-Partition-Performance und Änderungen für Update 10.7. Gespielt wird über die separate App 'Squad – Public Testing' in der Steam-Bibliothek.",
+      "desc_en": "Open playtest for all Squad owners: from November 6 to 9, 2026 (starting and ending at 18:00 UTC), Offworld is testing the new Eastern European map Oskil River, World Partition performance and changes headed for Update 10.7. It runs through the separate 'Squad – Public Testing' app in your Steam library.",
+      "url": "https://store.steampowered.com/app/393380/Squad/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/393380/0b19b50aabea356bd8f534fbe7d6db9bd227810a/header.jpg",
+      "accent": "#9C7C4C"
+    },
+    {
+      "deadline": "2026-11-09T23:59:00Z",
+      "desc_de": "Offener Playtest des psychologischen First-Person-Adventures rund um Geheimnis, Erinnerung und Klang: Kapitel 1 ist spielbar, Zugang auf der Steam-Seite wird sofort freigeschaltet. Verlängert bis 9. November 2026.",
+      "desc_en": "Open playtest of the first-person psychological adventure about mystery, memory and sound: Chapter One is playable, with instant approval via the Steam page. Extended through November 9, 2026.",
+      "id": "sublustrum",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4151300/74c7afa0d72783b7ecf01d10271162cba94f15dd/header_alt_assets_1.jpg",
+      "platform": "Steam",
+      "status": "Live now",
+      "tags": [
+        "Adventure",
+        "Puzzle",
+        "Horror"
+      ],
+      "title": "Sublustrum",
+      "url": "https://store.steampowered.com/app/4151300/Sublustrum/",
+      "accent": "#38BDF8"
+    },
+    {
+      "id": "the-crust-playtest",
+      "title": "The Crust — 1.1 Playtest",
+      "platform": "Steam",
+      "status": "Live now",
+      "deadline": "2026-11-08T22:59:00Z",
+      "url": "https://store.steampowered.com/app/1465470/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1465470/7458a8b466e5b906e4ddf1a13a0d0c0c6fb65d37/header_alt_assets_18.jpg?t=1791564122",
+      "accent": "#FB923C",
+      "desc_en": "Build and automate a lunar colony that Earth depends on — mining regolith, running drone factories and managing colonists. The open playtest for update 1.1 is live on Steam until November 8; request access on the store page.",
+      "desc_de": "Baue und automatisiere eine Mondkolonie, von der die Erde abhängt – Regolith abbauen, Drohnenfabriken betreiben, Kolonisten managen. Der offene Playtest zum Update 1.1 läuft auf Steam bis zum 8. November; Zugang auf der Store-Seite anfordern.",
+      "tags": [
+        "Simulation",
+        "Strategy",
+        "Colony Sim"
+      ]
+    },
+    {
+      "id": "waltz-and-jam-halloween-playtest",
+      "title": "Waltz and Jam — Halloween Playtest",
+      "platform": "Steam",
+      "status": "Live now",
+      "deadline": "2026-11-10T19:59:00Z",
+      "url": "https://store.steampowered.com/app/2686570/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2686570/17f3b8ef1bb3869c5cbf72c68ad196c1111a5055/header_alt_assets_0.jpg?t=1793680983",
+      "accent": "#FF9F1C",
+      "desc_en": "Single-player action-adventure platformer following Waltz, a pure soul, and Jam, his lovable dog, through a colorful afterlife. The Halloween playtest is live on Steam until November 10.",
+      "desc_de": "Action-Adventure-Plattformer über Waltz, eine reine Seele, und seinen Hund Jam in einem bunten Jenseits. Der Halloween-Playtest läuft auf Steam bis zum 10. November.",
+      "tags": [
+        "Platformer",
+        "Adventure",
+        "Cute"
+      ]
+    },
+    {
+      "deadline": null,
+      "desc_de": "Activisions Playtest-Programm für unveröffentlichte Spiele – allerdings als User Research vor Ort in Sherman Oaks, Kalifornien, nicht als Beta von zu Hause. Anmeldung ist für alle offen, eine Einladung erfolgt nach Auswahl.",
+      "desc_en": "Activision's playtest program for unreleased games — as on-site user research in Sherman Oaks, California, not an at-home beta. Sign-up is open to everyone, with invitations sent to selected participants.",
+      "id": "activision-playtest",
+      "image": "https://www.activision.com/content/dam/atvi/activision/atvi-touchui/activision/company/playtest/playtest-hero.png",
+      "platform": "PC",
+      "status": "Signups open",
+      "tags": [
+        "Program",
+        "Publisher",
+        "On-Site"
+      ],
+      "title": "Activision Playtest (User Research)",
+      "url": "https://www.activision.com/company/playtest",
+      "accent": "#FF7A00"
+    },
+    {
+      "id": "atomega-team-modes-playtest",
+      "title": "Atomega — Team Modes Playtest",
+      "platform": "PC",
+      "status": "Signups open",
+      "deadline": null,
+      "url": "https://playercouncil.gg",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/619880/798ae5110e6088d3b6ba1e5f74173c6698e03209/header.jpg?t=1793730684",
+      "accent": "#00AEEF",
+      "desc_en": "Ubisoft's arena shooter Atomega is testing new team modes through the Ubisoft Player Council — sign-ups are open until November 17.",
+      "desc_de": "Ubisofts Arena-Shooter Atomega testet neue Team-Modi über den Ubisoft Player Council – die Anmeldung ist bis zum 17. November offen.",
+      "tags": [
+        "FPS",
+        "Arena",
+        "Multiplayer"
+      ]
+    },
+    {
+      "accent": "#E879F9",
+      "deadline": null,
+      "desc_de": "2D-Roguelite-Deckbuilder mit über 400 Karten und Elementar-Kombos, die im Run aufleveln. Playtest-Anmeldung über FirstLook.",
+      "desc_en": "2D roguelite deckbuilder with more than 400 cards and elemental combos that level up as you play. Playtest sign-ups via FirstLook.",
+      "id": "binding-of-elements",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2391640/header.jpg?t=1706859276",
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "tags": [
+        "Card Game",
+        "Roguelite",
+        "Deckbuilder"
+      ],
+      "title": "Binding of Elements",
+      "url": "https://binding-of-elements.firstlook.gg/"
+    },
+    {
+      "accent": "#16A34A",
+      "deadline": null,
+      "desc_de": "Cricket-Manager-Simulation: Verein aufbauen, Spieler scouten, Taktik bestimmen – nicht das gleichnamige Action-Spiel von Big Ant. Playtest-Anmeldung über FirstLook.",
+      "desc_en": "Cricket management sim: build your club, scout players and run the tactics — not the Big Ant action game of a similar name. Playtest sign-ups via FirstLook.",
+      "id": "cricket-26-manager",
+      "image": null,
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "tags": [
+        "Management",
+        "Sports",
+        "Cricket"
+      ],
+      "title": "Cricket 26 Manager",
+      "url": "https://cricket-26.firstlook.gg/"
+    },
+    {
+      "id": "crownkeep",
+      "title": "Crownkeep",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "url": "https://store.steampowered.com/app/3773450/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3773450/1d56832c2d457a5b3cfa4ece18efddf18f9e58a2/header.jpg?t=1793637877",
+      "accent": "#E3B505",
+      "desc_en": "Roguelike deckbuilder that mixes minesweeper with dungeon crawling — fight through deadly grid dungeons with one card in your hand. Steam playtest sign-ups are open.",
+      "desc_de": "Roguelike-Deckbuilder, der Minesweeper mit Dungeon-Crawling mischt – kämpfe dich mit einer Karte in der Hand durch tödliche Raster-Dungeons. Die Steam-Playtest-Anmeldung ist offen.",
+      "tags": [
+        "Deckbuilder",
+        "Roguelike",
+        "Minesweeper"
+      ]
+    },
+    {
+      "accent": "#DB2777",
+      "deadline": null,
+      "desc_de": "Roguelite-Mahjong-Solitär gegen Dämonen: dämonische Steine räumen, Bosse bekämpfen und Seelen im Meta-Shop ausgeben. Playtest-Anmeldung über FirstLook.",
+      "desc_en": "Roguelite mahjong solitaire against demons: clear demonic tiles, fight bosses and spend souls in the meta shop between runs. Playtest sign-ups via FirstLook.",
+      "id": "demonic-mahjong",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3444020/d16ef5b0bff7814299237b279ae0f92bc7f86bcc/header.jpg?t=1793351047",
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "tags": [
+        "Roguelite",
+        "Mahjong",
+        "Puzzle"
+      ],
+      "title": "Demonic Mahjong",
+      "url": "https://demonic-mahjong.firstlook.gg/"
+    },
+    {
+      "deadline": null,
+      "desc_de": "EAs offizielles Community-Playtesting-Programm: Profil anlegen (ab 18) und Einladungen zu Tests kommender EA-Spiele auf allen Plattformen per E-Mail bekommen. Plätze sind begrenzt und werden nach Reihenfolge vergeben.",
+      "desc_en": "EA's official community playtesting program: create a profile (18+) to receive email invites for tests of upcoming EA games across all platforms. Spaces are limited and filled first come, first served.",
+      "id": "ea-playtesting",
+      "image": "https://media.contentapi.ea.com/content/dam/eacom/en-us/migrated-images/2016/10/playtesting-featured-image.jpg.adapt.crop191x100.1200w.jpg",
+      "platform": "PC",
+      "status": "Signups open",
+      "tags": [
+        "Program",
+        "Publisher",
+        "Beta"
+      ],
+      "title": "EA Playtesting",
+      "url": "https://www.ea.com/playtesting",
+      "accent": "#FF4747"
+    },
+    {
+      "accent": "#FBBF24",
+      "deadline": null,
+      "desc_de": "Story-Adventure des deutschen Studios Mad About Pandas rund um eine kleine Geisterwelt. Die Playtest-Anmeldung läuft über FirstLook; Tester erhalten zum Release einen exklusiven Ingame-Begleiter.",
+      "desc_en": "Story-driven indie adventure from German studio Mad About Pandas, set around a small spirit world. Playtest sign-ups run through FirstLook; testers earn an exclusive in-game companion for launch.",
+      "id": "ekoh",
+      "image": null,
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "tags": [
+        "Adventure",
+        "Indie",
+        "Story"
+      ],
+      "title": "Ekoh",
+      "url": "https://ekoh.firstlook.gg/"
     },
     {
       "deadline": null,
@@ -137,38 +341,55 @@
       "accent": "#22C55E"
     },
     {
-      "deadline": "2026-11-07T05:00:00Z",
-      "desc_de": "Physik-Partyspiel für 16 Spieler, in dem man seine Freunde frisst. Der Playtest läuft über FirstLook in zwei Sessions am 6. und 7. November 2026 – Anmeldung ist offen.",
-      "desc_en": "A 16-player online physics party game where you eat your friends. The playtest runs via FirstLook in two sessions on November 6 and 7, 2026 — sign-ups are open.",
-      "id": "pecking-order",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3530640/d8e6c67bd9ee189343f5d0585f001c39a0bcafb7/header.jpg",
+      "id": "grampage-life-at-67",
+      "title": "Grampage: Life at 67",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "url": "https://store.steampowered.com/app/4993490/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4993490/8e852fd4599f5aa10500e9bec9e19bbdcea5dbac/header.jpg?t=1793716324",
+      "accent": "#F472B6",
+      "desc_en": "Your retirement isn't going to fund itself: grab up to three fellow retirees, break into houses and steal your way to the retirement fund. Steam playtest sign-ups are open.",
+      "desc_de": "Die Rente finanziert sich nicht selbst: Schnapp dir bis zu drei Mit-Rentner, brich in Häuser ein und stiehl dich zum Ruhestandsgeld. Die Steam-Playtest-Anmeldung ist offen.",
+      "tags": [
+        "Co-op",
+        "Comedy",
+        "Heist"
+      ]
+    },
+    {
+      "accent": "#FF7A29",
+      "deadline": null,
+      "desc_de": "Hero-Extraction-FPS von Puzaki Games, einem Team aus Housemarque- und Payday-Veteranen. Die Playtest-Registrierung ist im FirstLook-Spielekatalog offen.",
+      "desc_en": "Hero extraction FPS from Puzaki Games, a team of Housemarque and Payday veterans. Playtest registration is open in the FirstLook games catalog.",
+      "id": "guns-playtest",
+      "image": null,
       "platform": "FirstLook",
       "status": "Signups open",
       "tags": [
-        "Party",
-        "Physics",
-        "Multiplayer"
+        "FPS",
+        "Extraction",
+        "Hero Shooter"
       ],
-      "title": "Pecking Order",
-      "url": "https://pecking-order.firstlook.gg/",
-      "accent": "#84CC16"
+      "title": "GUNS",
+      "url": "https://firstlook.gg/games"
     },
     {
-      "id": "time-takers-playtest-2",
-      "title": "TIME TAKERS — Steam Playtest #2",
-      "platform": "Steam",
+      "deadline": null,
+      "desc_de": "Ubisoft baut den Strategie-Klassiker in der Snowdrop-Engine neu: Die Registrierung für den geschlossenen PC-Playtest ist offen, der Playtest startet am 18. November 2026. Ubisoft-Konto, Plattform wählen, kurze Umfrage ausfüllen – ausgewählte Tester werden per E-Mail benachrichtigt.",
+      "desc_en": "Ubisoft is rebuilding the strategy classic in the Snowdrop engine: registration for the closed PC playtest is open, and the playtest starts November 18, 2026. Sign in with a Ubisoft account, pick PC and complete a short survey — selected testers are contacted by email.",
+      "id": "heroes-of-might-and-magic-3-remake",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3809850/0f932dbebfe08d21b495450a3fa4e08da2d7dc4a/header.jpg",
+      "platform": "PC",
       "status": "Signups open",
-      "deadline": "2026-11-15T23:00:00Z",
       "tags": [
-        "Shooter",
-        "Free-to-Play",
-        "Multiplayer"
+        "Strategy",
+        "Closed Playtest",
+        "Ubisoft"
       ],
-      "desc_de": "Zweiter Steam-Playtest von NCs Free-to-Play-Team-Survival-Shooter (vier Dreier-Squads, das letzte Team steht): Läuft vom 12. November, 23:00 UTC, bis 15. November 2026, 23:00 UTC – mit überarbeitetem Kampfgefühl, neuem Matchmaking und täglichen Login-Belohnungen. Zugang einfach auf der Steam-Seite anfordern.",
-      "desc_en": "Second Steam playtest for NC's free-to-play team survival shooter (four squads of three, last team standing): runs from November 12, 23:00 UTC to November 15, 2026, 23:00 UTC — with reworked combat, a revamped matchmaking system and daily login rewards. Just request access on the Steam page.",
-      "url": "https://store.steampowered.com/app/3596040/Time_Takers/",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3596040/6eff7f70da4c93fa253baa4fc518e5bd064557be/header.jpg",
-      "accent": "#4A90C2"
+      "title": "Heroes of Might and Magic III Remake — Closed Playtest",
+      "url": "https://register.ubisoft.com/heroes-of-might-and-magic-3-remake",
+      "accent": "#B45309"
     },
     {
       "deadline": "2026-11-22T01:59:00Z",
@@ -188,20 +409,208 @@
       "accent": "#C084FC"
     },
     {
-      "id": "wolcen-2-closed-alpha-2",
-      "title": "Wolcen 2 — Closed Alpha 2",
-      "platform": "PC",
+      "id": "hunger-lane",
+      "title": "Hunger Lane",
+      "platform": "Steam",
       "status": "Signups open",
-      "deadline": "2026-11-30T22:59:00Z",
+      "deadline": null,
+      "url": "https://store.steampowered.com/app/3745840/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3745840/330108f5d499cb0703aad1e28e500830eb20b3bf/header.jpg?t=1791796617",
+      "accent": "#65A30D",
+      "desc_en": "Story-driven horror platformer about a boy uncovering the secrets of a quiet city where monsters hunt humans after dark. Steam playtest sign-ups are open.",
+      "desc_de": "Story-Horror-Plattformer über einen Jungen, der die Geheimnisse einer stillen Stadt lüftet, in der nachts Monster Menschen jagen. Die Steam-Playtest-Anmeldung ist offen.",
       "tags": [
-        "ARPG",
-        "Closed Alpha"
+        "Horror",
+        "Platformer",
+        "Story"
+      ]
+    },
+    {
+      "accent": "#00C2A8",
+      "deadline": null,
+      "desc_de": "Koop-Survival- und Bauspiel auf schwebenden Inseln in einem zersplitterten Himmel. Playtest-Anmeldung über den FirstLook-Spielekatalog.",
+      "desc_en": "Co-op survival and building game set on floating islands in a shattered sky. Playtest sign-ups via the FirstLook games catalog.",
+      "id": "ixion-theory",
+      "image": null,
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "tags": [
+        "Survival",
+        "Co-op",
+        "Building"
       ],
-      "desc_de": "Die Closed Alpha 2 des Action-RPGs läuft vom 26. November (10:00 Uhr MEZ) bis 30. November 2026 (23:59 Uhr MEZ): Neuer Pistolen-Skill Havoc Orb, neue Shadow-Form-Mechanik Parasitic Shadows und ein Abschnitt von Akt I. Die Plätze sind begrenzt – Anmeldung über die Contributors-Seite von Wolcen Studio.",
-      "desc_en": "Closed Alpha 2 of the action RPG runs from November 26 (10 AM CET) to November 30, 2026 (11:59 PM CET): the new pistol ability Havoc Orb, the new Shadow Form mechanic Parasitic Shadows and a section of Act I. Spots are limited — sign up via Wolcen Studio's contributors page.",
-      "url": "https://contributors.wolcenstudio.com/",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4216080/ee29b35b29a505d41901ba931ed0d5920b5fd41b/header.jpg",
-      "accent": "#B91C1C"
+      "title": "Ixion Theory",
+      "url": "https://firstlook.gg/games"
+    },
+    {
+      "accent": "#A3E635",
+      "deadline": null,
+      "desc_de": "Chaotischer 3-gegen-3-Physik-Fußball-Brawler mit Hooligan-Energie und Slapstick-Tackles. Playtest-Anmeldung über den FirstLook-Spielekatalog (Discord).",
+      "desc_en": "Chaotic 3v3 physics football brawler with hooligan energy and slapstick tackles. Playtest sign-ups via the FirstLook games catalog (Discord).",
+      "id": "light-hooligans",
+      "image": null,
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "tags": [
+        "Sports",
+        "Physics",
+        "Multiplayer"
+      ],
+      "title": "Light Hooligans",
+      "url": "https://firstlook.gg/games"
+    },
+    {
+      "accent": "#A78BFA",
+      "deadline": null,
+      "desc_de": "Düsteres Action-RPG mit bedächtigem, Soulslike-artigem Kampfsystem, Publisher ist Mad Mushroom. Playtest-Anmeldung über FirstLook.",
+      "desc_en": "Dark action RPG with deliberate, soulslike combat, published by Mad Mushroom. Playtest sign-ups via FirstLook.",
+      "id": "lingering-legacy",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1618090/header.jpg?t=1631509538",
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "tags": [
+        "Action RPG",
+        "Soulslike",
+        "Dark Fantasy"
+      ],
+      "title": "Lingering Legacy",
+      "url": "https://lingering-legacy.firstlook.gg/"
+    },
+    {
+      "deadline": null,
+      "desc_de": "NEXONs Cross-Plattform-MMORPG sucht Tester für den Free Life Test vom 25. bis 30. November 2026 auf PC, iOS und Android. Achtung: Die Rekrutierung gilt nur für Südostasien (u. a. Philippinen, Thailand, Singapur), Bewerbung bis 22. November.",
+      "desc_en": "NEXON's cross-platform MMORPG is recruiting for its Free Life Test, running November 25–30, 2026 on PC, iOS and Android. Note: recruitment is limited to Southeast Asia (incl. the Philippines, Thailand, Singapore); applications close November 22.",
+      "id": "mabinogi-mobile",
+      "image": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e0/57/c4/e057c4f7-3da3-d378-0265-9a9a25e480a1/01_KeyVisual_2796x1290.jpg/2796x1290bb.jpg",
+      "platform": "Mobile",
+      "status": "Signups open",
+      "tags": [
+        "MMORPG",
+        "Mobile",
+        "Region: SEA"
+      ],
+      "title": "Mabinogi Mobile — Free Life Test",
+      "url": "https://mabinogimobile.game-tree.com/actv/2026/questionnaire/index.html",
+      "accent": "#4ADE80"
+    },
+    {
+      "id": "masada",
+      "title": "Masada",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "url": "https://store.steampowered.com/app/2621540/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2621540/header.jpg?t=1793487404",
+      "accent": "#C9B458",
+      "desc_en": "Open-world RTS/RPG hybrid set in an isolated and exotic nebula. The Steam playtest is open — request access on the store page.",
+      "desc_de": "Open-World-Mix aus RTS und RPG in einem isolierten, exotischen Nebel. Der Steam-Playtest ist offen – Zugang auf der Store-Seite anfordern.",
+      "tags": [
+        "RTS",
+        "RPG",
+        "Open World"
+      ]
+    },
+    {
+      "deadline": "2026-11-07T05:00:00Z",
+      "desc_de": "Physik-Partyspiel für 16 Spieler, in dem man seine Freunde frisst. Der Playtest läuft über FirstLook in zwei Sessions am 6. und 7. November 2026 – Anmeldung ist offen.",
+      "desc_en": "A 16-player online physics party game where you eat your friends. The playtest runs via FirstLook in two sessions on November 6 and 7, 2026 — sign-ups are open.",
+      "id": "pecking-order",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3530640/d8e6c67bd9ee189343f5d0585f001c39a0bcafb7/header.jpg",
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "tags": [
+        "Party",
+        "Physics",
+        "Multiplayer"
+      ],
+      "title": "Pecking Order",
+      "url": "https://pecking-order.firstlook.gg/",
+      "accent": "#84CC16"
+    },
+    {
+      "id": "perish-parade",
+      "title": "Perish Parade",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "url": "https://store.steampowered.com/app/3857100/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3857100/d4447592cdc8f6a048437cafafbf4295b69708f9/header.jpg?t=1788789227",
+      "accent": "#EC4899",
+      "desc_en": "Hand-drawn roguelike dungeon-crawler RPG with positional, turn-based combat and careful resource management. The Steam playtest is open — request access on the store page.",
+      "desc_de": "Handgezeichnetes Roguelike-Dungeon-Crawler-RPG mit positionalem, rundenbasiertem Kampf und knappem Ressourcen-Management. Der Steam-Playtest ist offen – Zugang auf der Store-Seite anfordern.",
+      "tags": [
+        "Roguelike",
+        "RPG",
+        "Turn-Based"
+      ]
+    },
+    {
+      "deadline": null,
+      "desc_de": "Playtest-Plattform von FirstLook: Der players.gg-Katalog ist in firstlook.gg aufgegangen – die Spieleliste dort zeigt alle offenen Alphas und Betas. Kostenlosen Account erstellen und für passende Tests bewerben.",
+      "desc_en": "FirstLook's playtest platform: the players.gg catalog has merged into firstlook.gg, where the games list now shows every open alpha and beta. Create a free account and apply for tests that match your library.",
+      "id": "firstlook-playtests",
+      "image": "https://cdn.firstlook.gg/assets/ogimage.DocbrRZm.png",
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "tags": [
+        "Platform",
+        "Alpha",
+        "Beta"
+      ],
+      "title": "player.gg (FirstLook) — Playtests & Alphas",
+      "url": "https://firstlook.gg",
+      "accent": "#00E08A"
+    },
+    {
+      "deadline": null,
+      "desc_de": "Sonys Beta-Programm für PS5: Einmal registrieren und für Systemsoftware-Betas und Spiel-Playtests berücksichtigt werden. Einladungen kommen per E-Mail.",
+      "desc_en": "Sony's beta program for PS5: register once to be considered for system software betas and game playtests. Invites are sent by email.",
+      "id": "playstation-beta-program",
+      "image": "https://gmedia.playstation.com/is/image/SIEPDC/ps-beta-keyart-01-en-22jan24?$facebook$",
+      "platform": "PlayStation",
+      "status": "Signups open",
+      "tags": [
+        "Program",
+        "Console",
+        "Beta"
+      ],
+      "title": "PlayStation Beta Program",
+      "url": "https://www.playstation.com/en-us/support/games/beta-program-at-playstation/",
+      "accent": "#0070D1"
+    },
+    {
+      "deadline": null,
+      "desc_de": "Online-Partyspiel für 16 Spieler: Schwebende Roboter rasen, springen und schleudern sich in fünf chaotischen Minispielen gegenseitig von der Karte. Playtest über player.gg.",
+      "desc_en": "A 16-player online party game where hovering robots dash, jump and slam each other off the map across five chaotic minigames. Playtest sign-ups run through player.gg.",
+      "id": "robosquare-recharged",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4088870/cb6c1447dd6d1e2c3d90acf19255a4a68e7ddf16/header.jpg",
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "tags": [
+        "Party",
+        "Multiplayer",
+        "Arcade"
+      ],
+      "title": "RoboSquare: Recharged",
+      "url": "https://player.gg/publications/player-gg/posts/sign-up-for-these-playtests-including-scp-5k",
+      "accent": "#06B6D4"
+    },
+    {
+      "accent": "#818CF8",
+      "deadline": null,
+      "desc_de": "Koop-Roguelite-FPS für einen bis vier Spieler an Bord einer verlassenen Raumstation, von Three Knot Games. Der erste öffentliche Playtest ist für den 16. November 2026 angekündigt – die Anmeldung läuft über FirstLook.",
+      "desc_en": "Co-op roguelite FPS for one to four players aboard a derelict space station, from Three Knot Games. The first public playtest is announced for November 16, 2026 — sign-ups run through FirstLook.",
+      "id": "rogue-system",
+      "image": null,
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "tags": [
+        "Co-op",
+        "FPS",
+        "Sci-fi"
+      ],
+      "title": "Rogue System",
+      "url": "https://rogue-system.firstlook.gg/"
     },
     {
       "deadline": null,
@@ -219,6 +628,108 @@
       "title": "SCP: 5K",
       "url": "https://player.gg/publications/player-gg/posts/sign-up-for-these-playtests-including-scp-5k",
       "accent": "#DC2626"
+    },
+    {
+      "accent": "#60A5FA",
+      "deadline": null,
+      "desc_de": "Weltraum-Strategie-MMO rund um Mining, Flotten und galaktische Politik, gespielt über Browser und Discord. Alpha-Anmeldung über FirstLook.",
+      "desc_en": "Space strategy MMO about mining, fleets and galactic politics, played through the browser and Discord. Alpha sign-ups via FirstLook.",
+      "id": "starship-miners",
+      "image": null,
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "tags": [
+        "Strategy",
+        "Space",
+        "MMO"
+      ],
+      "title": "Starship Miners",
+      "url": "https://starship-miners.firstlook.gg/"
+    },
+    {
+      "accent": "#EAB308",
+      "deadline": null,
+      "desc_de": "Bullet-Heaven-Survivors auf der eurasischen Steppe: Als Nomaden-Warlord gegen endlose Horden. Playtest-Anmeldung über FirstLook (Steam-Key, Discord nötig).",
+      "desc_en": "Bullet-heaven survivors game set on the Eurasian steppe: mow down hordes as a nomad warlord. Playtest sign-ups via FirstLook (Steam key, Discord required).",
+      "id": "steppe-survivors",
+      "image": null,
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "tags": [
+        "Survivors",
+        "Roguelite",
+        "Bullet Heaven"
+      ],
+      "title": "Steppe Survivors",
+      "url": "https://steppe-survivors.firstlook.gg/"
+    },
+    {
+      "id": "surviving-deponia",
+      "title": "Surviving Deponia",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "url": "https://store.steampowered.com/app/2464520/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2464520/cf70ad9f7c2a872f2a3bdbe461a391eb0a006a2c/header.jpg?t=1793796220",
+      "accent": "#10B981",
+      "desc_en": "Explore, craft, build and fight your way through the harsh landscape of the junk planet Deponia. The Steam playtest is open — request access on the store page.",
+      "desc_de": "Erkunde, crafte, baue und kämpfe dich durch die raue Landschaft des Schrottplaneten Deponia. Der Steam-Playtest ist offen – Zugang auf der Store-Seite anfordern.",
+      "tags": [
+        "Survival",
+        "Crafting",
+        "Adventure"
+      ]
+    },
+    {
+      "deadline": null,
+      "desc_de": "Psychologischer Horror-Plattformer aus der Ego-Perspektive: Der Herzschlag der Hauptfigur steuert Umgebung, Fallen und das steigende Blut. Playtest-Anmeldung über player.gg.",
+      "desc_en": "A first-person psychological horror platformer where the protagonist's heartbeat controls the environment, traps and the rising blood. Playtest sign-ups run through player.gg.",
+      "id": "throb",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4887550/4972bdfa63a6a65db11f61aab662eb0fd3c895aa/header.jpg",
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "tags": [
+        "Horror",
+        "Platformer",
+        "Indie"
+      ],
+      "title": "THROB",
+      "url": "https://player.gg/publications/player-gg/posts/sign-up-for-these-playtests-including-scp-5k",
+      "accent": "#F43F5E"
+    },
+    {
+      "id": "time-takers-playtest-2",
+      "title": "TIME TAKERS — Steam Playtest #2",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": "2026-11-15T23:00:00Z",
+      "tags": [
+        "Shooter",
+        "Free-to-Play",
+        "Multiplayer"
+      ],
+      "desc_de": "Zweiter Steam-Playtest von NCs Free-to-Play-Team-Survival-Shooter (vier Dreier-Squads, das letzte Team steht): Läuft vom 12. November, 23:00 UTC, bis 15. November 2026, 23:00 UTC – mit überarbeitetem Kampfgefühl, neuem Matchmaking und täglichen Login-Belohnungen. Zugang einfach auf der Steam-Seite anfordern.",
+      "desc_en": "Second Steam playtest for NC's free-to-play team survival shooter (four squads of three, last team standing): runs from November 12, 23:00 UTC to November 15, 2026, 23:00 UTC — with reworked combat, a revamped matchmaking system and daily login rewards. Just request access on the Steam page.",
+      "url": "https://store.steampowered.com/app/3596040/Time_Takers/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3596040/6eff7f70da4c93fa253baa4fc518e5bd064557be/header.jpg",
+      "accent": "#4A90C2"
+    },
+    {
+      "accent": "#7C3AED",
+      "deadline": null,
+      "desc_de": "Riesiges Old-School-Open-World-CRPG in Baldur's-Gate-Tradition, mit Rundenkampf und hunderten Stunden Quests. Playtest-Anmeldung über FirstLook.",
+      "desc_en": "Huge old-school open-world CRPG in the Baldur's Gate tradition, with turn-based combat and hundreds of hours of quests. Playtest sign-ups via FirstLook.",
+      "id": "tortured-hearts",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1508260/header.jpg?t=1711997224",
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "tags": [
+        "RPG",
+        "Open World",
+        "Retro"
+      ],
+      "title": "Tortured Hearts",
+      "url": "https://tortured-hearts.firstlook.gg/"
     },
     {
       "deadline": null,
@@ -239,37 +750,54 @@
     },
     {
       "deadline": null,
-      "desc_de": "Psychologischer Horror-Plattformer aus der Ego-Perspektive: Der Herzschlag der Hauptfigur steuert Umgebung, Fallen und das steigende Blut. Playtest-Anmeldung über player.gg.",
-      "desc_en": "A first-person psychological horror platformer where the protagonist's heartbeat controls the environment, traps and the rising blood. Playtest sign-ups run through player.gg.",
-      "id": "throb",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4887550/4972bdfa63a6a65db11f61aab662eb0fd3c895aa/header.jpg",
-      "platform": "FirstLook",
+      "desc_de": "Ubisofts neue Playtest-Plattform: Kostenlos registrieren, NDA unterschreiben und für frühe Prototypen und Live-Spiele bewerben – zum Start u. a. Codename Split Point, Codename Rook, Riders Republic und Atomega. Mehr Feedback schaltet höhere Zugangsstufen frei.",
+      "desc_en": "Ubisoft's new playtest platform: register for free, sign an NDA and apply to test early prototypes and live games — launch projects include Codename Split Point, Codename Rook, Riders Republic and Atomega. More feedback unlocks higher access tiers.",
+      "id": "ubisoft-player-council",
+      "image": "https://playercouncil.gg/video/heroVideo_poster.jpg",
+      "platform": "PC",
       "status": "Signups open",
       "tags": [
-        "Horror",
-        "Platformer",
-        "Indie"
+        "Program",
+        "Publisher",
+        "NDA"
       ],
-      "title": "THROB",
-      "url": "https://player.gg/publications/player-gg/posts/sign-up-for-these-playtests-including-scp-5k",
-      "accent": "#F43F5E"
+      "title": "Ubisoft — The Player Council",
+      "url": "https://playercouncil.gg",
+      "accent": "#7C5CFC"
     },
     {
-      "deadline": null,
-      "desc_de": "Online-Partyspiel für 16 Spieler: Schwebende Roboter rasen, springen und schleudern sich in fünf chaotischen Minispielen gegenseitig von der Karte. Playtest über player.gg.",
-      "desc_en": "A 16-player online party game where hovering robots dash, jump and slam each other off the map across five chaotic minigames. Playtest sign-ups run through player.gg.",
-      "id": "robosquare-recharged",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4088870/cb6c1447dd6d1e2c3d90acf19255a4a68e7ddf16/header.jpg",
-      "platform": "FirstLook",
+      "id": "valve-playtest-signups",
+      "title": "Valve — Playtest Sign-ups",
+      "platform": "PC",
       "status": "Signups open",
+      "deadline": null,
+      "url": "https://help.steampowered.com/en/faqs/view/6710-40BE-7951-B150",
+      "image": null,
+      "accent": "#66C0F4",
+      "desc_en": "Valve recruits playtesters for announced and unannounced games: sign up with your Steam account and get invited to playtests right in the Steam client when a match opens up.",
+      "desc_de": "Valve rekrutiert Playtester für angekündigte und unangekündigte Spiele: Mit dem Steam-Account registrieren und bei passenden Tests direkt im Steam-Client eingeladen werden.",
       "tags": [
-        "Party",
-        "Multiplayer",
-        "Arcade"
-      ],
-      "title": "RoboSquare: Recharged",
-      "url": "https://player.gg/publications/player-gg/posts/sign-up-for-these-playtests-including-scp-5k",
-      "accent": "#06B6D4"
+        "Platform",
+        "Beta",
+        "Steam"
+      ]
+    },
+    {
+      "id": "westlanders",
+      "title": "Westlanders",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "url": "https://store.steampowered.com/app/3886530/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3886530/d56a2d5a20b9be26082c5aceea020757eef920bd/header.jpg?t=1793809807",
+      "accent": "#92400E",
+      "desc_en": "Survive a wild-west open world alone or with friends: travel the land with your wagon, build settlements, fend off foes and weave an economic network. Steam playtest sign-ups are open.",
+      "desc_de": "Überlebe allein oder mit Freunden in einer offenen Wild-West-Welt: Mit dem Wagen reisen, Siedlungen bauen, Feinde abwehren und ein Handelsnetz knüpfen. Die Steam-Playtest-Anmeldung ist offen.",
+      "tags": [
+        "Survival",
+        "Western",
+        "Co-op"
+      ]
     },
     {
       "id": "when-sirens-fall-silent",
@@ -289,89 +817,20 @@
       "accent": "#9E8E2E"
     },
     {
-      "deadline": null,
-      "desc_de": "Ubisoft baut den Strategie-Klassiker in der Snowdrop-Engine neu: Die Registrierung für den geschlossenen PC-Playtest im November 2026 ist offen – Ubisoft-Konto, Plattform wählen, kurze Umfrage ausfüllen. Ausgewählte Tester werden per E-Mail benachrichtigt.",
-      "desc_en": "Ubisoft is rebuilding the strategy classic in the Snowdrop engine: registration for the closed PC playtest in November 2026 is open — sign in with a Ubisoft account, pick PC and complete a short survey. Selected testers are contacted by email.",
-      "id": "heroes-of-might-and-magic-3-remake",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3809850/0f932dbebfe08d21b495450a3fa4e08da2d7dc4a/header.jpg",
+      "id": "wolcen-2-closed-alpha-2",
+      "title": "Wolcen 2 — Closed Alpha 2",
       "platform": "PC",
       "status": "Signups open",
-      "tags": [
-        "Strategy",
-        "Closed Playtest",
-        "Ubisoft"
-      ],
-      "title": "Heroes of Might and Magic III Remake — Closed Playtest",
-      "url": "https://register.ubisoft.com/heroes-of-might-and-magic-3-remake",
-      "accent": "#B45309"
-    },
-    {
       "deadline": null,
-      "desc_de": "EAs offizielles Community-Playtesting-Programm: Profil anlegen (ab 18) und Einladungen zu Tests kommender EA-Spiele auf allen Plattformen per E-Mail bekommen. Plätze sind begrenzt und werden nach Reihenfolge vergeben.",
-      "desc_en": "EA's official community playtesting program: create a profile (18+) to receive email invites for tests of upcoming EA games across all platforms. Spaces are limited and filled first come, first served.",
-      "id": "ea-playtesting",
-      "image": "https://media.contentapi.ea.com/content/dam/eacom/en-us/migrated-images/2016/10/playtesting-featured-image.jpg.adapt.crop191x100.1200w.jpg",
-      "platform": "PC",
-      "status": "Signups open",
       "tags": [
-        "Program",
-        "Publisher",
-        "Beta"
+        "ARPG",
+        "Closed Alpha"
       ],
-      "title": "EA Playtesting",
-      "url": "https://www.ea.com/playtesting",
-      "accent": "#FF4747"
-    },
-    {
-      "deadline": null,
-      "desc_de": "Ubisofts neue Playtest-Plattform: Kostenlos registrieren, NDA unterschreiben und für frühe Prototypen und Live-Spiele bewerben – zum Start u. a. Codename Split Point, Codename Rook, Riders Republic und Atomega. Mehr Feedback schaltet höhere Zugangsstufen frei.",
-      "desc_en": "Ubisoft's new playtest platform: register for free, sign an NDA and apply to test early prototypes and live games — launch projects include Codename Split Point, Codename Rook, Riders Republic and Atomega. More feedback unlocks higher access tiers.",
-      "id": "ubisoft-player-council",
-      "image": "https://playercouncil.gg/video/heroVideo_poster.jpg",
-      "platform": "PC",
-      "status": "Signups open",
-      "tags": [
-        "Program",
-        "Publisher",
-        "NDA"
-      ],
-      "title": "Ubisoft — The Player Council",
-      "url": "https://playercouncil.gg",
-      "accent": "#7C5CFC"
-    },
-    {
-      "deadline": null,
-      "desc_de": "Activisions Playtest-Programm für unveröffentlichte Spiele – allerdings als User Research vor Ort in Sherman Oaks, Kalifornien, nicht als Beta von zu Hause. Anmeldung ist für alle offen, eine Einladung erfolgt nach Auswahl.",
-      "desc_en": "Activision's playtest program for unreleased games — as on-site user research in Sherman Oaks, California, not an at-home beta. Sign-up is open to everyone, with invitations sent to selected participants.",
-      "id": "activision-playtest",
-      "image": "https://www.activision.com/content/dam/atvi/activision/atvi-touchui/activision/company/playtest/playtest-hero.png",
-      "platform": "PC",
-      "status": "Signups open",
-      "tags": [
-        "Program",
-        "Publisher",
-        "On-Site"
-      ],
-      "title": "Activision Playtest (User Research)",
-      "url": "https://www.activision.com/company/playtest",
-      "accent": "#FF7A00"
-    },
-    {
-      "deadline": "2026-11-22T23:59:00Z",
-      "desc_de": "NEXONs Cross-Plattform-MMORPG sucht Tester für den Free Life Test vom 25. bis 30. November 2026 auf PC, iOS und Android. Achtung: Die Rekrutierung gilt nur für Südostasien (u. a. Philippinen, Thailand, Singapur), Bewerbung bis 22. November.",
-      "desc_en": "NEXON's cross-platform MMORPG is recruiting for its Free Life Test, running November 25–30, 2026 on PC, iOS and Android. Note: recruitment is limited to Southeast Asia (incl. the Philippines, Thailand, Singapore); applications close November 22.",
-      "id": "mabinogi-mobile",
-      "image": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e0/57/c4/e057c4f7-3da3-d378-0265-9a9a25e480a1/01_KeyVisual_2796x1290.jpg/2796x1290bb.jpg",
-      "platform": "Mobile",
-      "status": "Signups open",
-      "tags": [
-        "MMORPG",
-        "Mobile",
-        "Region: SEA"
-      ],
-      "title": "Mabinogi Mobile — Free Life Test",
-      "url": "https://mabinogimobile.game-tree.com/actv/2026/questionnaire/index.html",
-      "accent": "#4ADE80"
+      "desc_de": "Die Closed Alpha 2 des Action-RPGs läuft vom 26. November (10:00 Uhr MEZ) bis 30. November 2026 (23:59 Uhr MEZ): Neuer Pistolen-Skill Havoc Orb, neue Shadow-Form-Mechanik Parasitic Shadows und ein Abschnitt von Akt I. Die Plätze sind begrenzt – Anmeldung über die Contributors-Seite von Wolcen Studio.",
+      "desc_en": "Closed Alpha 2 of the action RPG runs from November 26 (10 AM CET) to November 30, 2026 (11:59 PM CET): the new pistol ability Havoc Orb, the new Shadow Form mechanic Parasitic Shadows and a section of Act I. Spots are limited — sign up via Wolcen Studio's contributors page.",
+      "url": "https://contributors.wolcenstudio.com/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4216080/ee29b35b29a505d41901ba931ed0d5920b5fd41b/header.jpg",
+      "accent": "#B91C1C"
     },
     {
       "deadline": null,
@@ -392,44 +851,10 @@
     },
     {
       "deadline": null,
-      "desc_de": "Sonys Beta-Programm für PS5: Einmal registrieren und für Systemsoftware-Betas und Spiel-Playtests berücksichtigt werden. Einladungen kommen per E-Mail.",
-      "desc_en": "Sony's beta program for PS5: register once to be considered for system software betas and game playtests. Invites are sent by email.",
-      "id": "playstation-beta-program",
-      "image": "https://gmedia.playstation.com/is/image/SIEPDC/facebook-shared-social-thumbnail?$facebook$",
-      "platform": "PlayStation",
-      "status": "Signups open",
-      "tags": [
-        "Program",
-        "Console",
-        "Beta"
-      ],
-      "title": "PlayStation Beta Program",
-      "url": "https://www.playstation.com/en-us/support/games/beta-program-at-playstation/",
-      "accent": "#0070D1"
-    },
-    {
-      "deadline": null,
-      "desc_de": "Playtest-Plattform von FirstLook (früher firstlook.gg, jetzt player.gg) mit wechselnden geschlossenen Alphas und Betas. Kostenlosen Account erstellen und für passende Tests bewerben.",
-      "desc_en": "FirstLook's playtest platform (formerly firstlook.gg, now player.gg) with rotating closed alphas and betas. Create a free account and apply for tests that match your library.",
-      "id": "firstlook-playtests",
-      "image": "https://cdn.firstlook.gg/assets/ogimage.DocbrRZm.png",
-      "platform": "FirstLook",
-      "status": "Signups open",
-      "tags": [
-        "Platform",
-        "Alpha",
-        "Beta"
-      ],
-      "title": "player.gg (FirstLook) — Playtests & Alphas",
-      "url": "https://firstlook.gg",
-      "accent": "#00E08A"
-    },
-    {
-      "deadline": null,
       "desc_de": "Valves wiederkehrendes Demo-Festival: Hunderte kostenlose Demos kommender Spiele sind pro Ausgabe eine Woche lang live. Die nächste Ausgabe läuft bestätigt vom 22. Februar bis 1. März 2027.",
       "desc_en": "Valve's recurring demo festival: hundreds of free demos for upcoming games go live for one week per edition. The next edition is confirmed for February 22 to March 1, 2027.",
       "id": "steam-next-fest",
-      "image": "https://i.ytimg.com/vi/hRiAstgNtps/maxresdefault.jpg",
+      "image": null,
       "platform": "Steam",
       "status": "Coming soon",
       "tags": [
@@ -440,23 +865,6 @@
       "title": "Steam Next Fest",
       "url": "https://store.steampowered.com/sale/nextfest",
       "accent": "#A855F7"
-    },
-    {
-      "deadline": null,
-      "desc_de": "Die geschlossene Alpha des unangekündigten Bagger-Simulators ist abgeschlossen. Die Abschluss-Umfrage war der letzte Schritt für Tester.",
-      "desc_en": "The closed alpha of the unannounced digging simulator has wrapped up. The closing survey was the final step for testers.",
-      "id": "project-scoop",
-      "image": null,
-      "platform": "FirstLook",
-      "status": "Ended",
-      "tags": [
-        "Simulation",
-        "Closed Alpha",
-        "Ended"
-      ],
-      "title": "Project SCOOP (DIG SIMULATOR)",
-      "url": "https://firstlook.gg",
-      "accent": "#F59E0B"
     },
     {
       "deadline": null,
@@ -474,6 +882,23 @@
       "title": "Escape From Playtime",
       "url": "https://store.steampowered.com/app/2087540/Escape_from_Playtime/",
       "accent": "#E11D48"
+    },
+    {
+      "deadline": null,
+      "desc_de": "Die geschlossene Alpha des unangekündigten Bagger-Simulators ist abgeschlossen. Die Abschluss-Umfrage war der letzte Schritt für Tester.",
+      "desc_en": "The closed alpha of the unannounced digging simulator has wrapped up. The closing survey was the final step for testers.",
+      "id": "project-scoop",
+      "image": null,
+      "platform": "FirstLook",
+      "status": "Ended",
+      "tags": [
+        "Simulation",
+        "Closed Alpha",
+        "Ended"
+      ],
+      "title": "Project SCOOP (DIG SIMULATOR)",
+      "url": "https://firstlook.gg",
+      "accent": "#F59E0B"
     }
   ]
 }

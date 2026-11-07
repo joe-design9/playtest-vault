@@ -38,18 +38,10 @@ struct SteamDetailView: View {
         ZStack {
             CoverArt(title: demo.title, height: 190)
             if let imageURL = details?.headerImage ?? demo.imageURL ?? (demo.demoAppID > 0 ? demo.headerURL : nil) {
-                AsyncImage(url: imageURL) { phase in
-                    if case .success(let image) = phase {
-                        image
-                            .resizable()
-                            .scaledToFill()
-                            .frame(maxWidth: .infinity)
-                            .frame(height: 190)
-                            .clipped()
-                    } else {
-                        Color.clear
-                    }
-                }
+                RemoteImage(url: imageURL)
+                    .frame(maxWidth: .infinity)
+                    .frame(height: 190)
+                    .clipped()
             }
         }
         .frame(maxWidth: .infinity)

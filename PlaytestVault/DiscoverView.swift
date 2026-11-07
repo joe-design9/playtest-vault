@@ -102,50 +102,81 @@ struct DiscoverView: View {
         .glassPill()
     }
 
-    /// Living summary card at the top of the Playtest tab: how many
-    /// tests are live right now, how many sign-ups are open and when
-    /// the next deadline hits.
+    /// Living summary card at the top of the Playtest tab: the newest
+    /// live test's key art washes through the glass, with the live
+    /// count, open sign-ups and the next deadline on top.
     private var heroHeader: some View {
         let live = feedStore.items.filter { $0.status == "Live now" }.count
         let open = feedStore.items.filter { $0.status == "Signups open" }.count
         let next = feedStore.items.compactMap { $0.deadline }.filter { $0 > Date() }.min()
+        let featured = feedStore.items.first { $0.status == "Live now" && $0.imageURL != nil }
+            ?? feedStore.items.first { $0.imageURL != nil }
         return ZStack {
             RoundedRectangle(cornerRadius: 26, style: .continuous)
                 .fill(
                     LinearGradient(
                         colors: [
-                            VaultAccent.teal.opacity(0.50),
-                            Color(red: 0.20, green: 0.45, blue: 0.95).opacity(0.45),
-                            Color(red: 0.58, green: 0.25, blue: 0.90).opacity(0.50),
+                            VaultAccent.teal.opacity(0.55),
+                            Color(red: 0.20, green: 0.45, blue: 0.95).opacity(0.50),
+                            Color(red: 0.58, green: 0.25, blue: 0.90).opacity(0.55),
                         ],
                         startPoint: .topLeading, endPoint: .bottomTrailing
                     )
                 )
+            if let featured, let url = featured.imageURL {
+                RemoteImage(url: url)
+                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    .opacity(0.55)
+                RoundedRectangle(cornerRadius: 26, style: .continuous)
+                    .fill(
+                        LinearGradient(
+                            colors: [Color.black.opacity(0.10), Color.black.opacity(0.68)],
+                            startPoint: .top, endPoint: .bottom
+                        )
+                    )
+            }
             GlassCard {
-                HStack(spacing: 14) {
-                    ZStack {
-                        Circle()
-                            .fill(VaultAccent.gradient)
-                            .frame(width: 52, height: 52)
-                        Image(systemName: "gamecontroller.fill")
-                            .font(.title3.weight(.bold))
-                            .foregroundStyle(.white)
+                VStack(alignment: .leading, spacing: 10) {
+                    HStack(spacing: 14) {
+                        ZStack {
+                            Circle()
+                                .fill(VaultAccent.gradient)
+                                .frame(width: 52, height: 52)
+                            Image(systemName: "gamecontroller.fill")
+                                .font(.title3.weight(.bold))
+                                .foregroundStyle(.white)
+                        }
+                        VStack(alignment: .leading, spacing: 3) {
+                            Text(live == 1
+                                ? store.tr("1 Playtest läuft gerade", "1 playtest live right now")
+                                : store.tr("\(live) Playtests laufen gerade", "\(live) playtests live right now"))
+                                .font(.headline)
+                                .foregroundStyle(.white)
+                            Text(heroSubline(open: open, next: next))
+                                .font(.caption)
+                                .foregroundStyle(.white.opacity(0.85))
+                        }
+                        Spacer()
                     }
-                    VStack(alignment: .leading, spacing: 3) {
-                        Text(live == 1
-                            ? store.tr("1 Playtest läuft gerade", "1 playtest live right now")
-                            : store.tr("\(live) Playtests laufen gerade", "\(live) playtests live right now"))
-                            .font(.headline)
-                            .foregroundStyle(.white)
-                        Text(heroSubline(open: open, next: next))
-                            .font(.caption)
-                            .foregroundStyle(.white.opacity(0.80))
+                    if let featured {
+                        HStack(spacing: 7) {
+                            Circle()
+                                .fill(feedStatusColor("Live now"))
+                                .frame(width: 7, height: 7)
+                            Text(store.tr("Jetzt live: ", "Live now: ")
+                                + (featured.title.components(separatedBy: " \u{2014}").first ?? featured.title))
+                                .font(.caption.weight(.semibold))
+                                .foregroundStyle(.white.opacity(0.92))
+                                .lineLimit(1)
+                            Spacer()
+                        }
                     }
-                    Spacer()
                 }
                 .padding(16)
             }
         }
+        .frame(height: 172)
+        .clipShape(RoundedRectangle(cornerRadius: 26, style: .continuous))
     }
 
     private func heroSubline(open: Int, next: Date?) -> String {
@@ -199,17 +230,59 @@ struct DiscoverView: View {
                 .frame(maxWidth: .infinity)
             }
         } else {
-            ForEach(filtered) { item in
-                NavigationLink {
-                    PlaytestDetailView(item: item)
-                } label: {
-                    PlaytestCard(item: item)
-                        .opacity(item.status == "Ended" ? 0.72 : 1)
+            ForEach(groupedFeed) { group in
+                HStack(spacing: 8) {
+                    Circle()
+                        .fill(feedStatusColor(group.status))
+                        .frame(width: 8, height: 8)
+                    Text(sectionTitle(group.status).uppercased())
+                        .font(.caption.weight(.bold))
+                        .tracking(1.4)
+                        .foregroundStyle(.white.opacity(0.65))
+                    Text("\(group.items.count)")
+                        .font(.caption.weight(.bold))
+                        .foregroundStyle(feedStatusColor(group.status))
+                    Spacer()
                 }
-                .buttonStyle(.plain)
+                .padding(.horizontal, 4)
+                .padding(.top, 8)
+                ForEach(group.items) { item in
+                    NavigationLink {
+                        PlaytestDetailView(item: item)
+                    } label: {
+                        PlaytestCard(item: item)
+                            .opacity(item.status == "Ended" ? 0.72 : 1)
+                    }
+                    .buttonStyle(.plain)
+                }
             }
         }
     }
+
+    /// Feed items grouped by status, in feed order, empty groups dropped.
+    private var groupedFeed: [FeedGroup] {
+        ["Live now", "Signups open", "Coming soon", "Ended"].compactMap { status in
+            let items = filtered.filter { $0.status == status }
+            return items.isEmpty ? nil : FeedGroup(status: status, items: items)
+        }
+    }
+
+    private func sectionTitle(_ status: String) -> String {
+        switch status {
+        case "Live now": return store.tr("Läuft jetzt", "Live now")
+        case "Signups open": return store.tr("Anmeldung offen", "Sign-ups open")
+        case "Coming soon": return store.tr("Kommt bald", "Coming soon")
+        case "Ended": return store.tr("Beendet", "Ended")
+        default: return status
+        }
+    }
+}
+
+/// One status section of the Playtest feed.
+private struct FeedGroup: Identifiable {
+    var status: String
+    var items: [PlaytestItem]
+    var id: String { status }
 }
 
 /// Feed status wording to pill color.
@@ -229,7 +302,7 @@ private struct PlaytestCard: View {
     var body: some View {
         GlassCard(accent: item.accentColor) {
             VStack(alignment: .leading, spacing: 0) {
-                CoverImage(url: item.imageURL, title: item.title, height: 140, accent: item.accentColor)
+                CoverImage(url: item.imageURL, title: item.title, height: 190, accent: item.accentColor)
                     .clipShape(RoundedRectangle(cornerRadius: 18, style: .continuous))
                     .padding(10)
                 VStack(alignment: .leading, spacing: 9) {
