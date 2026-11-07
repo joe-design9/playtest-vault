@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T02:45:00Z",
+  "updated": "2026-11-07T03:05:00Z",
   "playtests": [
     {
       "deadline": null,
@@ -53,6 +53,23 @@
       ]
     },
     {
+      "id": "kardaviik",
+      "title": "Kardaviik",
+      "platform": "FirstLook",
+      "status": "Live now",
+      "deadline": null,
+      "url": "https://player.gg/playtests",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2385970/e6d325dc57576c2a1f9ff35e63d810180f0e58b8/header.jpg?t=1790839856",
+      "accent": "#43AA8B",
+      "desc_en": "A 3D factory automation game in a voxel asteroid belt: harness energy, climb the Kardashev scale and save Earth. The playtest is live via player.gg.",
+      "desc_de": "3D-Fabrik-Automatisierung in einem Voxel-Asteroidengürtel: Energie nutzen, die Kardashev-Skala erklimmen und die Erde retten. Der Playtest läuft über player.gg.",
+      "tags": [
+        "Automation",
+        "Strategy",
+        "Voxel"
+      ]
+    },
+    {
       "deadline": null,
       "desc_de": "Kostenloser Steam-Playtest des Top-Down-Koop-Roguelikes, in dem Gummienten ihren Teich verteidigen: Die ersten drei Karten samt Bossen sind spielbar, solo oder mit bis zu drei Freunden online.",
       "desc_en": "Free Steam playtest for the top-down co-op roguelike where rubber ducks defend their pond: the first three maps and their bosses are playable, solo or online with up to three friends.",
@@ -68,6 +85,23 @@
       "title": "Let's Duck!",
       "url": "https://store.steampowered.com/app/5428530/Lets_Duck/",
       "accent": "#FACC15"
+    },
+    {
+      "id": "marked-for-mayhem",
+      "title": "Marked for Mayhem",
+      "platform": "FirstLook",
+      "status": "Live now",
+      "deadline": null,
+      "url": "https://bladeworkgames.firstlook.gg/signup/playtest",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2818700/ccd1e0fe4fb4845909469a0d1398d777bedba8ad/header.jpg?t=1790342104",
+      "accent": "#F06529",
+      "desc_en": "Competitive four-player action dungeon runner in a shattered world where dimensions collide. The first public playtest runs November 6 to 8 — sign up via FirstLook.",
+      "desc_de": "Kompetitiver Action-Dungeon-Runner für vier Spieler in einer zersplitterten Welt kollidierender Dimensionen. Der erste öffentliche Playtest läuft vom 6. bis 8. November – Anmeldung über FirstLook.",
+      "tags": [
+        "Action",
+        "Dungeon",
+        "Competitive"
+      ]
     },
     {
       "id": "model-kit-studio-playtest",
@@ -87,6 +121,23 @@
       ]
     },
     {
+      "id": "night-crew",
+      "title": "Night Crew",
+      "platform": "FirstLook",
+      "status": "Live now",
+      "deadline": null,
+      "url": "https://player.gg/playtests",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582690/6aebc31ea83ab1822c471a3ecb7653ee410ddf84/header.jpg?t=1792723802",
+      "accent": "#6366F1",
+      "desc_en": "A lo-fi mall with high-key problems: foul creatures roam the halls and management still expects you to mop. The playtest runs November 6 to 9 via player.gg.",
+      "desc_de": "Ein Lo-fi-Einkaufszentrum mit großen Problemen: Kreaturen in den Gängen, und die Leitung erwartet trotzdem, dass du wischst. Der Playtest läuft vom 6. bis 9. November über player.gg.",
+      "tags": [
+        "Horror",
+        "Co-op",
+        "Comedy"
+      ]
+    },
+    {
       "deadline": null,
       "desc_de": "Offener Steam-Playtest des Pixel-Art-JRPGs von Pixelated Milk: Jeder, der sich über die Store-Seite anmeldet, bekommt Zugang. Wer den Playtest-Boss besiegt, sichert sich einen exklusiven Begleiter zum Release.",
       "desc_en": "Open Steam playtest for Pixelated Milk's pixel-art JRPG: everyone who signs up on the store page gets access. Beat the playtest's final boss and keep the save to unlock an exclusive pet at launch.",
@@ -102,6 +153,23 @@
       "title": "SacriFire",
       "url": "https://store.steampowered.com/app/1661330/SacriFire/",
       "accent": "#F97316"
+    },
+    {
+      "id": "small-fry",
+      "title": "Small Fry",
+      "platform": "FirstLook",
+      "status": "Live now",
+      "deadline": null,
+      "url": "https://player.gg/playtests",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1246800/302733d9f1531190b4ef00ef3650ba669c11d3de/header.jpg?t=1793161508",
+      "accent": "#FFA62B",
+      "desc_en": "Cook any meal you can imagine, invent recipes and learn your ingredients — the playtest is running now via player.gg.",
+      "desc_de": "Koche alles, was du dir vorstellen kannst, erfinde Rezepte und lerne deine Zutaten kennen – der Playtest läuft bereits über player.gg.",
+      "tags": [
+        "Cooking",
+        "Simulation",
+        "Indie"
+      ]
     },
     {
       "deadline": null,
@@ -172,6 +240,74 @@
       ]
     },
     {
+      "id": "the-demon-wants-to-marry",
+      "title": "The Demon Wants to Marry the Princess or Lose Her at Poker",
+      "platform": "FirstLook",
+      "status": "Live now",
+      "deadline": null,
+      "url": "https://player.gg/playtests",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5240940/68a1958777d712dd987e5f92aef86c5fb1016f6f/header.jpg?t=1793528162",
+      "accent": "#9D174D",
+      "desc_en": "A fairy tale where poker saves the princess: beat demons, fend off an unwanted suitor and build a castle of living cards. The playtest runs until November 13 via player.gg.",
+      "desc_de": "Ein Märchen, in dem Poker die Prinzessin rettet: Dämonen besiegen, einen Verehrer abwehren und ein Schloss aus lebenden Karten bauen. Der Playtest läuft bis zum 13. November über player.gg.",
+      "tags": [
+        "Card Game",
+        "Fairy Tale",
+        "Indie"
+      ]
+    },
+    {
+      "deadline": null,
+      "desc_de": "Der erste öffentliche Playtest des Rhythmus-Action-Brawlers läuft kostenlos auf itch.io bis zum 9. November 2026 – Anmeldung und Download über FirstLook.",
+      "desc_en": "The first public playtest of this rhythm-action brawler runs free on itch.io until November 9, 2026 — sign-ups and the download run through FirstLook.",
+      "id": "throb",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4887550/4972bdfa63a6a65db11f61aab662eb0fd3c895aa/header.jpg",
+      "platform": "FirstLook",
+      "status": "Live now",
+      "tags": [
+        "Horror",
+        "Platformer",
+        "Indie"
+      ],
+      "title": "THROB",
+      "url": "https://player.gg/publications/player-gg/posts/sign-up-for-these-playtests-including-scp-5k",
+      "accent": "#F43F5E"
+    },
+    {
+      "id": "throw-weight-fleet-doctrine",
+      "title": "Throw Weight: Fleet Doctrine",
+      "platform": "FirstLook",
+      "status": "Live now",
+      "deadline": null,
+      "url": "https://player.gg/playtests",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5382060/5f314a80295b1f11ffddcdcddd42b5be447fe804/header.jpg?t=1792787862",
+      "accent": "#94A3B8",
+      "desc_en": "Hard sci-fi fleet command — no shields, no lasers, just missiles, point defense and electronic warfare. The playtest runs until November 30 via player.gg.",
+      "desc_de": "Hard-Sci-Fi-Flottenkommando – keine Schilde, keine Laser, nur Raketen, Punktverteidigung und elektronische Kriegsführung. Der Playtest läuft bis zum 30. November über player.gg.",
+      "tags": [
+        "Strategy",
+        "Sci-fi",
+        "Naval"
+      ]
+    },
+    {
+      "id": "voidwood",
+      "title": "Voidwood",
+      "platform": "FirstLook",
+      "status": "Live now",
+      "deadline": null,
+      "url": "https://voidwood.firstlook.gg/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3694420/1b48039aba4cafbf2c4bdce81a6db5006473fee0/header.jpg?t=1793381512",
+      "accent": "#3F6212",
+      "desc_en": "One-to-four-player co-op survival horror where your voice can save your friends or give them all away. Private playtest sessions run November 6 and 7 — sign up via FirstLook.",
+      "desc_de": "Koop-Survival-Horror für einen bis vier Spieler, in dem deine Stimme deine Freunde retten oder verraten kann. Private Playtest-Sessions am 6. und 7. November – Anmeldung über FirstLook.",
+      "tags": [
+        "Horror",
+        "Co-op",
+        "Survival"
+      ]
+    },
+    {
       "id": "waltz-and-jam-halloween-playtest",
       "title": "Waltz and Jam — Halloween Playtest",
       "platform": "Steam",
@@ -220,6 +356,23 @@
         "FPS",
         "Arena",
         "Multiplayer"
+      ]
+    },
+    {
+      "id": "bauble",
+      "title": "Bauble",
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "deadline": null,
+      "url": "https://player.gg/playtests",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4465680/5a1276f2a4c09276fb9bdd21f5704b0836efec4a/header.jpg?t=1793664684",
+      "accent": "#9333EA",
+      "desc_en": "Action-stealth roguelite about newly sentient creatures investigating the sudden collapse of their ecosystem. Playtest sign-ups via player.gg.",
+      "desc_de": "Action-Stealth-Roguelite über frisch empfindsame Kreaturen, die den plötzlichen Kollaps ihres Ökosystems untersuchen. Playtest-Anmeldung über player.gg.",
+      "tags": [
+        "Stealth",
+        "Roguelite",
+        "Action"
       ]
     },
     {
@@ -325,6 +478,23 @@
       "url": "https://ekoh.firstlook.gg/"
     },
     {
+      "id": "final-third",
+      "title": "Final Third",
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "deadline": null,
+      "url": "https://player.gg/playtests",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3994040/51b05f081e33d6e68275c1dde313407c23045443/header.jpg?t=1793595772",
+      "accent": "#34D399",
+      "desc_en": "Football, unscripted: a physics-driven PvP football game up to 4v4 with no canned animations deciding the goal. Playtest sign-ups via player.gg.",
+      "desc_de": "Fußball ohne Drehbuch: Physik-basiertes PvP-Fußballspiel bis 4 gegen 4, ohne vorgefertigte Animationen. Playtest-Anmeldung über player.gg.",
+      "tags": [
+        "Sports",
+        "Football",
+        "PvP"
+      ]
+    },
+    {
       "deadline": null,
       "desc_de": "Neue Playtest-Runde des Koop-Shooters von Aska Studios: große Systemänderungen und neue Gameplay-Inhalte. Der Playtest startet am 12. November 2026, die Anmeldung über FirstLook ist offen.",
       "desc_en": "A new playtest round for Aska Studios' co-op shooter, with big system changes and new gameplay content. The playtest starts November 12, 2026 — sign-ups are open via FirstLook.",
@@ -355,6 +525,22 @@
         "Co-op",
         "Comedy",
         "Heist"
+      ]
+    },
+    {
+      "id": "guild-wars-2-playtest",
+      "title": "Guild Wars 2",
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "deadline": null,
+      "url": "https://player.gg/playtests",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1284210/header.jpg?t=1791907845",
+      "accent": "#FF4655",
+      "desc_en": "ArenaNet's award-winning MMO without a subscription fee runs playtests through the player.gg catalog — sign-ups are open.",
+      "desc_de": "ArenaNets preisgekröntes MMO ohne Abo-Gebühr läuft mit Playtests über den player.gg-Katalog – die Anmeldung ist offen.",
+      "tags": [
+        "MMO",
+        "RPG"
       ]
     },
     {
@@ -409,6 +595,23 @@
       "accent": "#C084FC"
     },
     {
+      "id": "how-to-christmas",
+      "title": "How to Christmas",
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "deadline": null,
+      "url": "https://player.gg/playtests",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5450480/8b9f906300e95324c153238cc586fe63440f3dc5/header.jpg?t=1793679470",
+      "accent": "#C9184A",
+      "desc_en": "One-to-four-player Christmas co-op chaos: fish runaway toys out of the ice, sell them for cash and buy bigger guns. Playtest sign-ups via player.gg.",
+      "desc_de": "Weihnachts-Koop-Chaos für einen bis vier Spieler: Entlaufene Spielzeuge aus dem Eis fischen, verkaufen und größere Waffen kaufen. Playtest-Anmeldung über player.gg.",
+      "tags": [
+        "Co-op",
+        "Action",
+        "Festive"
+      ]
+    },
+    {
       "id": "hunger-lane",
       "title": "Hunger Lane",
       "platform": "Steam",
@@ -443,6 +646,23 @@
       "url": "https://firstlook.gg/games"
     },
     {
+      "id": "language-adventure",
+      "title": "Language Adventure",
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "deadline": null,
+      "url": "https://player.gg/playtests",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2204770/header.jpg?t=1792850298",
+      "accent": "#0EA5E9",
+      "desc_en": "Learn English in a hand-made stop-motion town where an alien has crash-landed in your garden. Playtest sign-ups via player.gg.",
+      "desc_de": "Lerne Englisch in einer handgemachten Stop-Motion-Stadt, in deren Garten ein Alien abgestürzt ist. Playtest-Anmeldung über player.gg.",
+      "tags": [
+        "Education",
+        "Adventure",
+        "Stop-Motion"
+      ]
+    },
+    {
       "accent": "#A3E635",
       "deadline": null,
       "desc_de": "Chaotischer 3-gegen-3-Physik-Fußball-Brawler mit Hooligan-Energie und Slapstick-Tackles. Playtest-Anmeldung über den FirstLook-Spielekatalog (Discord).",
@@ -458,6 +678,23 @@
       ],
       "title": "Light Hooligans",
       "url": "https://firstlook.gg/games"
+    },
+    {
+      "id": "lighthold-keep-the-light",
+      "title": "Lighthold: Keep the Light",
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "deadline": null,
+      "url": "https://player.gg/playtests",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5434840/c2008c07ea4b6495bdd335d8dd3f289a2d392d3a/header.jpg?t=1793708674",
+      "accent": "#F4C542",
+      "desc_en": "Every night, shadows crawl out of the sea toward your lighthouse: grab the beam, burn them and hold on till sunrise. Playtest sign-ups via player.gg.",
+      "desc_de": "Jede Nacht kriechen Schatten aus dem Meer auf deinen Leuchtturm zu: Schnapp dir den Lichtstrahl, verbrenne sie und halte bis Sonnenaufgang durch. Playtest-Anmeldung über player.gg.",
+      "tags": [
+        "Tower Defense",
+        "Simulation",
+        "Cozy"
+      ]
     },
     {
       "accent": "#A78BFA",
@@ -511,6 +748,57 @@
       ]
     },
     {
+      "id": "monkey-brain",
+      "title": "Monkey Brain",
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "deadline": null,
+      "url": "https://player.gg/playtests",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4763920/e26e89f402e515d6801f828daeafb73279f68ce5/header.jpg?t=1793918494",
+      "accent": "#FB7185",
+      "desc_en": "Pachinko meets billiards: ricochet thoughts off brain cells to help a monkey think really hard in this physics roguelike. Playtest sign-ups via player.gg.",
+      "desc_de": "Pachinko trifft Billard: Lass Gedanken von Gehirnzellen abprallen, damit ein Affe richtig scharf nachdenkt – Physik-Roguelike. Playtest-Anmeldung über player.gg.",
+      "tags": [
+        "Puzzle",
+        "Roguelike",
+        "Physics"
+      ]
+    },
+    {
+      "id": "nest-rivals",
+      "title": "Nest Rivals",
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "deadline": null,
+      "url": "https://player.gg/playtests",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4997210/08ce74838f55b0431c55d3a5c814202b162ae851/header.jpg?t=1793923467",
+      "accent": "#4D7C0F",
+      "desc_en": "Lead a slime colony through a living pixel world: grow nests, face rival species and guide your colony's evolution. Playtest sign-ups via player.gg.",
+      "desc_de": "Führe eine Schleim-Kolonie durch eine lebendige Pixelwelt: Nester wachsen lassen, Rivalen-Arten trotzen, Evolution steuern. Playtest-Anmeldung über player.gg.",
+      "tags": [
+        "Simulation",
+        "Strategy",
+        "Pixel Art"
+      ]
+    },
+    {
+      "id": "neural-dominion",
+      "title": "Neural Dominion",
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "deadline": null,
+      "url": "https://player.gg/playtests",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2493210/header.jpg?t=1793811260",
+      "accent": "#FF2E88",
+      "desc_en": "Brutal cyberpunk 4X turn-based strategy: take one of five gangs to the top of Technograd. Playtest sign-ups via player.gg.",
+      "desc_de": "Brutales Cyberpunk-4X-Rundenstrategiespiel: Bring eine von fünf Gangs an die Spitze von Technograd. Playtest-Anmeldung über player.gg.",
+      "tags": [
+        "Strategy",
+        "Cyberpunk",
+        "4X"
+      ]
+    },
+    {
       "deadline": "2026-11-07T05:00:00Z",
       "desc_de": "Physik-Partyspiel für 16 Spieler, in dem man seine Freunde frisst. Der Playtest läuft über FirstLook in zwei Sessions am 6. und 7. November 2026 – Anmeldung ist offen.",
       "desc_en": "A 16-player online physics party game where you eat your friends. The playtest runs via FirstLook in two sessions on November 6 and 7, 2026 — sign-ups are open.",
@@ -542,6 +830,23 @@
         "Roguelike",
         "RPG",
         "Turn-Based"
+      ]
+    },
+    {
+      "id": "phantom-line",
+      "title": "Phantom Line",
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "deadline": null,
+      "url": "https://player.gg/playtests",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2400840/0dcdba65f925524136c3b4f01c14e71e470685cd/header.jpg?t=1792156829",
+      "accent": "#00D1FF",
+      "desc_en": "Join the paranormal SWAT: a one-to-four-player co-op shooter hunting anomalies across a post-nuclear Europe. Playtest sign-ups run through player.gg.",
+      "desc_de": "Paranormale SWAT-Einheit: Koop-Shooter für einen bis vier Spieler auf der Jagd nach Anomalien in einem postnuklearen Europa. Playtest-Anmeldung über player.gg.",
+      "tags": [
+        "Co-op",
+        "FPS",
+        "Horror"
       ]
     },
     {
@@ -579,9 +884,42 @@
       "accent": "#0070D1"
     },
     {
+      "id": "rally-point",
+      "title": "Rally Point",
+      "platform": "FirstLook",
+      "status": "Signups open",
       "deadline": null,
-      "desc_de": "Online-Partyspiel für 16 Spieler: Schwebende Roboter rasen, springen und schleudern sich in fünf chaotischen Minispielen gegenseitig von der Karte. Playtest über player.gg.",
-      "desc_en": "A 16-player online party game where hovering robots dash, jump and slam each other off the map across five chaotic minigames. Playtest sign-ups run through player.gg.",
+      "url": "https://player.gg/playtests",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5046790/42f58c9dd151113c3b6096271c486622e8af6268/header.jpg?t=1793919262",
+      "accent": "#8B7CF6",
+      "desc_en": "A real-time strategy roguelite where your army fights on its own: deploy heroes, mechs and support down the lanes and take the control points. Playtest sign-ups via player.gg.",
+      "desc_de": "Echtzeit-Strategie-Roguelite, in dem deine Armee selbst kämpft: Helden, Mechs und Support auf die Lanes schicken und Kontrollpunkte nehmen. Playtest-Anmeldung über player.gg.",
+      "tags": [
+        "RTS",
+        "Roguelite",
+        "Strategy"
+      ]
+    },
+    {
+      "id": "rimba-keeper-of-borneo",
+      "title": "Rimba: Keeper of Borneo",
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "deadline": null,
+      "url": "https://player.gg/playtests",
+      "image": null,
+      "accent": "#2F9E44",
+      "desc_en": "A rainforest adventure from Borneo about protecting the jungle and its animals. Playtest sign-ups via player.gg.",
+      "desc_de": "Ein Regenwald-Abenteuer aus Borneo rund um den Schutz des Dschungels und seiner Tiere. Playtest-Anmeldung über player.gg.",
+      "tags": [
+        "Adventure",
+        "Nature"
+      ]
+    },
+    {
+      "deadline": null,
+      "desc_de": "Arena-Roboter-Battler: Das letzte Playtest-Wochenende lief vom 30. Oktober bis 2. November 2026 – die FirstLook-Warteliste für die nächste Runde ist offen.",
+      "desc_en": "Arena robot battler: the last playtest weekend ran October 30 to November 2, 2026 — the FirstLook waitlist is open for the next round.",
       "id": "robosquare-recharged",
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4088870/cb6c1447dd6d1e2c3d90acf19255a4a68e7ddf16/header.jpg",
       "platform": "FirstLook",
@@ -611,6 +949,23 @@
       ],
       "title": "Rogue System",
       "url": "https://rogue-system.firstlook.gg/"
+    },
+    {
+      "id": "run-friend-run",
+      "title": "Run Friend Run",
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "deadline": null,
+      "url": "https://player.gg/playtests",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5047300/e27731e4dc3af2c1c01e1bdbf112867227ace023/header.jpg?t=1793767306",
+      "accent": "#FFC53D",
+      "desc_en": "A party game for one to eight players where one races to the finish and everyone else plants traps to stop them. Playtest sign-ups via player.gg.",
+      "desc_de": "Partyspiel für einen bis acht Spieler: Einer rennt ins Ziel, alle anderen legen Fallen, um ihn zu stoppen. Playtest-Anmeldung über player.gg.",
+      "tags": [
+        "Party",
+        "Multiplayer",
+        "Racing"
+      ]
     },
     {
       "deadline": null,
@@ -681,21 +1036,21 @@
       ]
     },
     {
-      "deadline": null,
-      "desc_de": "Psychologischer Horror-Plattformer aus der Ego-Perspektive: Der Herzschlag der Hauptfigur steuert Umgebung, Fallen und das steigende Blut. Playtest-Anmeldung über player.gg.",
-      "desc_en": "A first-person psychological horror platformer where the protagonist's heartbeat controls the environment, traps and the rising blood. Playtest sign-ups run through player.gg.",
-      "id": "throb",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4887550/4972bdfa63a6a65db11f61aab662eb0fd3c895aa/header.jpg",
+      "id": "the-orphaned-house",
+      "title": "The Orphaned House",
       "platform": "FirstLook",
       "status": "Signups open",
+      "deadline": null,
+      "url": "https://player.gg/playtests",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4269240/3279e408762c2ac71f462369c17959a448ed22d8/header.jpg?t=1793899713",
+      "accent": "#581C87",
+      "desc_en": "Explore a mysterious house, manipulate the environment to solve puzzles and follow your intuition to uncover what happened. Playtest sign-ups via player.gg.",
+      "desc_de": "Erkunde ein geheimnisvolles Haus, verändere die Umgebung für Rätsel und folge deiner Intuition, um die Wahrheit zu finden. Playtest-Anmeldung über player.gg.",
       "tags": [
-        "Horror",
-        "Platformer",
-        "Indie"
-      ],
-      "title": "THROB",
-      "url": "https://player.gg/publications/player-gg/posts/sign-up-for-these-playtests-including-scp-5k",
-      "accent": "#F43F5E"
+        "Adventure",
+        "Puzzle",
+        "Mystery"
+      ]
     },
     {
       "id": "time-takers-playtest-2",
@@ -732,9 +1087,25 @@
       "url": "https://tortured-hearts.firstlook.gg/"
     },
     {
+      "id": "treasure-island",
+      "title": "Treasure Island",
+      "platform": "FirstLook",
+      "status": "Signups open",
       "deadline": null,
-      "desc_de": "Der nächste Teil der Märchen-Puzzle-Reihe von Frozenbyte: Rätsel-Plattformer für 1–4 Spieler. Playtest-Anmeldung läuft über player.gg.",
-      "desc_en": "The next entry in Frozenbyte's fairytale puzzle series: a co-op puzzle platformer for 1–4 players. Playtest sign-ups run through player.gg.",
+      "url": "https://player.gg/playtests",
+      "image": null,
+      "accent": "#A16207",
+      "desc_en": "A pirate treasure-hunting adventure listed in the player.gg catalog — playtest sign-ups are open.",
+      "desc_de": "Ein Piraten-Abenteuer rund um eine Schatzsuche aus dem player.gg-Katalog – die Playtest-Anmeldung ist offen.",
+      "tags": [
+        "Adventure",
+        "Pirates"
+      ]
+    },
+    {
+      "deadline": null,
+      "desc_de": "Frozenbytes Koop-Puzzle-Abenteuer kehrt zurück: Der zweite private Playtest lief vom 27. Oktober bis 2. November 2026, die FirstLook-Seite bleibt für kommende Runden live.",
+      "desc_en": "Frozenbyte's co-op puzzle adventure returns: the second private playtest ran October 27 to November 2, 2026, and the FirstLook page stays live for upcoming rounds.",
       "id": "trine-6-together-in-time",
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2932260/dc0f3dfe24ec2e83b5cf40680c29bc5034798534/header.jpg",
       "platform": "FirstLook",
@@ -747,6 +1118,23 @@
       "title": "Trine 6: Together in Time",
       "url": "https://player.gg/publications/player-gg/posts/sign-up-for-these-playtests-including-scp-5k",
       "accent": "#8B5CF6"
+    },
+    {
+      "id": "two-and-two-agents",
+      "title": "Two & Two: Agents",
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "deadline": null,
+      "url": "https://player.gg/playtests",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5165930/a1472cf1fcd27f8fbe2e8f6f264d4af18b01adc9/header.jpg?t=1793863712",
+      "accent": "#0891B2",
+      "desc_en": "Two secret agents, one mysterious experiment: communicate, exchange clues and solve cooperative puzzles together. Playtest sign-ups via player.gg.",
+      "desc_de": "Zwei Geheimagenten, ein mysteriöses Experiment: Kommunizieren, Hinweise tauschen und kooperative Rätsel lösen. Playtest-Anmeldung über player.gg.",
+      "tags": [
+        "Co-op",
+        "Puzzle",
+        "Adventure"
+      ]
     },
     {
       "deadline": null,
@@ -764,6 +1152,23 @@
       "title": "Ubisoft — The Player Council",
       "url": "https://playercouncil.gg",
       "accent": "#7C5CFC"
+    },
+    {
+      "id": "volt-survivors",
+      "title": "V.O.L.T. Survivors",
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "deadline": null,
+      "url": "https://player.gg/playtests",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4934810/ff4b2657e29d156d4303152e88ef0529e51e254d/header.jpg?t=1793637369",
+      "accent": "#00E5FF",
+      "desc_en": "Stop a galaxy-wide infestation: deploy as a V.O.L.T. operator and combine game-breaking attachments into screen-clearing builds. Playtest sign-ups via player.gg.",
+      "desc_de": "Stoppe eine galaxieweite Infestation: Als V.O.L.T.-Operator kombinierst du absurde Aufsätze zu bildschirmleerenden Builds. Playtest-Anmeldung über player.gg.",
+      "tags": [
+        "Survivors",
+        "Action",
+        "Sci-fi"
+      ]
     },
     {
       "id": "valve-playtest-signups",
@@ -885,8 +1290,8 @@
     },
     {
       "deadline": null,
-      "desc_de": "Die geschlossene Alpha des unangekündigten Bagger-Simulators ist abgeschlossen. Die Abschluss-Umfrage war der letzte Schritt für Tester.",
-      "desc_en": "The closed alpha of the unannounced digging simulator has wrapped up. The closing survey was the final step for testers.",
+      "desc_de": "Wired Productions' unangekündigtes DIG-SIMULATOR-Projekt: Der geschlossene Test ist beendet, das Spiel wird im FirstLook-Katalog nicht mehr gelistet.",
+      "desc_en": "Wired Productions' unannounced DIG SIMULATOR project: the closed test has ended and the game is no longer listed in the FirstLook catalog.",
       "id": "project-scoop",
       "image": null,
       "platform": "FirstLook",
