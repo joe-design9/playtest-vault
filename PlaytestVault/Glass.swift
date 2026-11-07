@@ -284,25 +284,38 @@ struct RemoteImage: View {
     @State private var loaded: UIImage?
 
     var body: some View {
-        Group {
-            if let loaded {
-                Image(uiImage: loaded)
-                    .resizable()
-                    .scaledToFill()
-            } else {
-                Color.clear
+        // The reported size is ALWAYS the proposed size (a clear
+        // color), never the image's own. A resizable scaledToFill
+        // image reports its fill size instead: whenever the image
+        // is wider than the target frame, the reported width
+        // exceeds the proposal (the 460x153 Gang of Frogs banner
+        // in a 378x190 cover reports 571 pt). Flexible frames and
+        // stacks adopt that overflow, so inside a vertical
+        // ScrollView one wide cover widens the ENTIRE content,
+        // which the ScrollView then centers — clipping the search
+        // field, hero, section headers and cards on both sides.
+        // Rendering the image as a clipped overlay on a clear base
+        // keeps the exact same fill / center-crop pixels while
+        // making a size leak structurally impossible.
+        Color.clear
+            .overlay {
+                if let loaded {
+                    Image(uiImage: loaded)
+                        .resizable()
+                        .scaledToFill()
+                }
             }
-        }
-        .task(id: url) {
-            if let cached = RemoteImageCache.shared.image(for: url) {
-                loaded = cached
-                return
+            .clipped()
+            .task(id: url) {
+                if let cached = RemoteImageCache.shared.image(for: url) {
+                    loaded = cached
+                    return
+                }
+                guard let data = try? await HTTP.get(url),
+                      let decoded = UIImage(data: data) else { return }
+                RemoteImageCache.shared.store(decoded, for: url)
+                loaded = decoded
             }
-            guard let data = try? await HTTP.get(url),
-                  let decoded = UIImage(data: data) else { return }
-            RemoteImageCache.shared.store(decoded, for: url)
-            loaded = decoded
-        }
     }
 }
 
@@ -315,18 +328,19 @@ struct CoverImage: View {
     var accent: Color? = nil
 
     var body: some View {
-        ZStack {
-            CoverArt(title: title, height: height, accent: accent)
-            if let url {
-                RemoteImage(url: url)
-                    .frame(maxWidth: .infinity)
-                    .frame(height: height)
-                    .clipped()
+        // The fallback art is the sizing base and the remote image
+        // is an overlay on top of it: an overlay never enlarges
+        // its base, so a cover can never widen the surrounding
+        // layout (see RemoteImage for the fill-size leak).
+        CoverArt(title: title, height: height, accent: accent)
+            .overlay {
+                if let url {
+                    RemoteImage(url: url)
+                }
             }
-        }
-        .frame(maxWidth: .infinity)
-        .frame(height: height)
-        .clipped()
+            .frame(maxWidth: .infinity)
+            .frame(height: height)
+            .clipped()
     }
 }
 
