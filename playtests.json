@@ -341,6 +341,23 @@
       "url": "https://store.steampowered.com/app/2686570/"
     },
     {
+      "accent": "#D9A441",
+      "deadline": null,
+      "desc_de": "Free-to-Play-MMORPG in einer Welt der griechischen Mythologie (Olymp gegen die Titanen) von IndigoWare: Die offene Beta ist seit dem 6. November 2026 live – auf Steam und Android, mit Cross-Play auf denselben Servern. Alle Charaktere starten frisch, Fortschritt kann vor dem Release noch zurückgesetzt werden.",
+      "desc_en": "Free-to-play MMORPG set in Greek mythology (Olympus vs. the Titans) from IndigoWare: the open beta has been live since November 6, 2026 — on Steam and Android, with cross-play on the same servers. Every character starts fresh, and beta progress may still be reset before launch.",
+      "id": "legend-of-edda-pegasus-beta",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2241570/908b6d7f32e472571867ecd66df0300f251aba6a/header.jpg",
+      "platform": "Steam",
+      "status": "Live now",
+      "tags": [
+        "MMORPG",
+        "Open Beta",
+        "Free-to-Play"
+      ],
+      "title": "Legend of Edda: Pegasus — Open Beta",
+      "url": "https://store.steampowered.com/app/2241570/"
+    },
+    {
       "accent": "#FF7A00",
       "deadline": null,
       "desc_de": "Activisions Playtest-Programm für unveröffentlichte Spiele – allerdings als User Research vor Ort in Sherman Oaks, Kalifornien, nicht als Beta von zu Hause. Anmeldung ist für alle offen, eine Einladung erfolgt nach Auswahl.",
@@ -1222,7 +1239,7 @@
     },
     {
       "accent": "#B91C1C",
-      "deadline": null,
+      "deadline": "2026-11-30T22:59:00Z",
       "desc_de": "Die Closed Alpha 2 des Action-RPGs läuft vom 26. November (10:00 Uhr MEZ) bis 30. November 2026 (23:59 Uhr MEZ): Neuer Pistolen-Skill Havoc Orb, neue Shadow-Form-Mechanik Parasitic Shadows und ein Abschnitt von Akt I. Die Plätze sind begrenzt – Anmeldung über die Contributors-Seite von Wolcen Studio.",
       "desc_en": "Closed Alpha 2 of the action RPG runs from November 26 (10 AM CET) to November 30, 2026 (11:59 PM CET): the new pistol ability Havoc Orb, the new Shadow Form mechanic Parasitic Shadows and a section of Act I. Spots are limited — sign up via Wolcen Studio's contributors page.",
       "id": "wolcen-2-closed-alpha-2",
@@ -1307,8 +1324,8 @@
     {
       "accent": "#84CC16",
       "deadline": "2026-11-07T05:00:00Z",
-      "desc_de": "Physik-Partyspiel für 16 Spieler, in dem man seine Freunde frisst. Der Playtest läuft über FirstLook in zwei Sessions am 6. und 7. November 2026 – Anmeldung ist offen.",
-      "desc_en": "A 16-player online physics party game where you eat your friends. The playtest runs via FirstLook in two sessions on November 6 and 7, 2026 — sign-ups are open.",
+      "desc_de": "Physik-Partyspiel für 16 Spieler, in dem man seine Freunde frisst. Der Playtest lief über FirstLook in zwei Sessions am 6. und 7. November 2026 und ist beendet.",
+      "desc_en": "A 16-player online physics party game where you eat your friends. The playtest ran via FirstLook in two sessions on November 6 and 7, 2026 and has ended.",
       "id": "pecking-order",
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3530640/d8e6c67bd9ee189343f5d0585f001c39a0bcafb7/header.jpg",
       "platform": "FirstLook",
@@ -1322,5 +1339,5 @@
       "url": "https://pecking-order.firstlook.gg/"
     }
   ],
-  "updated": "2026-11-07T08:40:31Z"
+  "updated": "2026-11-08T08:49:20Z"
 }
