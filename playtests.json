@@ -121,7 +121,7 @@
     },
     {
       "accent": "#7DD3FC",
-      "deadline": null,
+      "deadline": "2026-11-16T23:59:00Z",
       "desc_de": "Reichhaltiger, entspannter Modellbau-Simulator: Kits bauen, posieren, bemalen und ausstellen, dazu ein ruhiger Soundtrack. Der Steam-Playtest läuft bis zum 16. November – Zugang auf der Store-Seite anfordern.",
       "desc_en": "A rich and relaxing model-building simulator: build, pose, paint and display your kits to a soothing soundtrack. The Steam playtest is live until November 16 — request access on the store page.",
       "id": "model-kit-studio-playtest",
@@ -356,6 +356,23 @@
       ],
       "title": "Legend of Edda: Pegasus — Open Beta",
       "url": "https://store.steampowered.com/app/2241570/"
+    },
+    {
+      "accent": "#A16207",
+      "deadline": null,
+      "desc_de": "Top-Down-PvE-Extraction-Shooter im verwüsteten Zakov: Die Closed Alpha ist live (erster Abschnitt mit fünf Quests, solo oder Koop). Keys gibt es nur über den offiziellen Discord – die Plätze sind begrenzt und der Test läuft nicht ewig; ein Enddatum wurde nicht genannt.",
+      "desc_en": "Top-down PvE extraction shooter set in ruined Zakov: the closed alpha is live (an opening section with five quests, solo or co-op). Keys are distributed only via the official Discord — slots are limited and the test won't stay up forever; no end date has been announced.",
+      "id": "zero-sievert-2-closed-alpha",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4210060/29513774a11dce37cd7e3144d73fea15505e05df/header.jpg",
+      "platform": "Steam",
+      "status": "Live now",
+      "tags": [
+        "Extraction Shooter",
+        "Closed Alpha",
+        "PvE"
+      ],
+      "title": "ZERO Sievert 2 — Closed Alpha",
+      "url": "https://store.steampowered.com/app/4210060/"
     },
     {
       "accent": "#FF7A00",
@@ -947,7 +964,7 @@
         "Arcade"
       ],
       "title": "RoboSquare: Recharged",
-      "url": "https://player.gg/publications/player-gg/posts/sign-up-for-these-playtests-including-scp-5k"
+      "url": "https://robosquare-recharged.firstlook.gg/"
     },
     {
       "accent": "#818CF8",
@@ -1271,6 +1288,23 @@
       "url": "https://support.xbox.com/en-US/help/games-apps/my-games-apps/xbox-insider-program"
     },
     {
+      "accent": "#14B8A6",
+      "deadline": null,
+      "desc_de": "Retro-Arcade-Zeitangriff, in dem du selbst die Rakete bist: starten, einschlagen, Route lernen, wiederholen. Die Registrierung für den geschlossenen Steam-Playtest ist offen, der Test startet noch im November 2026 (genauer Tag nicht genannt).",
+      "desc_en": "A retro arcade time-attack game where you are the missile: launch, strike, learn the route, repeat. Registration for the closed Steam playtest is open now, and the test begins in November 2026 (no exact day announced).",
+      "id": "strikemania",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5251980/e475b635849ed94e1766e67e0346410531072d6d/header.jpg",
+      "platform": "Steam",
+      "status": "Signups open",
+      "tags": [
+        "Arcade",
+        "Action",
+        "Closed Playtest"
+      ],
+      "title": "Strikemania — Closed Playtest",
+      "url": "https://store.steampowered.com/app/5251980/Strikemania/"
+    },
+    {
       "accent": "#A855F7",
       "deadline": null,
       "desc_de": "Valves wiederkehrendes Demo-Festival: Hunderte kostenlose Demos kommender Spiele sind pro Ausgabe eine Woche lang live. Die nächste Ausgabe läuft bestätigt vom 22. Februar bis 1. März 2027.",
@@ -1339,5 +1373,5 @@
       "url": "https://pecking-order.firstlook.gg/"
     }
   ],
-  "updated": "2026-11-08T08:49:20Z"
+  "updated": "2026-11-08T08:52:46Z"
 }
