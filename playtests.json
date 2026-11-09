@@ -52,6 +52,23 @@
       "url": "https://store.steampowered.com/app/4635290/"
     },
     {
+      "accent": "#A61C1C",
+      "deadline": null,
+      "desc_de": "Führe deine eigene mittelalterliche Inquisitions-Abtei von edyan.dev und Fulqrum Publishing: Verdächtige verhören, Alchemie brauen und Besessene exorzieren. Der Steam-Playtest ist seit dem 26. Oktober offen und umfasst das Eröffnungskapitel von Akt 1 – Zugang auf der Store-Seite anfordern, die Freischaltung erfolgt automatisch.",
+      "desc_en": "Run your own medieval inquisition abbey from edyan.dev and Fulqrum Publishing: interrogate suspects, practice alchemy and exorcise the possessed. The Steam playtest has been open since October 26 and covers the opening chapter of Act 1 — request access on the store page and you are added automatically.",
+      "id": "inquisitor-simulator",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4463840/2ae13d020ae39263798252ce11bd7e5bd92a1210/header_alt_assets_0.jpg",
+      "platform": "Steam",
+      "status": "Live now",
+      "tags": [
+        "RPG",
+        "Simulation",
+        "Management"
+      ],
+      "title": "Inquisitor Simulator",
+      "url": "https://store.steampowered.com/app/4463840/Inquisitor_Simulator/"
+    },
+    {
       "accent": "#43AA8B",
       "deadline": null,
       "desc_de": "3D-Fabrik-Automatisierung in einem Voxel-Asteroidengürtel: Energie nutzen, die Kardashev-Skala erklimmen und die Erde retten. Der Playtest läuft über player.gg.",
@@ -88,12 +105,12 @@
     {
       "accent": "#F06529",
       "deadline": null,
-      "desc_de": "Kompetitiver Action-Dungeon-Runner für vier Spieler in einer zersplitterten Welt kollidierender Dimensionen. Der erste öffentliche Playtest läuft vom 6. bis 8. November – Anmeldung über FirstLook.",
-      "desc_en": "Competitive four-player action dungeon runner in a shattered world where dimensions collide. The first public playtest runs November 6 to 8 — sign up via FirstLook.",
+      "desc_de": "Kompetitiver Action-Dungeon-Runner für vier Spieler in einer zersplitterten Welt kollidierender Dimensionen. Der erste öffentliche Playtest lief vom 6. bis 8. November 2026 und ist beendet.",
+      "desc_en": "Competitive four-player action dungeon runner in a shattered world where dimensions collide. The first public playtest ran November 6 to 8, 2026 and has ended.",
       "id": "marked-for-mayhem",
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2818700/ccd1e0fe4fb4845909469a0d1398d777bedba8ad/header.jpg?t=1790342104",
       "platform": "FirstLook",
-      "status": "Live now",
+      "status": "Ended",
       "tags": [
         "Action",
         "Dungeon",
@@ -105,12 +122,12 @@
     {
       "accent": "#FF6B35",
       "deadline": null,
-      "desc_de": "Öffentlicher Pre-Alpha-Playtest des Arcade-Mech-Simulators im Third-Person-Stil vom Zwei-Personen-Team Tech Guys: zwei voreingestellte Mechs, sieben Waffen und Trainingsmissionen in der Wüste. Läuft am 7. und 8. November 2026 auf Steam – Zugang auf der Store-Seite anfordern. Die Version ist bewusst eine frühe, grobe Skizze des Kern-Gameplays, noch ohne Hangar, Story und Soundeffekte.",
-      "desc_en": "Public pre-alpha playtest for Tech Guys' arcade-style third-person mech simulator, built by a two-person team: two preset mechs, seven weapons and training missions in the desert. Runs November 7–8, 2026 on Steam — request access on the store page. The build is deliberately an early 'rough sketch' of the core gameplay, with no hangar, story or sound effects yet.",
+      "desc_de": "Öffentlicher Pre-Alpha-Playtest des Arcade-Mech-Simulators im Third-Person-Stil vom Zwei-Personen-Team Tech Guys: zwei voreingestellte Mechs, sieben Waffen und Trainingsmissionen in der Wüste. Lief am 7. und 8. November 2026 auf Steam und ist beendet – mit rund 30-mal mehr Spielern als erwartet. Die Version ist bewusst eine frühe, grobe Skizze des Kern-Gameplays, noch ohne Hangar, Story und Soundeffekte.",
+      "desc_en": "Public pre-alpha playtest for Tech Guys' arcade-style third-person mech simulator, built by a two-person team: two preset mechs, seven weapons and training missions in the desert. Ran November 7–8, 2026 on Steam and has ended — it drew around 30 times the expected number of players. The build is deliberately an early 'rough sketch' of the core gameplay, with no hangar, story or sound effects yet.",
       "id": "mech-ops-2092",
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4307930/f2b910b8045ee20d8110236a076429dfc3629124/header.jpg",
       "platform": "Steam",
-      "status": "Live now",
+      "status": "Ended",
       "tags": [
         "Action",
         "Simulation",
@@ -241,12 +258,12 @@
     {
       "accent": "#FB923C",
       "deadline": "2026-11-08T22:59:00Z",
-      "desc_de": "Baue und automatisiere eine Mondkolonie, von der die Erde abhängt – Regolith abbauen, Drohnenfabriken betreiben, Kolonisten managen. Der offene Playtest zum Update 1.1 läuft auf Steam bis zum 8. November; Zugang auf der Store-Seite anfordern.",
-      "desc_en": "Build and automate a lunar colony that Earth depends on — mining regolith, running drone factories and managing colonists. The open playtest for update 1.1 is live on Steam until November 8; request access on the store page.",
+      "desc_de": "Baue und automatisiere eine Mondkolonie, von der die Erde abhängt – Regolith abbauen, Drohnenfabriken betreiben, Kolonisten managen. Der offene Playtest zum Update 1.1 lief auf Steam bis zum 8. November und ist beendet; Update 1.1 selbst ist inzwischen für alle Besitzer erschienen.",
+      "desc_en": "Build and automate a lunar colony that Earth depends on — mining regolith, running drone factories and managing colonists. The open playtest for update 1.1 ran on Steam until November 8 and has ended; update 1.1 itself is now out for everyone who owns the game.",
       "id": "the-crust-playtest",
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1465470/7458a8b466e5b906e4ddf1a13a0d0c0c6fb65d37/header_alt_assets_18.jpg?t=1791564122",
       "platform": "Steam",
-      "status": "Live now",
+      "status": "Ended",
       "tags": [
         "Simulation",
         "Strategy",
@@ -309,12 +326,12 @@
     {
       "accent": "#3F6212",
       "deadline": null,
-      "desc_de": "Koop-Survival-Horror für einen bis vier Spieler, in dem deine Stimme deine Freunde retten oder verraten kann. Private Playtest-Sessions am 6. und 7. November – Anmeldung über FirstLook.",
-      "desc_en": "One-to-four-player co-op survival horror where your voice can save your friends or give them all away. Private playtest sessions run November 6 and 7 — sign up via FirstLook.",
+      "desc_de": "Koop-Survival-Horror für einen bis vier Spieler, in dem deine Stimme deine Freunde retten oder verraten kann. Die privaten Sessions am 6. und 7. November sind vorbei, aber das Team lässt in den kommenden Monaten weitere private Playtests laufen – Anmeldung über FirstLook.",
+      "desc_en": "One-to-four-player co-op survival horror where your voice can save your friends or give them all away. The November 6 and 7 private sessions are over, but the team keeps running private playtests over the coming months — sign up via FirstLook to get in.",
       "id": "voidwood",
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3694420/1b48039aba4cafbf2c4bdce81a6db5006473fee0/header.jpg?t=1793381512",
       "platform": "FirstLook",
-      "status": "Live now",
+      "status": "Signups open",
       "tags": [
         "Horror",
         "Co-op",
@@ -1373,5 +1390,5 @@
       "url": "https://pecking-order.firstlook.gg/"
     }
   ],
-  "updated": "2026-11-08T08:52:46Z"
+  "updated": "2026-11-09T08:41:13Z"
 }
