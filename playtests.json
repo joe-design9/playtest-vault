@@ -54,12 +54,12 @@
     {
       "accent": "#6D28D9",
       "deadline": null,
-      "desc_de": "Führe das Bestattungshaus Good Mourning im Koop für zwei bis vier Spieler und bereite trauernden Familien einen würdevollen Abschied. Die aktuelle Playtest-Welle läuft auf Steam bis zum 9. November.",
-      "desc_en": "Manage the Good Mourning funeral home in two-to-four-player co-op and give grieving families a passionate send-off. The current playtest wave runs on Steam until November 9.",
+      "desc_de": "Führe das Bestattungshaus Good Mourning im Koop für zwei bis vier Spieler und bereite trauernden Familien einen würdevollen Abschied. Die Playtest-Welle auf Steam lief bis zum 9. November und ist beendet.",
+      "desc_en": "Manage the Good Mourning funeral home in two-to-four-player co-op and give grieving families a passionate send-off. The Steam playtest wave ran until November 9 and has ended.",
       "id": "grave-mistakes-playtest",
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4635290/030756c1074184aec7df1c2b35e1e7bb8bc5c550/header.jpg?t=1793717702",
       "platform": "Steam",
-      "status": "Live now",
+      "status": "Ended",
       "tags": [
         "Co-op",
         "Simulation",
@@ -173,12 +173,12 @@
     {
       "accent": "#6366F1",
       "deadline": null,
-      "desc_de": "Ein Lo-fi-Einkaufszentrum mit großen Problemen: Kreaturen in den Gängen, und die Leitung erwartet trotzdem, dass du wischst. Der Playtest läuft vom 6. bis 9. November über player.gg.",
-      "desc_en": "A lo-fi mall with high-key problems: foul creatures roam the halls and management still expects you to mop. The playtest runs November 6 to 9 via player.gg.",
+      "desc_de": "Ein Lo-fi-Einkaufszentrum mit großen Problemen: Kreaturen in den Gängen, und die Leitung erwartet trotzdem, dass du wischst. Der Playtest lief vom 6. bis 9. November über player.gg und ist beendet.",
+      "desc_en": "A lo-fi mall with high-key problems: foul creatures roam the halls and management still expects you to mop. The playtest ran November 6 to 9 via player.gg and has ended.",
       "id": "night-crew",
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3582690/6aebc31ea83ab1822c471a3ecb7653ee410ddf84/header.jpg?t=1792723802",
       "platform": "FirstLook",
-      "status": "Live now",
+      "status": "Ended",
       "tags": [
         "Horror",
         "Co-op",
@@ -309,12 +309,12 @@
     {
       "accent": "#F43F5E",
       "deadline": null,
-      "desc_de": "Der erste öffentliche Playtest des Rhythmus-Action-Brawlers läuft kostenlos auf itch.io bis zum 9. November 2026 – Anmeldung und Download über FirstLook.",
-      "desc_en": "The first public playtest of this rhythm-action brawler runs free on itch.io until November 9, 2026 — sign-ups and the download run through FirstLook.",
+      "desc_de": "Der erste öffentliche Playtest des Rhythmus-Action-Brawlers lief kostenlos auf itch.io bis zum 9. November 2026 und ist beendet – Anmeldung und Download liefen über FirstLook.",
+      "desc_en": "The first public playtest of this rhythm-action brawler ran free on itch.io until November 9, 2026 and has ended — sign-ups and the download ran through FirstLook.",
       "id": "throb",
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4887550/4972bdfa63a6a65db11f61aab662eb0fd3c895aa/header.jpg",
       "platform": "FirstLook",
-      "status": "Live now",
+      "status": "Ended",
       "tags": [
         "Horror",
         "Platformer",
@@ -394,12 +394,12 @@
     {
       "accent": "#FF9F1C",
       "deadline": "2026-11-10T19:59:00Z",
-      "desc_de": "Action-Adventure-Plattformer über Waltz, eine reine Seele, und seinen Hund Jam in einem bunten Jenseits. Der Halloween-Playtest läuft auf Steam bis zum 10. November.",
-      "desc_en": "Single-player action-adventure platformer following Waltz, a pure soul, and Jam, his lovable dog, through a colorful afterlife. The Halloween playtest is live on Steam until November 10.",
+      "desc_de": "Action-Adventure-Plattformer über Waltz, eine reine Seele, und seinen Hund Jam in einem bunten Jenseits. Der Halloween-Playtest lief auf Steam bis zum 10. November und ist beendet.",
+      "desc_en": "Single-player action-adventure platformer following Waltz, a pure soul, and Jam, his lovable dog, through a colorful afterlife. The Halloween playtest ran on Steam until November 10 and has ended.",
       "id": "waltz-and-jam-halloween-playtest",
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2686570/17f3b8ef1bb3869c5cbf72c68ad196c1111a5055/header_alt_assets_0.jpg?t=1793680983",
       "platform": "Steam",
-      "status": "Live now",
+      "status": "Ended",
       "tags": [
         "Platformer",
         "Adventure",
@@ -1290,9 +1290,9 @@
     },
     {
       "accent": "#92400E",
-      "deadline": null,
-      "desc_de": "Überlebe allein oder mit Freunden in einer offenen Wild-West-Welt: Mit dem Wagen reisen, Siedlungen bauen, Feinde abwehren und ein Handelsnetz knüpfen. Der geschlossene Steam-Playtest startet am 10. November 2026 – die Anmeldung auf der Steam-Seite ist offen.",
-      "desc_en": "Survive a wild-west open world alone or with friends: travel the land with your wagon, build settlements, fend off foes and weave an economic network. The closed Steam playtest starts November 10, 2026 — sign-ups are open on the Steam page.",
+      "deadline": "2026-11-17T23:59:00Z",
+      "desc_de": "Überlebe allein oder mit Freunden in einer offenen Wild-West-Welt: Mit dem Wagen reisen, Siedlungen bauen, Feinde abwehren und ein Handelsnetz knüpfen. Der erste geschlossene Playtest (Breach Studios / Team17) läuft vom 10. bis 17. November 2026 auf Steam und Epic und umfasst die ersten 6–8 Stunden in zwei Biomen – Zugang über die Steam-Seite anfordern.",
+      "desc_en": "Survive a wild-west open world alone or with friends: travel the land with your wagon, build settlements, fend off foes and weave an economic network. The first closed playtest (Breach Studios / Team17) runs November 10–17, 2026 on Steam and Epic, covering the first 6–8 hours across two biomes — request access on the Steam page.",
       "id": "westlanders",
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3886530/d56a2d5a20b9be26082c5aceea020757eef920bd/header.jpg?t=1793809807",
       "platform": "Steam",
@@ -1456,7 +1456,58 @@
       ],
       "title": "Pecking Order",
       "url": "https://pecking-order.firstlook.gg/"
+    },
+    {
+      "id": "bodycam-dead-and-damned-playtest",
+      "title": "Bodycam — The Dead & Damned Playtest",
+      "platform": "Steam",
+      "status": "Live now",
+      "deadline": "2026-11-12T09:00:00Z",
+      "tags": [
+        "FPS",
+        "Zombies",
+        "Co-op"
+      ],
+      "desc_de": "Kostenloser 24-Stunden-Playtest zu Bodycam v0.9 'The Dead & Damned' (Reissad Studio): Der überarbeitete Zombies-Modus ist zurück – u. a. mit Zombie Trenches, Koop für vier Spieler und zwei neuen Waffen. Läuft nur vom 11. November, 09:00 UTC, bis 12. November 2026, 09:00 UTC – Zugang auf der Steam-Seite anfordern, die Plätze sind begrenzt.",
+      "desc_en": "Free 24-hour playtest for Bodycam v0.9 'The Dead & Damned' (Reissad Studio): the reworked Zombies mode is back — including Zombie Trenches, four-player co-op and two new weapons. Runs only from November 11, 09:00 UTC to November 12, 2026, 09:00 UTC — request access on the Steam page; places are limited.",
+      "url": "https://store.steampowered.com/app/2406770/Bodycam/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/36264077393918f3945447eed3d6374cdf21e69a/header.jpg",
+      "accent": "#B91C1C"
+    },
+    {
+      "id": "superbird-playtest",
+      "title": "SuperBird — Public Playtest",
+      "platform": "Steam",
+      "status": "Live now",
+      "deadline": "2026-11-24T03:00:00Z",
+      "tags": [
+        "Deckbuilder",
+        "Roguelike",
+        "Indie"
+      ],
+      "desc_de": "Erster öffentlicher Steam-Playtest des Roguelike-Deckbuilders von Will Cheng und OKJOY, in dem deine Karten lebende Käfer sind, die krabbeln, wachsen und sich gegenseitig fressen. Gestartet am 10. November 2026 um 03:00 UTC, läuft zwei Wochen und bietet rund 1–2 Stunden Spielzeit mit einer kompletten Arena und 27 Käfern.",
+      "desc_en": "First public Steam playtest for Will Cheng and OKJOY's roguelike deckbuilder, where your cards are living bugs that crawl, grow and devour one another. Started November 10, 2026 at 03:00 UTC and runs for two weeks, with about 1–2 hours of play, one complete arena and 27 bugs.",
+      "url": "https://store.steampowered.com/app/4189690/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4189690/966c29bf8fbab7fe2067ab580e7403127ae978ae/header.jpg",
+      "accent": "#0EA5E9"
+    },
+    {
+      "id": "death-falls-playtest",
+      "title": "Death Falls: Zombies Are Coming — Playtest",
+      "platform": "Steam",
+      "status": "Live now",
+      "deadline": null,
+      "tags": [
+        "Tower Defense",
+        "Zombies",
+        "Survival"
+      ],
+      "desc_de": "Kostenloser Steam-Playtest des Zombie-Tower-Defense-Spiels von MoonCrust Games, seit dem 10. November 2026 offen: Tagsüber Türme und Zäune bauen und Vorräte sammeln, nachts an der Seite deiner Verteidigungsanlagen gegen die Horde kämpfen. Spielbar sind die ersten beiden Stationen der Reise, der Pinewater-Campingplatz und die Last-Stop-Tankstelle.",
+      "desc_en": "Free Steam playtest for MoonCrust Games' zombie tower defense title, open since November 10, 2026: build towers and fences and scavenge by day, then fight beside your defenses when the horde closes in at night. The first two stops on the road are playable — the Pinewater forest campground and the Last Stop gas station.",
+      "url": "https://store.steampowered.com/app/5255090/Death_Falls_Zombies_Are_Coming/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5255090/07f075aaeba8d6961197bdb2b46eb055ddc70c87/header.jpg",
+      "accent": "#166534"
     }
   ],
-  "updated": "2026-11-10T10:19:47Z"
+  "updated": "2026-11-11T08:40:14Z"
 }
