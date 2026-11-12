@@ -18,21 +18,21 @@
       "url": "https://failosipher.itch.io/engines-of-hate"
     },
     {
+      "accent": "#65A30D",
+      "deadline": null,
+      "desc_de": "Nächster Playtest des prozeduralen Open-World-Survival-Craft-Spiels für 1–10 Spieler (Gameforge): Die Bewerbungen öffnen am 16. November 2026 über die Steam-Seite.",
+      "desc_en": "Next playtest of the procedural open-world survival-craft game for 1–10 players (Gameforge): applications open on November 16, 2026 via the Steam page.",
       "id": "under-a-rock-playtest",
-      "title": "Under a Rock — Playtest",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1667040/8796cc2b6fd723b428c33e85a26b46821debf675/header.jpg",
       "platform": "Steam",
       "status": "Coming soon",
-      "deadline": null,
       "tags": [
         "Survival",
         "Crafting",
         "Co-op"
       ],
-      "desc_de": "Nächster Playtest des prozeduralen Open-World-Survival-Craft-Spiels für 1–10 Spieler (Gameforge): Die Bewerbungen öffnen am 16. November 2026 über die Steam-Seite.",
-      "desc_en": "Next playtest of the procedural open-world survival-craft game for 1–10 players (Gameforge): applications open on November 16, 2026 via the Steam page.",
-      "url": "https://store.steampowered.com/app/1667040/",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1667040/8796cc2b6fd723b428c33e85a26b46821debf675/header.jpg",
-      "accent": "#65A30D"
+      "title": "Under a Rock — Playtest",
+      "url": "https://store.steampowered.com/app/1667040/"
     },
     {
       "accent": "#D97706",
@@ -341,38 +341,38 @@
       "url": "https://player.gg/playtests"
     },
     {
+      "accent": "#EA580C",
+      "deadline": "2026-11-22T23:59:00Z",
+      "desc_de": "Dritter kostenloser öffentlicher Playtest des Solo-/Koop-Roguelite-FPS (bis zu vier Spieler, über 45 Schusswaffen und Bögen): Neu ist Kapitel 2 'The Cursed Forest'. Läuft bis zum 22. November 2026 auf Steam und im Epic Games Store – Zugang auf der Steam-Seite anfordern.",
+      "desc_en": "Third free public playtest of the solo/co-op roguelite FPS (up to four players, 45+ guns and bows): new is Chapter 2 'The Cursed Forest'. Runs through November 22, 2026 on Steam and the Epic Games Store — request access on the Steam page.",
       "id": "guns-and-dragons-playtest",
-      "title": "Guns & Dragons — Playtest 3",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4687860/e683d4a1be5443ea6fa44feb1a16dfcb5c5d9c04/header.jpg",
       "platform": "Steam",
       "status": "Live now",
-      "deadline": "2026-11-22T23:59:00Z",
       "tags": [
         "FPS",
         "Roguelite",
         "Co-op"
       ],
-      "desc_de": "Dritter kostenloser öffentlicher Playtest des Solo-/Koop-Roguelite-FPS (bis zu vier Spieler, über 45 Schusswaffen und Bögen): Neu ist Kapitel 2 'The Cursed Forest'. Läuft bis zum 22. November 2026 auf Steam und im Epic Games Store – Zugang auf der Steam-Seite anfordern.",
-      "desc_en": "Third free public playtest of the solo/co-op roguelite FPS (up to four players, 45+ guns and bows): new is Chapter 2 'The Cursed Forest'. Runs through November 22, 2026 on Steam and the Epic Games Store — request access on the Steam page.",
-      "url": "https://store.steampowered.com/app/4687860/Guns_and_Dragons/",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4687860/e683d4a1be5443ea6fa44feb1a16dfcb5c5d9c04/header.jpg",
-      "accent": "#EA580C"
+      "title": "Guns & Dragons — Playtest 3",
+      "url": "https://store.steampowered.com/app/4687860/Guns_and_Dragons/"
     },
     {
+      "accent": "#8B5CF6",
+      "deadline": "2026-11-12T23:59:00Z",
+      "desc_de": "Steam-Playtest des narrativen Cosmic-Horror-Adventures rund um Ermittlungen und Gedanken-Eindringen auf der Insel Haidong (etwa eine Stunde Inhalt, Englisch/Chinesisch). Läuft bis zum 12. November 2026.",
+      "desc_en": "Steam playtest of the narrative cosmic horror adventure about investigation and mind-intrusion on Haidong Island (about one hour of content, in English and Chinese). Runs until November 12, 2026.",
       "id": "the-colour-beyond-playtest",
-      "title": "The Colour Beyond: A Zeroth Kind — Playtest",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4683290/af4e2a57153206b6a52183f98cd3210e5b0c6969/header.jpg",
       "platform": "Steam",
       "status": "Live now",
-      "deadline": "2026-11-12T23:59:00Z",
       "tags": [
         "Adventure",
         "Horror",
         "Mystery"
       ],
-      "desc_de": "Steam-Playtest des narrativen Cosmic-Horror-Adventures rund um Ermittlungen und Gedanken-Eindringen auf der Insel Haidong (etwa eine Stunde Inhalt, Englisch/Chinesisch). Läuft bis zum 12. November 2026.",
-      "desc_en": "Steam playtest of the narrative cosmic horror adventure about investigation and mind-intrusion on Haidong Island (about one hour of content, in English and Chinese). Runs until November 12, 2026.",
-      "url": "https://store.steampowered.com/app/4683290/",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4683290/af4e2a57153206b6a52183f98cd3210e5b0c6969/header.jpg",
-      "accent": "#8B5CF6"
+      "title": "The Colour Beyond: A Zeroth Kind — Playtest",
+      "url": "https://store.steampowered.com/app/4683290/"
     },
     {
       "accent": "#3F6212",
@@ -1373,21 +1373,21 @@
       "url": "https://store.steampowered.com/app/5251980/Strikemania/"
     },
     {
+      "accent": "#DB2777",
+      "deadline": "2026-11-13T14:59:00Z",
+      "desc_de": "Playtester gesucht für das Echtzeit-Strategiespiel in der Joseon-Dynastie in Tusche-Optik: 300 Tester werden ausgewählt. Anmeldung vom 3. bis 13. November 2026 (23:59 KST) über das Formular im Steam-Newsbeitrag; Ausgewählte erhalten am 14. November einen Steam-Key per E-Mail und testen bis zum Launch.",
+      "desc_en": "Playtester recruitment for the Joseon-dynasty real-time strategy game in ink-wash art: 300 testers will be selected. Sign-up runs November 3–13, 2026 (23:59 KST) via the form linked in the Steam news post; selected testers receive a Steam key by email on November 14 and test until launch.",
       "id": "azalea-playtest",
-      "title": "Azalea — Playtester Recruitment",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5151200/52bdf83816fa3d44805140185cafb590ddec5b6a/header.jpg",
       "platform": "Steam",
       "status": "Signups open",
-      "deadline": "2026-11-13T14:59:00Z",
       "tags": [
         "RTS",
         "Strategy",
         "Indie"
       ],
-      "desc_de": "Playtester gesucht für das Echtzeit-Strategiespiel in der Joseon-Dynastie in Tusche-Optik: 300 Tester werden ausgewählt. Anmeldung vom 3. bis 13. November 2026 (23:59 KST) über das Formular im Steam-Newsbeitrag; Ausgewählte erhalten am 14. November einen Steam-Key per E-Mail und testen bis zum Launch.",
-      "desc_en": "Playtester recruitment for the Joseon-dynasty real-time strategy game in ink-wash art: 300 testers will be selected. Sign-up runs November 3–13, 2026 (23:59 KST) via the form linked in the Steam news post; selected testers receive a Steam key by email on November 14 and test until launch.",
-      "url": "https://store.steampowered.com/app/5151200/",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5151200/52bdf83816fa3d44805140185cafb590ddec5b6a/header.jpg",
-      "accent": "#DB2777"
+      "title": "Azalea — Playtester Recruitment",
+      "url": "https://store.steampowered.com/app/5151200/"
     },
     {
       "accent": "#A855F7",
@@ -1458,56 +1458,90 @@
       "url": "https://pecking-order.firstlook.gg/"
     },
     {
-      "id": "bodycam-dead-and-damned-playtest",
-      "title": "Bodycam — The Dead & Damned Playtest",
-      "platform": "Steam",
-      "status": "Live now",
+      "accent": "#B91C1C",
       "deadline": "2026-11-12T09:00:00Z",
+      "desc_de": "Kostenloser 24-Stunden-Playtest zu Bodycam v0.9 'The Dead & Damned' (Reissad Studio): Der überarbeitete Zombies-Modus ist zurück – u. a. mit Zombie Trenches, Koop für vier Spieler und zwei neuen Waffen. Läuft nur vom 11. November, 09:00 UTC, bis 12. November 2026, 09:00 UTC – Zugang auf der Steam-Seite anfordern, die Plätze sind begrenzt.",
+      "desc_en": "Free 24-hour playtest for Bodycam v0.9 'The Dead & Damned' (Reissad Studio): the reworked Zombies mode is back — including Zombie Trenches, four-player co-op and two new weapons. Runs only from November 11, 09:00 UTC to November 12, 2026, 09:00 UTC — request access on the Steam page; places are limited.",
+      "id": "bodycam-dead-and-damned-playtest",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/36264077393918f3945447eed3d6374cdf21e69a/header.jpg",
+      "platform": "Steam",
+      "status": "Ended",
       "tags": [
         "FPS",
         "Zombies",
         "Co-op"
       ],
-      "desc_de": "Kostenloser 24-Stunden-Playtest zu Bodycam v0.9 'The Dead & Damned' (Reissad Studio): Der überarbeitete Zombies-Modus ist zurück – u. a. mit Zombie Trenches, Koop für vier Spieler und zwei neuen Waffen. Läuft nur vom 11. November, 09:00 UTC, bis 12. November 2026, 09:00 UTC – Zugang auf der Steam-Seite anfordern, die Plätze sind begrenzt.",
-      "desc_en": "Free 24-hour playtest for Bodycam v0.9 'The Dead & Damned' (Reissad Studio): the reworked Zombies mode is back — including Zombie Trenches, four-player co-op and two new weapons. Runs only from November 11, 09:00 UTC to November 12, 2026, 09:00 UTC — request access on the Steam page; places are limited.",
-      "url": "https://store.steampowered.com/app/2406770/Bodycam/",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2406770/36264077393918f3945447eed3d6374cdf21e69a/header.jpg",
-      "accent": "#B91C1C"
+      "title": "Bodycam — The Dead & Damned Playtest",
+      "url": "https://store.steampowered.com/app/2406770/Bodycam/"
     },
     {
+      "accent": "#0EA5E9",
+      "deadline": "2026-11-24T03:00:00Z",
+      "desc_de": "Erster öffentlicher Steam-Playtest des Roguelike-Deckbuilders von Will Cheng und OKJOY, in dem deine Karten lebende Käfer sind, die krabbeln, wachsen und sich gegenseitig fressen. Gestartet am 10. November 2026 um 03:00 UTC, läuft zwei Wochen und bietet rund 1–2 Stunden Spielzeit mit einer kompletten Arena und 27 Käfern.",
+      "desc_en": "First public Steam playtest for Will Cheng and OKJOY's roguelike deckbuilder, where your cards are living bugs that crawl, grow and devour one another. Started November 10, 2026 at 03:00 UTC and runs for two weeks, with about 1–2 hours of play, one complete arena and 27 bugs.",
       "id": "superbird-playtest",
-      "title": "SuperBird — Public Playtest",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4189690/966c29bf8fbab7fe2067ab580e7403127ae978ae/header.jpg",
       "platform": "Steam",
       "status": "Live now",
-      "deadline": "2026-11-24T03:00:00Z",
       "tags": [
         "Deckbuilder",
         "Roguelike",
         "Indie"
       ],
-      "desc_de": "Erster öffentlicher Steam-Playtest des Roguelike-Deckbuilders von Will Cheng und OKJOY, in dem deine Karten lebende Käfer sind, die krabbeln, wachsen und sich gegenseitig fressen. Gestartet am 10. November 2026 um 03:00 UTC, läuft zwei Wochen und bietet rund 1–2 Stunden Spielzeit mit einer kompletten Arena und 27 Käfern.",
-      "desc_en": "First public Steam playtest for Will Cheng and OKJOY's roguelike deckbuilder, where your cards are living bugs that crawl, grow and devour one another. Started November 10, 2026 at 03:00 UTC and runs for two weeks, with about 1–2 hours of play, one complete arena and 27 bugs.",
-      "url": "https://store.steampowered.com/app/4189690/",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4189690/966c29bf8fbab7fe2067ab580e7403127ae978ae/header.jpg",
-      "accent": "#0EA5E9"
+      "title": "SuperBird — Public Playtest",
+      "url": "https://store.steampowered.com/app/4189690/"
     },
     {
+      "accent": "#166534",
+      "deadline": null,
+      "desc_de": "Kostenloser Steam-Playtest des Zombie-Tower-Defense-Spiels von MoonCrust Games, seit dem 10. November 2026 offen: Tagsüber Türme und Zäune bauen und Vorräte sammeln, nachts an der Seite deiner Verteidigungsanlagen gegen die Horde kämpfen. Spielbar sind die ersten beiden Stationen der Reise, der Pinewater-Campingplatz und die Last-Stop-Tankstelle.",
+      "desc_en": "Free Steam playtest for MoonCrust Games' zombie tower defense title, open since November 10, 2026: build towers and fences and scavenge by day, then fight beside your defenses when the horde closes in at night. The first two stops on the road are playable — the Pinewater forest campground and the Last Stop gas station.",
       "id": "death-falls-playtest",
-      "title": "Death Falls: Zombies Are Coming — Playtest",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5255090/07f075aaeba8d6961197bdb2b46eb055ddc70c87/header.jpg",
       "platform": "Steam",
       "status": "Live now",
-      "deadline": null,
       "tags": [
         "Tower Defense",
         "Zombies",
         "Survival"
       ],
-      "desc_de": "Kostenloser Steam-Playtest des Zombie-Tower-Defense-Spiels von MoonCrust Games, seit dem 10. November 2026 offen: Tagsüber Türme und Zäune bauen und Vorräte sammeln, nachts an der Seite deiner Verteidigungsanlagen gegen die Horde kämpfen. Spielbar sind die ersten beiden Stationen der Reise, der Pinewater-Campingplatz und die Last-Stop-Tankstelle.",
-      "desc_en": "Free Steam playtest for MoonCrust Games' zombie tower defense title, open since November 10, 2026: build towers and fences and scavenge by day, then fight beside your defenses when the horde closes in at night. The first two stops on the road are playable — the Pinewater forest campground and the Last Stop gas station.",
-      "url": "https://store.steampowered.com/app/5255090/Death_Falls_Zombies_Are_Coming/",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5255090/07f075aaeba8d6961197bdb2b46eb055ddc70c87/header.jpg",
-      "accent": "#166534"
+      "title": "Death Falls: Zombies Are Coming — Playtest",
+      "url": "https://store.steampowered.com/app/5255090/Death_Falls_Zombies_Are_Coming/"
+    },
+    {
+      "accent": "#CA8A04",
+      "deadline": "2026-11-18T18:00:00Z",
+      "desc_de": "Alpha 5 des Open-World-Multiplayer-Survival-FPS im Goldrausch-Kalifornien (Kintsugiyama, das Studio von Jeff Kaplan): Läuft vom 12. November, 18:00 UTC, bis 18. November 2026, 18:00 UTC – neu sind u. a. die Apex Oil Works, das Depot und der Doomsday Bunker als Endgame-Inhalt. Frühere Alpha-Spieler sind automatisch dabei, neue Spieler fordern den Zugang auf der Steam-Seite an (Plätze begrenzt).",
+      "desc_en": "Alpha 5 of the open-world multiplayer survival FPS set in Gold Rush-era California (Kintsugiyama, Jeff Kaplan's studio): runs from November 12, 18:00 UTC to November 18, 2026, 18:00 UTC — new content includes the Apex Oil Works and Depot strongholds and the Doomsday Bunker endgame. Previous alpha players are in automatically; new players request access on the Steam page (places are limited).",
+      "id": "legend-of-california-alpha-5",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2550530/f696bb757fa0d384eeb2e828b03e4ca199d65ab4/header.jpg",
+      "platform": "Steam",
+      "status": "Signups open",
+      "tags": [
+        "Survival",
+        "FPS",
+        "Open World"
+      ],
+      "title": "The Legend of California — Alpha 5 Playtest",
+      "url": "https://store.steampowered.com/app/2550530/"
+    },
+    {
+      "accent": "#EA580C",
+      "deadline": null,
+      "desc_de": "Globaler Steam-Playtest von Nexons Dark-Fantasy-MMORPG mit isometrischem Kampf: sechs Regionen, Hauptstory und vier Klassen (Stormbringer, Executioner, Spectral Blade und der neue Nightstalker). Der Test läuft vom 4. bis 11. Dezember 2026 – Zugang ab sofort auf der Steam-Seite anfordern.",
+      "desc_en": "Global Steam playtest for Nexon's dark-fantasy MMORPG with isometric combat: six regions, the main storyline and four classes (Stormbringer, Executioner, Spectral Blade and the new Nightstalker). The test runs December 4–11, 2026 — request access now on the Steam page.",
+      "id": "embers-of-the-uncrowned-playtest",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3767660/8c5fad0d08549a092cafff22db71dbbb40429a02/header_alt_assets_1.jpg",
+      "platform": "Steam",
+      "status": "Signups open",
+      "tags": [
+        "MMORPG",
+        "RPG",
+        "Dark Fantasy"
+      ],
+      "title": "Embers of the Uncrowned — Global Steam Playtest",
+      "url": "https://store.steampowered.com/app/3767660/Embers_of_the_Uncrowned/"
     }
   ],
-  "updated": "2026-11-11T08:40:14Z"
+  "updated": "2026-11-12T12:12:36Z"
 }
