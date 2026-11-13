@@ -365,7 +365,7 @@
       "id": "the-colour-beyond-playtest",
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4683290/af4e2a57153206b6a52183f98cd3210e5b0c6969/header.jpg",
       "platform": "Steam",
-      "status": "Live now",
+      "status": "Ended",
       "tags": [
         "Adventure",
         "Horror",
@@ -1161,7 +1161,7 @@
       "id": "time-takers-playtest-2",
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3596040/6eff7f70da4c93fa253baa4fc518e5bd064557be/header.jpg",
       "platform": "Steam",
-      "status": "Signups open",
+      "status": "Live now",
       "tags": [
         "Shooter",
         "Free-to-Play",
@@ -1516,7 +1516,7 @@
       "id": "legend-of-california-alpha-5",
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2550530/f696bb757fa0d384eeb2e828b03e4ca199d65ab4/header.jpg",
       "platform": "Steam",
-      "status": "Signups open",
+      "status": "Live now",
       "tags": [
         "Survival",
         "FPS",
@@ -1541,7 +1541,24 @@
       ],
       "title": "Embers of the Uncrowned — Global Steam Playtest",
       "url": "https://store.steampowered.com/app/3767660/Embers_of_the_Uncrowned/"
+    },
+    {
+      "id": "cinder-city-alpha-playtest",
+      "title": "CINDER CITY — Alpha Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": "2026-12-01T07:59:00Z",
+      "tags": [
+        "Shooter",
+        "Open World",
+        "Sci-Fi"
+      ],
+      "desc_de": "Alpha-Playtest von NCs (NCSOFT) kinoreifem Open-World-Third-Person-Shooter im zerstörten Seoul der nahen Zukunft (BigFire Games): Anmeldung vom 12. bis 30. November 2026 (PST), Test läuft vom 4. bis 6. Dezember 2026 (PST) auf PC/Steam. Ab 18 Jahren, unter NDA. Spieler in Deutschland, USA, Kanada, UK und Frankreich melden sich über FirstLook an, Spieler in Südkorea, Taiwan und Japan direkt über Steam.",
+      "desc_en": "Alpha playtest for NC's (NCSOFT) cinematic open-world third-person shooter set in a fallen near-future Seoul (BigFire Games): sign-ups run November 12–30, 2026 (PST), with the test itself on December 4–6, 2026 (PST) on PC/Steam. Ages 18+, under NDA. Players in Germany, the US, Canada, the UK and France sign up via FirstLook, while players in South Korea, Taiwan and Japan sign up directly via Steam.",
+      "url": "https://store.steampowered.com/app/4651830/CINDER_CITY/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4651830/0890d231798f7b24a48c10372187beed241af7f2/header.jpg",
+      "accent": "#E85D26"
     }
   ],
-  "updated": "2026-11-12T12:12:36Z"
+  "updated": "2026-11-13T11:59:06Z"
 }
