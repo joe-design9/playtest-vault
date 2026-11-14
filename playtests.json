@@ -615,12 +615,12 @@
     {
       "accent": "#22C55E",
       "deadline": null,
-      "desc_de": "Neue Playtest-Runde des Koop-Shooters von Aska Studios: große Systemänderungen und neue Gameplay-Inhalte. Der Playtest startet am 12. November 2026, die Anmeldung über FirstLook ist offen.",
-      "desc_en": "A new playtest round for Aska Studios' co-op shooter, with big system changes and new gameplay content. The playtest starts November 12, 2026 — sign-ups are open via FirstLook.",
+      "desc_de": "Neue Playtest-Runde des Koop-Shooters von Aska Studios: große Systemänderungen und neue Gameplay-Inhalte. Der Playtest ist seit dem 12. November 2026 live, die Anmeldung läuft über FirstLook.",
+      "desc_en": "A new playtest round for Aska Studios' co-op shooter, with big system changes and new gameplay content. The playtest has been live since November 12, 2026 — sign-ups run via FirstLook.",
       "id": "gang-of-frogs",
       "image": "https://gang-of-frogs.firstlook.gg/api/assets/header",
       "platform": "FirstLook",
-      "status": "Signups open",
+      "status": "Live now",
       "tags": [
         "Co-op",
         "Shooter"
@@ -1374,13 +1374,13 @@
     },
     {
       "accent": "#DB2777",
-      "deadline": "2026-11-13T14:59:00Z",
-      "desc_de": "Playtester gesucht für das Echtzeit-Strategiespiel in der Joseon-Dynastie in Tusche-Optik: 300 Tester werden ausgewählt. Anmeldung vom 3. bis 13. November 2026 (23:59 KST) über das Formular im Steam-Newsbeitrag; Ausgewählte erhalten am 14. November einen Steam-Key per E-Mail und testen bis zum Launch.",
-      "desc_en": "Playtester recruitment for the Joseon-dynasty real-time strategy game in ink-wash art: 300 testers will be selected. Sign-up runs November 3–13, 2026 (23:59 KST) via the form linked in the Steam news post; selected testers receive a Steam key by email on November 14 and test until launch.",
+      "deadline": null,
+      "desc_de": "Playtester-Rekrutierung für das Echtzeit-Strategiespiel in der Joseon-Dynastie in Tusche-Optik ist beendet: Die Anmeldung lief bis 13. November 2026 (23:59 KST), die 300 Ausgewählten erhalten am 14. November einen Steam-Key per E-Mail und testen bis zum Launch.",
+      "desc_en": "Playtester recruitment for the Joseon-dynasty real-time strategy game in ink-wash art has closed: sign-up ran until November 13, 2026 (23:59 KST), the 300 selected testers receive a Steam key by email on November 14 and test until launch.",
       "id": "azalea-playtest",
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5151200/52bdf83816fa3d44805140185cafb590ddec5b6a/header.jpg",
       "platform": "Steam",
-      "status": "Signups open",
+      "status": "Live now",
       "tags": [
         "RTS",
         "Strategy",
@@ -1543,22 +1543,106 @@
       "url": "https://store.steampowered.com/app/3767660/Embers_of_the_Uncrowned/"
     },
     {
+      "accent": "#E85D26",
+      "deadline": "2026-12-01T07:59:00Z",
+      "desc_de": "Alpha-Playtest von NCs (NCSOFT) kinoreifem Open-World-Third-Person-Shooter im zerstörten Seoul der nahen Zukunft (BigFire Games): Anmeldung vom 12. bis 30. November 2026 (PST), Test läuft vom 4. bis 6. Dezember 2026 (PST) auf PC/Steam. Ab 18 Jahren, unter NDA. Spieler in Deutschland, USA, Kanada, UK und Frankreich melden sich über FirstLook an, Spieler in Südkorea, Taiwan und Japan direkt über Steam.",
+      "desc_en": "Alpha playtest for NC's (NCSOFT) cinematic open-world third-person shooter set in a fallen near-future Seoul (BigFire Games): sign-ups run November 12–30, 2026 (PST), with the test itself on December 4–6, 2026 (PST) on PC/Steam. Ages 18+, under NDA. Players in Germany, the US, Canada, the UK and France sign up via FirstLook, while players in South Korea, Taiwan and Japan sign up directly via Steam.",
       "id": "cinder-city-alpha-playtest",
-      "title": "CINDER CITY — Alpha Playtest",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4651830/0890d231798f7b24a48c10372187beed241af7f2/header.jpg",
       "platform": "Steam",
       "status": "Signups open",
-      "deadline": "2026-12-01T07:59:00Z",
       "tags": [
         "Shooter",
         "Open World",
         "Sci-Fi"
       ],
-      "desc_de": "Alpha-Playtest von NCs (NCSOFT) kinoreifem Open-World-Third-Person-Shooter im zerstörten Seoul der nahen Zukunft (BigFire Games): Anmeldung vom 12. bis 30. November 2026 (PST), Test läuft vom 4. bis 6. Dezember 2026 (PST) auf PC/Steam. Ab 18 Jahren, unter NDA. Spieler in Deutschland, USA, Kanada, UK und Frankreich melden sich über FirstLook an, Spieler in Südkorea, Taiwan und Japan direkt über Steam.",
-      "desc_en": "Alpha playtest for NC's (NCSOFT) cinematic open-world third-person shooter set in a fallen near-future Seoul (BigFire Games): sign-ups run November 12–30, 2026 (PST), with the test itself on December 4–6, 2026 (PST) on PC/Steam. Ages 18+, under NDA. Players in Germany, the US, Canada, the UK and France sign up via FirstLook, while players in South Korea, Taiwan and Japan sign up directly via Steam.",
-      "url": "https://store.steampowered.com/app/4651830/CINDER_CITY/",
-      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4651830/0890d231798f7b24a48c10372187beed241af7f2/header.jpg",
-      "accent": "#E85D26"
+      "title": "CINDER CITY — Alpha Playtest",
+      "url": "https://store.steampowered.com/app/4651830/CINDER_CITY/"
+    },
+    {
+      "accent": "#84CC16",
+      "deadline": "2026-11-19T01:59:00Z",
+      "desc_de": "Geschlossene Beta des 3-Spieler-Koop-PvE-Shooters von Behaviour Interactive (Dead by Daylight) und Level Infinite: Als Kammerjäger-Team beseitigst du Alien-Befall auf dem Planeten Tian. Die Beta läuft vom 12. bis 18. November 2026 (PT) auf Steam – Zugang über die Steam-Seite oder: 15 Minuten einen teilnehmenden Twitch-Stream schauen gibt 3 Beta-Keys als Twitch Drop.",
+      "desc_en": "Closed beta for the 3-player co-op PvE shooter from Behaviour Interactive (Dead by Daylight) and Level Infinite: as an exterminator crew you clear alien infestations on planet Tian. The beta runs November 12–18, 2026 (PT) on Steam — request access on the Steam page, or watch a participating Twitch stream for 15 minutes to earn 3 beta keys as a Twitch Drop.",
+      "id": "exterminauts-beta",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4039200/0e30505cfcc40d2b2b5aa556ec66c22d4fb46c6f/header.jpg",
+      "platform": "Steam",
+      "status": "Live now",
+      "tags": [
+        "Co-op",
+        "Shooter",
+        "PvE"
+      ],
+      "title": "Exterminauts — Closed Beta",
+      "url": "https://store.steampowered.com/app/4039200/"
+    },
+    {
+      "accent": "#7C3AED",
+      "deadline": "2026-11-24T10:00:00Z",
+      "desc_de": "Limitierter Playtest des Dark-Fantasy-Runden-RPGs von Artifex Mundi: im Fokus steht der überarbeitete Hunting-Grounds-Modus. Offen für alle ohne Einladung auf Android (Google Play), iOS (TestFlight) und PC (eigener Launcher über die offizielle Website) – Server bleiben bis 24. November 2026, 10:00 UTC offen, Fortschritt wird danach gelöscht.",
+      "desc_en": "Limited playtest for Artifex Mundi's dark-fantasy turn-based RPG, focused on the reworked Hunting Grounds mode. Open to everyone with no invitation on Android (Google Play), iOS (TestFlight) and PC (own launcher via the official website) — servers stay open until November 24, 2026, 10:00 AM UTC, with all progress wiped afterwards.",
+      "id": "void-hunters-hunting-grounds-playtest",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4442750/cfa11bc0f61dc41350500fca6c34cab7477f312a/header.jpg",
+      "platform": "PC",
+      "status": "Live now",
+      "tags": [
+        "RPG",
+        "Turn-Based",
+        "Dark Fantasy"
+      ],
+      "title": "Void Hunters — Hunting Grounds Playtest",
+      "url": "https://voidhunters.com/"
+    },
+    {
+      "accent": "#DC2626",
+      "deadline": "2026-11-15T23:59:00Z",
+      "desc_de": "Offener Playtest des gemütlichen Weihnachts-Städtebauspiels ohne Scheitern: Baue dein verschneites Tal bis zum Titel Hamlet aus (bis 375 Einwohner). Der kostenlose Playtest läuft auf Steam bis zum 15. November – Zugang auf der Store-Seite anfordern, nur Windows. Playtest-Städte werden nicht ins Hauptspiel übernommen.",
+      "desc_en": "Open playtest for the cozy no-fail Christmas town builder: grow your snowy valley up to the Hamlet title (375 folk). The free playtest runs on Steam until November 15 — request access on the store page, Windows only. Playtest towns will not carry over to the full release.",
+      "id": "tinselwood-playtest",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5363180/05c303c1b66cbf264f8afdae2899f2f0213c3f6b/header.jpg",
+      "platform": "Steam",
+      "status": "Live now",
+      "tags": [
+        "Cozy",
+        "City Builder",
+        "Christmas"
+      ],
+      "title": "Tinselwood — Open Playtest",
+      "url": "https://store.steampowered.com/app/5363180/"
+    },
+    {
+      "accent": "#38BDF8",
+      "deadline": null,
+      "desc_de": "Kostenloser Beta-Test auf Steam: Start war am 9. November (JST), der Test läuft nur zwei Wochen. Jeder kann sich vorab per „Join the Playtest“ auf der Store-Seite anmelden.",
+      "desc_en": "Free beta test on Steam: it kicked off on November 9 (JST) and runs for two weeks only. Anyone can sign up in advance via “Join the Playtest” on the store page.",
+      "id": "rasterfall-beta",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5161780/33515ddbaf3752582347d4c2645d230741a5969e/header.jpg",
+      "platform": "Steam",
+      "status": "Live now",
+      "tags": [
+        "Indie",
+        "Beta"
+      ],
+      "title": "Rasterfall — Beta Test",
+      "url": "https://store.steampowered.com/app/5161780/"
+    },
+    {
+      "accent": "#991B1B",
+      "deadline": null,
+      "desc_de": "3D-Physik-Sandbox von Industrial Technology and Witchcraft (Berlin), Publisher Bonus Stage Publishing: Baue absurde Maschinen und teste sie an einer Ragdoll-Versuchsperson, die alles spürt. Am 11. November 2026 angekündigt – die Playtest-Anmeldung über „Request Access“ auf der Steam-Seite ist offen, der Playtest selbst startet später. Nur für Erwachsene.",
+      "desc_en": "3D physics sandbox from Industrial Technology and Witchcraft (Berlin), published by Bonus Stage Publishing: build absurd machines and test them on a ragdoll test subject who feels everything. Announced on November 11, 2026 — playtest sign-ups via “Request Access” on the Steam page are open, with the playtest itself opening later. Adults only.",
+      "id": "fleshbag-playtest",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4704120/10996940ee44f35f23a105cb79699a4ac21e2287/header.jpg",
+      "platform": "Steam",
+      "status": "Signups open",
+      "tags": [
+        "Sandbox",
+        "Physics",
+        "Indie"
+      ],
+      "title": "FLESHBAG — Playtest",
+      "url": "https://store.steampowered.com/app/4704120/FLESHBAG/"
     }
   ],
-  "updated": "2026-11-13T11:59:06Z"
+  "updated": "2026-11-14T08:39:56Z"
 }
