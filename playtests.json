@@ -1,6 +1,57 @@
 {
   "playtests": [
     {
+      "accent": "#6B7F3E",
+      "deadline": "2026-11-20T23:59:00Z",
+      "desc_de": "Steam-Playtest des postapokalyptischen Action-Adventures von Tactical Dogs: seit dem 13. November live und noch bis zum 20. November spielbar, der Zugang wird automatisch freigeschaltet. Die Version umfasst den Anfangsabschnitt und rund zwei Drittel des ersten Bioms – etwa 1,5 Stunden im überwucherten Land Tortura.",
+      "desc_en": "Steam playtest for Tactical Dogs' post-apocalyptic action-adventure: live since November 13 and running until November 20, with access granted automatically to everyone who joins. The build covers the opening section and roughly two-thirds of the first biome — about 1.5 hours in the overgrown land of Tortura.",
+      "id": "the-looter-playtest",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1163020/4068c2b778189ae73eb395963f9b569a1623c330/header_alt_assets_1.jpg",
+      "platform": "Steam",
+      "status": "Live now",
+      "tags": [
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
+      "title": "The Looter — Playtest",
+      "url": "https://store.steampowered.com/app/1163020/The_Looter/"
+    },
+    {
+      "accent": "#C2410C",
+      "deadline": null,
+      "desc_de": "Isometrischer Action-Horror-Shooter von Airship Syndicate (Darksiders Genesis, Wayfinder) an Bord der orbitalen Gefängnisplattform Limbo-6: Der PC-Playtest startete am 13. November 2026 und läuft in die folgende Woche hinein. Die Registrierung läuft über E-Mail, Discord oder Steam – wer die Community-Quests bis 300 XP abschließt, ist garantiert dabei.",
+      "desc_en": "Isometric action-horror shooter from Airship Syndicate (Darksiders Genesis, Wayfinder) aboard the orbital prison platform Limbo-6: the PC playtest kicked off on November 13, 2026 and runs into the following week. Registration is open via email, Discord or Steam — completing the community quests to 300 XP guarantees entry.",
+      "id": "dust-origins-playtest",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3804800/3d87a236e64b7a95d5fb4d7fa9515bfa6bcb56ba/header.jpg",
+      "platform": "Steam",
+      "status": "Live now",
+      "tags": [
+        "Action",
+        "Horror",
+        "Shooter"
+      ],
+      "title": "DUST: Origins — Playtest",
+      "url": "https://store.steampowered.com/app/3804800/"
+    },
+    {
+      "accent": "#7F1D1D",
+      "deadline": "2026-11-29T23:59:00Z",
+      "desc_de": "Letzte offene Beta des Multiplayer-Extraction-RPGs von GOOD FUN CORP (den ursprünglichen Hell-Let-Loose-Machern) im seuchenverwüsteten Europa der Napoleonzeit: Die Beta läuft vom 27. bis 29. November 2026 und steht allen offen, die auf der Steam-Seite Zugang anfordern – kurz vor dem Early-Access-Start am 3. Dezember.",
+      "desc_en": "Final open beta for GOOD FUN CORP's multiplayer extraction RPG (from the original Hell Let Loose creators), set in plague-ravaged Napoleonic Europe: the beta runs November 27–29, 2026 and is open to everyone who requests access on the Steam page, just ahead of the Early Access launch on December 3.",
+      "id": "hunger-open-beta",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1752080/header.jpg",
+      "platform": "Steam",
+      "status": "Signups open",
+      "tags": [
+        "Extraction",
+        "RPG",
+        "Shooter"
+      ],
+      "title": "HUNGER — Open Beta",
+      "url": "https://store.steampowered.com/app/1752080/HUNGER/"
+    },
+    {
       "accent": "#EF4444",
       "deadline": null,
       "desc_de": "Isometrisches Echtzeit-Taktikspiel: Als Operator einer Weltraum-Söldnertruppe nimmst du Aufträge in einer feindlichen Galaxis an. Der Steam-Playtest ist offen – Zugang auf der Store-Seite anfordern und sofort losspielen.",
@@ -292,12 +343,12 @@
     {
       "accent": "#9D174D",
       "deadline": null,
-      "desc_de": "Ein Märchen, in dem Poker die Prinzessin rettet: Dämonen besiegen, einen Verehrer abwehren und ein Schloss aus lebenden Karten bauen. Der Playtest läuft bis zum 13. November über player.gg.",
-      "desc_en": "A fairy tale where poker saves the princess: beat demons, fend off an unwanted suitor and build a castle of living cards. The playtest runs until November 13 via player.gg.",
+      "desc_de": "Ein Märchen, in dem Poker die Prinzessin rettet: Dämonen besiegen, einen Verehrer abwehren und ein Schloss aus lebenden Karten bauen. Der Playtest lief bis zum 13. November über player.gg und ist beendet.",
+      "desc_en": "A fairy tale where poker saves the princess: beat demons, fend off an unwanted suitor and build a castle of living cards. The playtest ran until November 13 via player.gg and has ended.",
       "id": "the-demon-wants-to-marry",
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5240940/68a1958777d712dd987e5f92aef86c5fb1016f6f/header.jpg?t=1793528162",
       "platform": "FirstLook",
-      "status": "Live now",
+      "status": "Ended",
       "tags": [
         "Card Game",
         "Fairy Tale",
@@ -1644,5 +1695,5 @@
       "url": "https://store.steampowered.com/app/4704120/FLESHBAG/"
     }
   ],
-  "updated": "2026-11-14T08:39:56Z"
+  "updated": "2026-11-15T08:38:47Z"
 }
