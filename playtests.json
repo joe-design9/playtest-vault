@@ -71,12 +71,12 @@
     {
       "accent": "#65A30D",
       "deadline": null,
-      "desc_de": "Nächster Playtest des prozeduralen Open-World-Survival-Craft-Spiels für 1–10 Spieler (Gameforge): Die Bewerbungen öffnen am 16. November 2026 über die Steam-Seite.",
-      "desc_en": "Next playtest of the procedural open-world survival-craft game for 1–10 players (Gameforge): applications open on November 16, 2026 via the Steam page.",
+      "desc_de": "Nächster Playtest des prozeduralen Open-World-Survival-Craft-Spiels für 1–10 Spieler (Gameforge): Die Bewerbungen sind seit dem 16. November 2026 über die Steam-Seite geöffnet – Zugang dort anfordern.",
+      "desc_en": "Next playtest of the procedural open-world survival-craft game for 1–10 players (Gameforge): applications opened on November 16, 2026 via the Steam page — request access on the store page.",
       "id": "under-a-rock-playtest",
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1667040/8796cc2b6fd723b428c33e85a26b46821debf675/header.jpg",
       "platform": "Steam",
-      "status": "Coming soon",
+      "status": "Signups open",
       "tags": [
         "Survival",
         "Crafting",
@@ -1207,12 +1207,12 @@
     {
       "accent": "#4A90C2",
       "deadline": "2026-11-15T23:00:00Z",
-      "desc_de": "Zweiter Steam-Playtest von NCs Free-to-Play-Team-Survival-Shooter (vier Dreier-Squads, das letzte Team steht): Läuft vom 12. November, 23:00 UTC, bis 15. November 2026, 23:00 UTC – mit überarbeitetem Kampfgefühl, neuem Matchmaking und täglichen Login-Belohnungen. Zugang einfach auf der Steam-Seite anfordern.",
-      "desc_en": "Second Steam playtest for NC's free-to-play team survival shooter (four squads of three, last team standing): runs from November 12, 23:00 UTC to November 15, 2026, 23:00 UTC — with reworked combat, a revamped matchmaking system and daily login rewards. Just request access on the Steam page.",
+      "desc_de": "Zweiter Steam-Playtest von NCs Free-to-Play-Team-Survival-Shooter (vier Dreier-Squads, das letzte Team steht): Lief vom 12. November, 23:00 UTC, bis 15. November 2026, 23:00 UTC – mit überarbeitetem Kampfgefühl, neuem Matchmaking und täglichen Login-Belohnungen. Der Test ist inzwischen beendet.",
+      "desc_en": "Second Steam playtest for NC's free-to-play team survival shooter (four squads of three, last team standing): ran from November 12, 23:00 UTC to November 15, 2026, 23:00 UTC — with reworked combat, a revamped matchmaking system and daily login rewards. It has now ended.",
       "id": "time-takers-playtest-2",
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3596040/6eff7f70da4c93fa253baa4fc518e5bd064557be/header.jpg",
       "platform": "Steam",
-      "status": "Live now",
+      "status": "Ended",
       "tags": [
         "Shooter",
         "Free-to-Play",
@@ -1578,9 +1578,9 @@
     },
     {
       "accent": "#EA580C",
-      "deadline": null,
-      "desc_de": "Globaler Steam-Playtest von Nexons Dark-Fantasy-MMORPG mit isometrischem Kampf: sechs Regionen, Hauptstory und vier Klassen (Stormbringer, Executioner, Spectral Blade und der neue Nightstalker). Der Test läuft vom 4. bis 11. Dezember 2026 – Zugang ab sofort auf der Steam-Seite anfordern.",
-      "desc_en": "Global Steam playtest for Nexon's dark-fantasy MMORPG with isometric combat: six regions, the main storyline and four classes (Stormbringer, Executioner, Spectral Blade and the new Nightstalker). The test runs December 4–11, 2026 — request access now on the Steam page.",
+      "deadline": "2026-12-11T14:59:00Z",
+      "desc_de": "Globaler Steam-Playtest von Nexons Dark-Fantasy-MMORPG mit isometrischem Kampf: sechs Regionen, Hauptstory und vier Klassen (Stormbringer, Executioner, Spectral Blade und der neue Nightstalker). Die Registrierung läuft über die Steam-Seite bis zum 11. Dezember 2026 – wer sich bis zum 3. Dezember registriert, bekommt garantiert Zugang. Der Test selbst läuft vom 4. bis 11. Dezember 2026.",
+      "desc_en": "Global Steam playtest for Nexon's dark-fantasy MMORPG with isometric combat: six regions, the main storyline and four classes (Stormbringer, Executioner, Spectral Blade and the new Nightstalker). Registration is open on the Steam page until December 11, 2026 — register by December 3 for guaranteed access. The test itself runs December 4–11, 2026.",
       "id": "embers-of-the-uncrowned-playtest",
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3767660/8c5fad0d08549a092cafff22db71dbbb40429a02/header_alt_assets_1.jpg",
       "platform": "Steam",
@@ -1647,12 +1647,12 @@
     {
       "accent": "#DC2626",
       "deadline": "2026-11-15T23:59:00Z",
-      "desc_de": "Offener Playtest des gemütlichen Weihnachts-Städtebauspiels ohne Scheitern: Baue dein verschneites Tal bis zum Titel Hamlet aus (bis 375 Einwohner). Der kostenlose Playtest läuft auf Steam bis zum 15. November – Zugang auf der Store-Seite anfordern, nur Windows. Playtest-Städte werden nicht ins Hauptspiel übernommen.",
-      "desc_en": "Open playtest for the cozy no-fail Christmas town builder: grow your snowy valley up to the Hamlet title (375 folk). The free playtest runs on Steam until November 15 — request access on the store page, Windows only. Playtest towns will not carry over to the full release.",
+      "desc_de": "Offener Playtest des gemütlichen Weihnachts-Städtebauspiels ohne Scheitern: Baue dein verschneites Tal bis zum Titel Hamlet aus (bis 375 Einwohner). Der kostenlose Playtest lief auf Steam bis zum 15. November und ist beendet – Zugang gab es über die Store-Seite, nur Windows. Playtest-Städte werden nicht ins Hauptspiel übernommen.",
+      "desc_en": "Open playtest for the cozy no-fail Christmas town builder: grow your snowy valley up to the Hamlet title (375 folk). The free playtest ran on Steam until November 15 and has ended — request access was via the store page, Windows only. Playtest towns will not carry over to the full release.",
       "id": "tinselwood-playtest",
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5363180/05c303c1b66cbf264f8afdae2899f2f0213c3f6b/header.jpg",
       "platform": "Steam",
-      "status": "Live now",
+      "status": "Ended",
       "tags": [
         "Cozy",
         "City Builder",
@@ -1693,7 +1693,24 @@
       ],
       "title": "FLESHBAG — Playtest",
       "url": "https://store.steampowered.com/app/4704120/FLESHBAG/"
+    },
+    {
+      "accent": "#7C3AED",
+      "deadline": null,
+      "desc_de": "Kostenloser Steam-Playtest des 3v3-Tower-Wars-Strategiespiels von Solo-Entwickler Mümin Bayar: Baue dein eigenes Labyrinth, schicke Angriffseinheiten los und balanciere Verteidigung gegen Einkommen. Der öffentliche Playtest ist während der gesamten Entwicklung jeden Tag geöffnet – Zugang auf der Steam-Seite anfordern, Release ist für 2027 geplant.",
+      "desc_en": "Free Steam playtest for solo developer Mümin Bayar's 3v3 Tower Wars strategy game: build your own maze, send assault units and balance defence against income. The public playtest is open every day throughout development — request access on the Steam page, with the main release planned for 2027.",
+      "id": "rampartloom-playtest",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5040240/e3ec1e60cee96fa83abb715e2a1ab3bdc67a36dd/header.jpg",
+      "platform": "Steam",
+      "status": "Live now",
+      "tags": [
+        "Strategy",
+        "Tower Defense",
+        "Multiplayer"
+      ],
+      "title": "Rampartloom: PvP Tower Defense — Playtest",
+      "url": "https://store.steampowered.com/app/5040240/"
     }
   ],
-  "updated": "2026-11-15T08:38:47Z"
+  "updated": "2026-11-16T12:01:14Z"
 }
