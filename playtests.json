@@ -1,6 +1,23 @@
 {
   "playtests": [
     {
+      "id": "victory-acres-alpha-playtest",
+      "title": "Victory Acres — Alpha Playtest",
+      "platform": "Steam",
+      "status": "Live now",
+      "deadline": null,
+      "tags": [
+        "Farming",
+        "Simulation",
+        "RPG"
+      ],
+      "desc_de": "Farm- und Lebenssimulation in den 1940ern auf Crown Island (Odd Orbit): Als Füchsin Ruth Winslow rettest du die Familienfarm, baust Feldfrüchte an, bedienst Maschinen und belieferst deine Heimat im Krieg. Der kostenlose Alpha-Playtest ist auf Steam live – Zugang auf der Store-Seite anfordern, die Freischaltung erfolgt automatisch.",
+      "desc_en": "1940s farming and life simulation on Crown Island from Odd Orbit: as Ruth Winslow, a fox, you save the family farm, grow crops, operate machinery and supply your homeland during the war. The free alpha playtest is live on Steam — request access on the store page and you are added automatically.",
+      "url": "https://store.steampowered.com/app/3547140/Victory_Acres/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3547140/9c6be81161d71347f16d1446f66ef34389dffe9c/header.jpg",
+      "accent": "#65A30D"
+    },
+    {
       "accent": "#6B7F3E",
       "deadline": "2026-11-20T23:59:00Z",
       "desc_de": "Steam-Playtest des postapokalyptischen Action-Adventures von Tactical Dogs: seit dem 13. November live und noch bis zum 20. November spielbar, der Zugang wird automatisch freigeschaltet. Die Version umfasst den Anfangsabschnitt und rund zwei Drittel des ersten Bioms – etwa 1,5 Stunden im überwucherten Land Tortura.",
@@ -207,12 +224,12 @@
     {
       "accent": "#7DD3FC",
       "deadline": "2026-11-16T23:59:00Z",
-      "desc_de": "Reichhaltiger, entspannter Modellbau-Simulator: Kits bauen, posieren, bemalen und ausstellen, dazu ein ruhiger Soundtrack. Der Steam-Playtest läuft bis zum 16. November – Zugang auf der Store-Seite anfordern.",
-      "desc_en": "A rich and relaxing model-building simulator: build, pose, paint and display your kits to a soothing soundtrack. The Steam playtest is live until November 16 — request access on the store page.",
+      "desc_de": "Reichhaltiger, entspannter Modellbau-Simulator: Kits bauen, posieren, bemalen und ausstellen, dazu ein ruhiger Soundtrack. Der Steam-Playtest lief bis zum 16. November und ist beendet.",
+      "desc_en": "A rich and relaxing model-building simulator: build, pose, paint and display your kits to a soothing soundtrack. The Steam playtest ran until November 16 and has ended.",
       "id": "model-kit-studio-playtest",
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4040060/6f2e11a246fb52f94816a37b309d23e3671feb41/header_alt_assets_0.jpg?t=1793628013",
       "platform": "Steam",
-      "status": "Live now",
+      "status": "Ended",
       "tags": [
         "Simulation",
         "Relaxing",
@@ -681,9 +698,9 @@
     },
     {
       "accent": "#F472B6",
-      "deadline": null,
-      "desc_de": "Die Rente finanziert sich nicht selbst: Schnapp dir bis zu drei Mit-Rentner, brich in Häuser ein und stiehl dich zum Ruhestandsgeld. Die Steam-Playtest-Anmeldung ist offen.",
-      "desc_en": "Your retirement isn't going to fund itself: grab up to three fellow retirees, break into houses and steal your way to the retirement fund. Steam playtest sign-ups are open.",
+      "deadline": "2026-11-27T23:59:00Z",
+      "desc_de": "Die Rente finanziert sich nicht selbst: Schnapp dir bis zu drei Mit-Rentner, brich in Häuser ein und stiehl dich zum Ruhestandsgeld. StickyStoneStudio hat am 13. November 2026 eine geschlossene Creator-Beta gestartet, die bis zum 27. November läuft; die Steam-Playtest-Anmeldung ist weiter offen.",
+      "desc_en": "Your retirement isn't going to fund itself: grab up to three fellow retirees, break into houses and steal your way to the retirement fund. StickyStoneStudio launched a closed creator beta on November 13, 2026, running until November 27; Steam playtest sign-ups remain open.",
       "id": "grampage-life-at-67",
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4993490/8e852fd4599f5aa10500e9bec9e19bbdcea5dbac/header.jpg?t=1793716324",
       "platform": "Steam",
@@ -1663,9 +1680,9 @@
     },
     {
       "accent": "#38BDF8",
-      "deadline": null,
-      "desc_de": "Kostenloser Beta-Test auf Steam: Start war am 9. November (JST), der Test läuft nur zwei Wochen. Jeder kann sich vorab per „Join the Playtest“ auf der Store-Seite anmelden.",
-      "desc_en": "Free beta test on Steam: it kicked off on November 9 (JST) and runs for two weeks only. Anyone can sign up in advance via “Join the Playtest” on the store page.",
+      "deadline": "2026-11-23T14:59:00Z",
+      "desc_de": "Kostenloser Beta-Test auf Steam: Start war am 9. November (JST), der Test läuft bis zum 23. November, 23:59 Uhr (JST). Jeder kann per „Join the Playtest“ auf der Store-Seite mitmachen, Online-Koop für bis zu vier Spieler ist in der Beta verfügbar.",
+      "desc_en": "Free beta test on Steam: it kicked off on November 9 (JST) and runs until November 23 at 23:59 JST. Anyone can join via “Join the Playtest” on the store page, and online co-op for up to four players is fully available in the beta.",
       "id": "rasterfall-beta",
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5161780/33515ddbaf3752582347d4c2645d230741a5969e/header.jpg",
       "platform": "Steam",
@@ -1712,5 +1729,5 @@
       "url": "https://store.steampowered.com/app/5040240/"
     }
   ],
-  "updated": "2026-11-16T12:01:14Z"
+  "updated": "2026-11-17T08:38:47Z"
 }
