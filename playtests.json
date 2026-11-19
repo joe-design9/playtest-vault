@@ -1,6 +1,40 @@
 {
   "playtests": [
     {
+      "id": "undying-echoes-playtest",
+      "title": "Undying Echoes — Playtest",
+      "platform": "Steam",
+      "status": "Live now",
+      "deadline": null,
+      "tags": [
+        "Action",
+        "Indie",
+        "Strategy"
+      ],
+      "desc_de": "4v4-Arena mit einer Lane von Natan Couture-Dumais: Stelle deinen eigenen Kampfstil aus Charakteren, Waffen und Fähigkeiten zusammen, kontrolliere die Sicht und drücke mit deinem Team vor, um den gegnerischen Kern zu zerstören – mit Freunden oder im Training gegen Bots. Der Steam-Playtest ist seit dem 18. November 2026 live und für alle sofort zugänglich.",
+      "desc_en": "Single-lane 4v4 arena from Natan Couture-Dumais: build your own combat style from characters, weapons and abilities, control vision and push with your team to destroy the enemy core — play with friends or practice against bots. The Steam playtest went live on November 18, 2026 and anyone can join instantly.",
+      "url": "https://store.steampowered.com/app/2614780/Undying_Echoes/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2614780/9885ab085598530e2998d72259dba3590de4dbd1/header.jpg",
+      "accent": "#6366F1"
+    },
+    {
+      "id": "minsk-apocalypse-playtest",
+      "title": "MINSK: APOCALYPSE — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
+      "desc_de": "Survival-Abenteuer im apokalyptischen Minsk von Tadas Angelas: Gesundheit, Nahrung und Wasser im Blick behalten, Ressourcen suchen oder Missionen erfüllen und gegen Dämonen, Templer und kriminelle Fraktionen kämpfen, während du die Apokalypse untersuchst. Der Steam-Playtest ist seit dem 18. November 2026 offen – Zugang auf der Store-Seite anfordern, der Entwickler lässt Spieler in Batches rein.",
+      "desc_en": "Survival adventure in apocalyptic Minsk from Tadas Angelas: manage health, food and water, search for resources or complete missions to stay alive, and fight demons, Templars and criminal factions while investigating the apocalypse. The Steam playtest opened on November 18, 2026 — request access on the store page and the developer lets players in in batches.",
+      "url": "https://store.steampowered.com/app/5516770/MINSK_APOCALYPSE/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5516770/b79cc0762571018df235bf2ae9fa5c39aaeb1690/header.jpg",
+      "accent": "#B91C1C"
+    },
+    {
       "id": "victory-acres-alpha-playtest",
       "title": "Victory Acres — Alpha Playtest",
       "platform": "Steam",
@@ -1580,7 +1614,7 @@
       "id": "legend-of-california-alpha-5",
       "title": "The Legend of California — Alpha 5 Playtest",
       "platform": "Steam",
-      "status": "Live now",
+      "status": "Ended",
       "deadline": "2026-11-18T18:00:00Z",
       "tags": [
         "Survival",
@@ -1631,7 +1665,7 @@
       "id": "exterminauts-beta",
       "title": "Exterminauts — Closed Beta",
       "platform": "Steam",
-      "status": "Live now",
+      "status": "Ended",
       "deadline": "2026-11-19T01:59:00Z",
       "tags": [
         "Co-op",
@@ -1763,5 +1797,5 @@
       "accent": "#5B21B6"
     }
   ],
-  "updated": "2026-11-18T08:38:39Z"
+  "updated": "2026-11-19T08:39:21Z"
 }
