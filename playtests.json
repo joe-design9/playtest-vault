@@ -1,6 +1,107 @@
 {
   "playtests": [
     {
+      "id": "shell-soul-the-skull-playtest",
+      "title": "Shell Soul:The Skull — Playtest",
+      "platform": "Steam",
+      "status": "Live now",
+      "deadline": null,
+      "tags": [
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
+      "desc_de": "Ein namenloses Skelett erwacht auf einem Friedhof (BlueWindGame): Erkunde die Welt, löse Rätsel, sammle verstreute Fragmente und lüfte verborgene Geheimnisse. Der Steam-Playtest ist seit dem 20. November 2026 offen und für alle sofort zugänglich.",
+      "desc_en": "An unnamed skeleton wakes in a graveyard (BlueWindGame): explore, solve puzzles, pick up scattered fragments and glimpse hidden secrets. The Steam playtest opened on November 20, 2026 and anyone can join instantly.",
+      "url": "https://store.steampowered.com/app/3336450/Shell_SoulThe_Skull/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3336450/c8d5f8d5071bcf6d970dd6b710a1f3d2b147d849/header.jpg",
+      "accent": "#78716C"
+    },
+    {
+      "id": "forgethrottle-playtest",
+      "title": "ForgeThrottle — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Action",
+        "Racing",
+        "Indie"
+      ],
+      "desc_de": "Einspieler-Kampfrennen in isometrischem 3D von K7 Prod: Fahre MIETTE, feuere Raketen, lege Minen und tune dein Auto in der Garage, um Rennen zu gewinnen, Arena-Kämpfe zu überstehen und einen gepanzerten Boss zu besiegen. Der Steam-Playtest ist seit dem 20. November 2026 offen – Zugang auf der Store-Seite anfordern.",
+      "desc_en": "Single-player combat racing in isometric 3D from K7 Prod: drive MIETTE, launch missiles, lay mines and upgrade your car in the garage to win races, survive arena battles and take on an armored boss. The Steam playtest opened on November 20, 2026 — request access on the store page.",
+      "url": "https://store.steampowered.com/app/5534560/ForgeThrottle/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5534560/4cc0cb315c5c2ecef9e21a5dfe455c6dcaa0430f/header.jpg",
+      "accent": "#F97316"
+    },
+    {
+      "id": "pillow-punk-playtest",
+      "title": "Pillow Punk — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Action",
+        "Roguelike",
+        "Co-op"
+      ],
+      "desc_de": "Schnelles Third-Person-Action-Roguelite von Ganduja Interactive: Schnapp dir ein Kissen, spiele solo oder mit bis zu drei Freunden online, kämpfe dich durch Gegnerwellen, kombiniere Nah- und Fernkampf und stelle das richtige Item- und Fähigkeits-Build zusammen, um Bosse zu legen. Der Steam-Playtest ist seit dem 19. November 2026 offen – Zugang auf der Store-Seite anfordern.",
+      "desc_en": "Fast-paced third-person action roguelite from Ganduja Interactive: grab a pillow, go solo or team up with up to three friends online, fight through enemy waves, mix melee and ranged attacks, and build the right combination of items and abilities to take down bosses. The Steam playtest opened on November 19, 2026 — request access on the store page.",
+      "url": "https://store.steampowered.com/app/4320880/Pillow_Punk/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4320880/89173b9ed6fd29af3b4ea3cb2dc99b955300ad31/header.jpg",
+      "accent": "#EC4899"
+    },
+    {
+      "id": "greenbound-playtest",
+      "title": "Greenbound — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Casual",
+        "Simulation",
+        "Co-op"
+      ],
+      "desc_de": "Begrüne die Sahara mit Freunden im Online-Koop (Fat Cat Studio / Polden Publishing): Du wirst für jeden begrünten Quadratmeter bezahlt und kaufst davon Upgrades, Drohnen und Fahrzeuge und automatisierst den Job. Der Steam-Playtest ist seit dem 19. November 2026 offen – Zugang auf der Store-Seite anfordern.",
+      "desc_en": "Green the Sahara desert with friends in online co-op (Fat Cat Studio / Polden Publishing): get paid for every square meter, buy upgrades, drones and vehicles, and automate the job. The Steam playtest opened on November 19, 2026 — request access on the store page.",
+      "url": "https://store.steampowered.com/app/5538020/Greenbound/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5538020/9bc35fb6715671e995fea04fcd4907f9fac9d476/header.jpg",
+      "accent": "#22C55E"
+    },
+    {
+      "id": "ridgerunners-playtest",
+      "title": "RIDGERUNNERS — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Racing",
+        "3D Platformer"
+      ],
+      "desc_de": "First-Person-Bergracer von ultramegasuper games: Baue bergab Tempo auf und fliege mit Schwerkraft und Waffen zwischen den Checkpoints hindurch, finde die schnellste Linie, fahre gegen Geister und Live-Spieler und klettere in der globalen Bestenliste. Der Steam-Playtest ist seit dem 19. November 2026 offen – Zugang auf der Store-Seite anfordern.",
+      "desc_en": "First-person mountain racer from ultramegasuper games: build speed downhill and fly between checkpoints using gravity and your weapons, find the fastest route, race ghosts and live players, and climb the global leaderboard. The Steam playtest opened on November 19, 2026 — request access on the store page.",
+      "url": "https://store.steampowered.com/app/4970370/RIDGERUNNERS/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4970370/7d92c54b68e95d8125af7ce074e371cc982e5ed5/header.jpg",
+      "accent": "#38BDF8"
+    },
+    {
+      "id": "the-ashen-oz-closed-playtest",
+      "title": "The Ashen OZ — First Closed Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": "2026-12-21T14:59:00Z",
+      "tags": [
+        "Action",
+        "Roguelite",
+        "Indie"
+      ],
+      "desc_de": "Düsteres Fantasy-Action-Roguelite von Ashbone Games in einer verdrehten Märchenwelt nach dem Zauberer von Oz: Verkette Angriffe und Paraden zu flüssigem, combo-basiertem Kampf. Der erste geschlossene Playtest läuft vom 7. bis 21. Dezember 2026 auf Steam (Key-Vergabe, 1.000 Plätze, first come first served) – die Anmeldung läuft seit dem 17. November über das Formular in der Steam-News plus den offiziellen Discord.",
+      "desc_en": "Dark fantasy action roguelite from Ashbone Games set in a twisted fairytale world inspired by The Wizard of Oz: chain attacks and parries into fluid, combo-driven combat. The first closed playtest runs December 7–21, 2026 on Steam (key provided, 1,000 testers, first come first served) — sign-ups opened on November 17 via the form in the Steam news post plus the official Discord.",
+      "url": "https://store.steampowered.com/app/4375420/The_Ashen_OZ/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4375420/9c39992ae9b4b17e121c9e782165373d6aaecfd3/header.jpg",
+      "accent": "#7C3AED"
+    },
+    {
       "id": "undying-echoes-playtest",
       "title": "Undying Echoes — Playtest",
       "platform": "Steam",
@@ -21,15 +122,15 @@
       "id": "minsk-apocalypse-playtest",
       "title": "MINSK: APOCALYPSE — Playtest",
       "platform": "Steam",
-      "status": "Signups open",
+      "status": "Live now",
       "deadline": null,
       "tags": [
         "Action",
         "Adventure",
         "Indie"
       ],
-      "desc_de": "Survival-Abenteuer im apokalyptischen Minsk von Tadas Angelas: Gesundheit, Nahrung und Wasser im Blick behalten, Ressourcen suchen oder Missionen erfüllen und gegen Dämonen, Templer und kriminelle Fraktionen kämpfen, während du die Apokalypse untersuchst. Der Steam-Playtest ist seit dem 18. November 2026 offen – Zugang auf der Store-Seite anfordern, der Entwickler lässt Spieler in Batches rein.",
-      "desc_en": "Survival adventure in apocalyptic Minsk from Tadas Angelas: manage health, food and water, search for resources or complete missions to stay alive, and fight demons, Templars and criminal factions while investigating the apocalypse. The Steam playtest opened on November 18, 2026 — request access on the store page and the developer lets players in in batches.",
+      "desc_de": "Survival-Abenteuer im apokalyptischen Minsk von Tadas Angelas: Gesundheit, Nahrung und Wasser im Blick behalten, Ressourcen suchen oder Missionen erfüllen und gegen Dämonen, Templer und kriminelle Fraktionen kämpfen, während du die Apokalypse untersuchst. Der Steam-Playtest ist seit dem 18. November 2026 offen und seit dem 19. November für alle sofort zugänglich.",
+      "desc_en": "Survival adventure in apocalyptic Minsk from Tadas Angelas: manage health, food and water, search for resources or complete missions to stay alive, and fight demons, Templars and criminal factions while investigating the apocalypse. The Steam playtest opened on November 18, 2026 and switched to instant access for everyone on November 19.",
       "url": "https://store.steampowered.com/app/5516770/MINSK_APOCALYPSE/",
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5516770/b79cc0762571018df235bf2ae9fa5c39aaeb1690/header.jpg",
       "accent": "#B91C1C"
@@ -1797,5 +1898,5 @@
       "accent": "#5B21B6"
     }
   ],
-  "updated": "2026-11-19T08:39:21Z"
+  "updated": "2026-11-20T09:30:23Z"
 }
