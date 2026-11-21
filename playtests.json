@@ -1,6 +1,106 @@
 {
   "playtests": [
     {
+      "id": "icewake-playtest",
+      "title": "ICEWAKE — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Adventure",
+        "Indie",
+        "Simulation"
+      ],
+      "desc_de": "Steuere einen nuklearen Eisbrecher durch eine gefrorene, versunkene Welt (Akhmed Turabov): Tauche mit einem kleinen U-Boot in ertrunkene Städte, berge Wrackteile, versorge Kranke in Unterwasserstädten – und überlebe das Monster, das in der Tiefe jagt. Der Steam-Playtest ist seit dem 21. November 2026 offen, der Zugang wird auf Anfrage vergeben.",
+      "desc_en": "Steer a nuclear icebreaker across a frozen, sunken world (Akhmed Turabov): dive a tiny sub into drowned cities for salvage, save the sick in underwater towns — and survive what hunts in the deep. The Steam playtest opened on November 21, 2026, with access granted by request.",
+      "url": "https://store.steampowered.com/app/5172940/ICEWAKE/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5172940/765f6935b2ac0039c0a6ef62cf21c9061df9636b/header.jpg",
+      "accent": "#38BDF8"
+    },
+    {
+      "id": "dimensions-shattered-realms-playtest",
+      "title": "Dimensions: Shattered Realms — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Card Game",
+        "Indie",
+        "Strategy"
+      ],
+      "desc_de": "Strategisches Sammelkartenspiel in sechs zerbrochenen Reichen (Bromelda): Baue Decks aus über 600 Karten der Elemente Feuer, Wasser, Erde, Licht, Dunkelheit und Wind, fusioniere Kreaturen zu mächtigeren Formen und duelliere dich mit smarter KI. Der Steam-Playtest ist seit dem 21. November 2026 offen, der Zugang wird auf Anfrage vergeben.",
+      "desc_en": "A strategic trading card game of six shattered realms (Bromelda): build decks from 600+ cards across Fire, Water, Earth, Light, Dark and Wind, fuse creatures into powerful forms, and duel smart AI. The Steam playtest opened on November 21, 2026, with access granted by request.",
+      "url": "https://store.steampowered.com/app/5618220/Dimensions_Shattered_Realms/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5618220/beded14f09ee9245ccf8c324680eb2db08df251b/header.jpg",
+      "accent": "#7C3AED"
+    },
+    {
+      "id": "on-the-hearth-playtest",
+      "title": "On the Hearth — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Adventure",
+        "Indie"
+      ],
+      "desc_de": "Als Lehrling einer weisen Frau zur Hochzeit der Hexenprozesse (Earl Grimm Games): Entschlüssele jahrzehntealte magische Forschung, erkunde die Wildnis nach besonderen Zutaten und experimentiere mit arkanen Tränken. Der Steam-Playtest ist seit dem 21. November 2026 offen, der Zugang wird auf Anfrage vergeben.",
+      "desc_en": "As an apprentice wise-woman during the height of the witch trials (Earl Grimm Games): decrypt decades of magical research, explore the wilds for peculiar reagents, and experiment with arcane potions. The Steam playtest opened on November 21, 2026, with access granted by request.",
+      "url": "https://store.steampowered.com/app/4707040/On_the_Hearth/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4707040/533518bbb4b5e11ddba04d838e35eda0c40d940e/header.jpg",
+      "accent": "#F59E0B"
+    },
+    {
+      "id": "crowfarm-playtest",
+      "title": "Crowfarm — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Horror",
+        "Indie",
+        "Simulation"
+      ],
+      "desc_de": "Koop-Horror-Farming für 1–6 Spieler (Alaabale): Baue Feldfrüchte an, jage sie – und werde von ihnen gejagt. Der Steam-Playtest ist seit dem 21. November 2026 offen, der Zugang wird auf Anfrage vergeben.",
+      "desc_en": "A 1-6 co-op horror farming game (Alaabale): grow crops, hunt them, and get hunted by them. The Steam playtest opened on November 21, 2026, with access granted by request.",
+      "url": "https://store.steampowered.com/app/5369500/Crowfarm/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5369500/dd0ac5d41121a0f25e776d8e8b97d0dddd38ed8b/header.jpg",
+      "accent": "#3F6212"
+    },
+    {
+      "id": "realm-of-idlers-playtest",
+      "title": "Realm of Idlers — Playtest",
+      "platform": "Steam",
+      "status": "Live now",
+      "deadline": null,
+      "tags": [
+        "Indie",
+        "Massively Multiplayer",
+        "RPG"
+      ],
+      "desc_de": "Gemütliches Pixel-Art-MMO von Kickstone Studio: Dein Held sammelt, craftet und kämpft weiter, während du weg bist – erkunde eine lebendige Welt mit Freunden, handle mit anderen Spielern, besiege epische Bosse und meistere 14 Fertigkeiten in deinem Tempo. Der Steam-Playtest ist seit dem 20. November 2026 live und für alle sofort zugänglich.",
+      "desc_en": "A cozy pixel-art MMO from Kickstone Studio: your hero keeps gathering, crafting, and fighting while you're away — explore a living world with friends, trade with other players, take down epic bosses, and master 14 skills at your own relaxed pace. The Steam playtest went live on November 20, 2026 and anyone can join instantly.",
+      "url": "https://store.steampowered.com/app/4533900/Realm_of_Idlers/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4533900/5c5cccd44c1b100068b3e369c59636d5095d1474/header.jpg",
+      "accent": "#4ADE80"
+    },
+    {
+      "id": "bad-beat-playtest",
+      "title": "Bad Beat: Dark Fantasy Roguelike — Playtest",
+      "platform": "Steam",
+      "status": "Live now",
+      "deadline": null,
+      "tags": [
+        "Indie",
+        "Strategy"
+      ],
+      "desc_de": "Rundenbasiertes Dark-Fantasy-Strategie-Roguelike von Red Duck Games: Verschiebe Zeilen und Spalten eines verfluchten Rasters, reihe Gewinnkombos aneinander und verkette Effekte, um die Dealer des Casinos zu besiegen – jeder Zug ist ein Glücksspiel. Der Steam-Playtest ist seit dem 20. November 2026 live und für alle sofort zugänglich.",
+      "desc_en": "A dark fantasy turn-based strategy roguelike from Red Duck Games: slide rows and columns of a cursed grid, line up winning combos and chain effects to defeat the casino's Dealers — every turn is a gamble. The Steam playtest went live on November 20, 2026 and anyone can join instantly.",
+      "url": "https://store.steampowered.com/app/4116250/Bad_Beat_Dark_Fantasy_Roguelike/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4116250/84b5545950282d52a1dcecc24d1c025862766f27/header_alt_assets_0.jpg",
+      "accent": "#A16207"
+    },
+    {
       "id": "shell-soul-the-skull-playtest",
       "title": "Shell Soul:The Skull — Playtest",
       "platform": "Steam",
@@ -157,14 +257,14 @@
       "title": "The Looter — Playtest",
       "platform": "Steam",
       "status": "Live now",
-      "deadline": "2026-11-20T23:59:00Z",
+      "deadline": "2026-11-23T23:59:00Z",
       "tags": [
         "Action",
         "Adventure",
         "Indie"
       ],
-      "desc_de": "Steam-Playtest des postapokalyptischen Action-Adventures von Tactical Dogs: seit dem 13. November live und noch bis zum 20. November spielbar, der Zugang wird automatisch freigeschaltet. Die Version umfasst den Anfangsabschnitt und rund zwei Drittel des ersten Bioms – etwa 1,5 Stunden im überwucherten Land Tortura.",
-      "desc_en": "Steam playtest for Tactical Dogs' post-apocalyptic action-adventure: live since November 13 and running until November 20, with access granted automatically to everyone who joins. The build covers the opening section and roughly two-thirds of the first biome — about 1.5 hours in the overgrown land of Tortura.",
+      "desc_de": "Steam-Playtest des postapokalyptischen Action-Adventures von Tactical Dogs: seit dem 13. November live und über das Wochenende bis Montag, den 23. November verlängert, der Zugang wird automatisch freigeschaltet. Die Version umfasst den Anfangsabschnitt und rund zwei Drittel des ersten Bioms – etwa 1,5 Stunden im überwucherten Land Tortura.",
+      "desc_en": "Steam playtest for Tactical Dogs' post-apocalyptic action-adventure: live since November 13 and extended through the weekend until Monday, November 23, with access granted automatically to everyone who joins. The build covers the opening section and roughly two-thirds of the first biome — about 1.5 hours in the overgrown land of Tortura.",
       "url": "https://store.steampowered.com/app/1163020/The_Looter/",
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1163020/4068c2b778189ae73eb395963f9b569a1623c330/header_alt_assets_1.jpg",
       "accent": "#6B7F3E"
@@ -1898,5 +1998,5 @@
       "accent": "#5B21B6"
     }
   ],
-  "updated": "2026-11-20T09:30:23Z"
+  "updated": "2026-11-21T08:39:30Z"
 }
