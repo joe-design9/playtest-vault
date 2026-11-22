@@ -1,6 +1,106 @@
 {
   "playtests": [
     {
+      "id": "backframes-escape-together-playtest",
+      "title": "Backframes: Escape Together — Playtest",
+      "platform": "Steam",
+      "status": "Live now",
+      "deadline": null,
+      "tags": [
+        "Horror",
+        "Adventure",
+        "Co-op"
+      ],
+      "desc_de": "Koop-Horror für 1–4 Spieler von VortexTeam und NiceByte Studio: Erkunde dunkle Level, löse gefährliche Rätsel, entkomme finsteren Wesenheiten – und nutze deine eigene Stimme, um mit Objekten zu interagieren und unerwartete Fluchtwege zu finden. Der Steam-Playtest ist seit dem 22. November 2026 live und für alle sofort zugänglich.",
+      "desc_en": "Co-op horror for 1-4 players from VortexTeam and NiceByte Studio: explore dark levels, solve dangerous puzzles and escape sinister entities — using your own voice to interact with objects and uncover unexpected paths to survival. The Steam playtest went live on November 22, 2026 and anyone can join instantly.",
+      "url": "https://store.steampowered.com/app/3344520/Backframes_Escape_Together/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3344520/273f9bbbf6aad90b3e5d32917534445add8994c9/header.jpg",
+      "accent": "#581C87"
+    },
+    {
+      "id": "atlas-conquest-playtest",
+      "title": "Atlas Conquest — Playtest",
+      "platform": "Steam",
+      "status": "Live now",
+      "deadline": null,
+      "tags": [
+        "Card Game",
+        "Strategy"
+      ],
+      "desc_de": "Kompetitives Online-Kartenkampfspiel von Matan Diamond: Baue ein Deck, dessen Karten zu Einheiten auf einem physischen Hexfeld-Schlachtfeld werden, duelliere dich mit anderen Spielern, manövriere deinen Rivalen aus und erobere die Karte – mit über 16 Kommandanten mit eigenen Spielstilen. Der Steam-Playtest ist seit dem 22. November 2026 live und für alle sofort zugänglich.",
+      "desc_en": "Competitive online card battler from Matan Diamond: assemble a deck of cards that become units on a physical hex-grid battlefield, duel other players in online matches, outmaneuver your rival and conquer the map — with 16+ commanders, each with a unique playstyle. The Steam playtest went live on November 22, 2026 and anyone can join instantly.",
+      "url": "https://store.steampowered.com/app/5537460/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5537460/513307b00d250490ed79cb515a3d93c5d1c69205/header.jpg",
+      "accent": "#2563EB"
+    },
+    {
+      "id": "sort-on-the-ball-playtest",
+      "title": "Sort On The Ball — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Casual",
+        "Indie",
+        "Simulation"
+      ],
+      "desc_de": "Gemütlicher Sortier-Simulator von SparrowSim: Öffne massenhaft Kapseln, sammle und sortiere niedliche Spielzeugbälle, finde die besonderen Stücke in einem Ozean aus Kapseln und verwandle das Chaos in einen einladenden Sammlerladen. Der Steam-Playtest ist seit dem 22. November 2026 offen – Zugang auf der Store-Seite anfordern.",
+      "desc_en": "A cozy sorting simulator from SparrowSim: open tons of capsules to collect and sort cute toy balls, find the unique ones among an ocean of capsules, and turn a messy place into an organized, inviting collection store. The Steam playtest opened on November 22, 2026 — request access on the store page.",
+      "url": "https://store.steampowered.com/app/5234330/Sort_On_The_Ball/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5234330/575d799647de557362237718c8f6ff3cac480adc/header.jpg",
+      "accent": "#A3E635"
+    },
+    {
+      "id": "pot-a-boom-playtest",
+      "title": "Pot-a-Boom! Offerings to the Sun — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Casual",
+        "Co-op",
+        "Indie"
+      ],
+      "desc_de": "Niedlicher Koop-Clicker von Cerval Interactive in einer spielzeugartigen Aztekenwelt: Zerschlage Tontöpfe, fange den Kakao und füttere die hungrige Sonne vor Einbruch der Dunkelheit – solo oder mit bis zu drei Freunden, während dein Stream-Chat Töpfe auf den Platz werfen kann. Der Steam-Playtest ist seit dem 22. November 2026 offen – Zugang auf der Store-Seite anfordern.",
+      "desc_en": "A cute co-op clicker from Cerval Interactive in a toy-like Aztec world: smash clay pots, catch the cacao and feed a hungry Sun before dusk — solo or with up to three friends, while your stream chat throws pots into the plaza. The Steam playtest opened on November 22, 2026 — request access on the store page.",
+      "url": "https://store.steampowered.com/app/5526320/PotaBoom_Offerings_to_the_Sun/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5526320/3be7ae630a5dfc052b2d87d086bc65f0030621fe/header.jpg",
+      "accent": "#D97706"
+    },
+    {
+      "id": "f-2-missions-case-one-playtest",
+      "title": "F-2 MISSIONS: CASE ONE — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Simulation",
+        "Action"
+      ],
+      "desc_de": "Physikbasierte Flugsimulation von UNVELL Games mit authentischem Flugverhalten: Fliege die F-2 der JASDF über ein maßstabsgetreues Japan – als Neuling in einem Spezialkurs von Starts und Talläufen über Formation und Luftbetankung bis zu Alarmstarts und Einsatztraining gegen simulierte SAMs, am Monitor oder in VR. Der Steam-Playtest ist seit dem 21. November 2026 offen, der Zugang wird auf Anfrage vergeben.",
+      "desc_en": "Physics-based flight sim from UNVELL Games with authentic handling: fly the JASDF's F-2 over a true-to-scale Japan — as a rookie on a special course, from takeoffs and valley runs to formation, refueling and carrier traps, then alert scrambles and ops training against simulated SAMs, on a monitor or in VR. The Steam playtest opened on November 21, 2026, with access granted by request.",
+      "url": "https://store.steampowered.com/app/5184500/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5184500/4b71afbbb455f9e9daa1c9b8de5995ae5ad8014e/header.jpg",
+      "accent": "#0284C7"
+    },
+    {
+      "id": "heptic-arena-playtest",
+      "title": "Heptic Arena — Closed Playtest",
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Action",
+        "Indie",
+        "Shooter"
+      ],
+      "desc_de": "Third-Person-PvPvE-Arena-Shooter von Prism Studio in der tödlichsten Gameshow der Galaxis: Stelle ein Squad zusammen, kämpfe gegen Monster und rivalisierende Teams und werde zur Legende der Arena. Geschlossene Playtests laufen regelmäßig – ein Online-Playtest lief vom 20. bis 22. November parallel zur PlayCon 2026; die Anmeldung für kommende Runden läuft über FirstLook / player.gg.",
+      "desc_en": "Third-person PvPvE arena shooter from Prism Studio set in the galaxy's deadliest game show: squad up to battle monsters and crush rival teams, and dominate the arena to become a legend. Closed playtests run regularly — an online playtest ran alongside PlayCon 2026 on November 20-22; sign-ups for upcoming rounds run through FirstLook / player.gg.",
+      "url": "https://player.gg/playtests",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2707850/45d5ce4c9a8a7e1da6f2c801a8f23d901257836a/header.jpg",
+      "accent": "#DC2626"
+    },
+    {
       "id": "icewake-playtest",
       "title": "ICEWAKE — Playtest",
       "platform": "Steam",
@@ -1002,15 +1102,15 @@
       "id": "honkai-nexus-anima",
       "title": "Honkai: Nexus Anima — Final Closed Beta",
       "platform": "PC",
-      "status": "Signups open",
-      "deadline": "2026-11-22T01:59:00Z",
+      "status": "Coming soon",
+      "deadline": null,
       "tags": [
         "RPG",
         "Closed Beta",
         "Mobile"
       ],
-      "desc_de": "HoYoverse rekrutiert ab sofort für die finale Closed Beta des Kreaturen-Sammel-RPGs: Fragebogen auf der offiziellen Seite ausfüllen, Bewerbungsschluss ist der 22. November 2026. Der Test startet am 25. November auf PC, Android und iOS, alle Daten werden danach gelöscht.",
-      "desc_en": "HoYoverse is now recruiting for the final closed beta of its creature-collecting RPG: fill out the survey on the official site by November 22, 2026. The test starts November 25 on PC, Android and iOS, with a full data wipe at the end.",
+      "desc_de": "HoYoverse hat die Rekrutierung für die finale Closed Beta des Kreaturen-Sammel-RPGs am 22. November 2026 geschlossen. Der Test startet am 25. November auf PC, Android und iOS für ausgewählte Bewerber, alle Daten werden danach gelöscht.",
+      "desc_en": "HoYoverse closed recruitment for the final closed beta of its creature-collecting RPG on November 22, 2026. The test starts November 25 on PC, Android and iOS for selected applicants, with a full data wipe at the end.",
       "url": "https://hoyo.link/gXA5dV4eK",
       "image": "https://fastcdn.hoyoverse.com/mi18n/abc_global/m20260911hy2hf2xwxs/upload/e73e89de73c157c397d79308e2212780_7539477038074762987.jpg",
       "accent": "#C084FC"
@@ -1998,5 +2098,5 @@
       "accent": "#5B21B6"
     }
   ],
-  "updated": "2026-11-21T08:39:30Z"
+  "updated": "2026-11-22T08:41:17Z"
 }
