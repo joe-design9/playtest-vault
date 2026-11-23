@@ -1,6 +1,307 @@
 {
   "playtests": [
     {
+      "id": "seawrights-playtest",
+      "title": "Seawrights — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Action",
+        "Indie",
+        "Strategy"
+      ],
+      "desc_de": "Kostenloses Sandbox-Seeschlachtspiel von Kenneth Foster: Baue deine Schiffe und Flotte und kämpfe auf offener See – mit Bots oder bis zu vier Spielern in Koop, PvE und PvP. Die Playtest-Anmeldung ist seit dem 23. November 2026 live (Build noch in Steam-Prüfung) – Zugang auf der Store-Seite anfordern.",
+      "desc_en": "A free sandbox naval game from Kenneth Foster: build your ships and fleet, then battle it out on the open sea — with bots or up to 4 players across co-op, PvE and PvP. Playtest signups went live on November 23, 2026 (build still in Steam review) — request access on the store page.",
+      "url": "https://store.steampowered.com/app/2273560/Seawrights/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2273560/130714911ab439b253fd7a61e439206dbef96afb/header.jpg",
+      "accent": "#0EA5E9"
+    },
+    {
+      "id": "vektor-playtest",
+      "title": "Vektor — Playtest",
+      "platform": "Steam",
+      "status": "Live now",
+      "deadline": null,
+      "tags": [
+        "Action"
+      ],
+      "desc_de": "Momentum-basierter Top-Down-Arcade-Shooter von Novazoic: Drifte, dashe und weiche durch eskalierende Gegnerwellen, tune dein Schiff zum Überleben und finde deinen Rhythmus im Chaos. Der Steam-Playtest ist seit dem 23. November 2026 live und für alle sofort zugänglich.",
+      "desc_en": "A momentum-driven top-down arcade shooter from Novazoic: drift, dash and weave through escalating waves of hostiles, tune your ship to survive and find your rhythm in the chaos. The Steam playtest went live on November 23, 2026 and anyone can join instantly.",
+      "url": "https://store.steampowered.com/app/4892490/Vektor/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4892490/eeaf01f24ddbde38155d3a37e6a74b48639486ec/header.jpg",
+      "accent": "#8B5CF6"
+    },
+    {
+      "id": "jade-cutting-simulator-playtest",
+      "title": "Jade Cutting Simulator — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Casual",
+        "Indie",
+        "Simulation"
+      ],
+      "desc_de": "Übernimm die Jade-Werkstatt deines Großvaters (小猴工作室): Führe die Säge entlang deiner eigenen Linie, spüle den Schnitt frei und sieh, was im Stein steckt – verkaufe einen guten Stein oder behalte den grünen Streifen für ein unvergessliches Armband. Der Steam-Playtest ist seit dem 23. November 2026 offen – Zugang auf der Store-Seite anfordern.",
+      "desc_en": "Your grandfather has retired and the jade workshop is yours to run (小猴工作室): guide the saw along your own line and rinse the cut to see what's inside — sell a good stone to fund your next find, or keep that streak of green for a bangle customers will remember. The Steam playtest opened on November 23, 2026 — request access on the store page.",
+      "url": "https://store.steampowered.com/app/4993470/Jade_Cutting_Simulator/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4993470/8c34e9c56471fb84f5cd3218dbf6946cb5ffa29b/header.jpg",
+      "accent": "#10B981"
+    },
+    {
+      "id": "knights-of-four-kingdoms-playtest",
+      "title": "Knights Of Four Kingdoms — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Indie",
+        "RPG",
+        "Strategy"
+      ],
+      "desc_de": "Echtzeit-Taktikstrategie: Verteidige ein belagertes Königreich, baue Mauern, Türme und Fallen, kommandiere Helden und Spezialtruppen, verwalte knappe Ressourcen und passe deine Verteidigung gegen Räuber, Monster und Belagerungsmaschinen an. Der Steam-Playtest ist seit dem 23. November 2026 offen – Zugang auf der Store-Seite anfordern.",
+      "desc_en": "Defend a besieged kingdom in a real-time tactical strategy game: build walls, towers and traps, command heroes and specialized troops, manage scarce resources, and adapt your defenses against raiders, monsters and siege engines across handcrafted battlefields. The Steam playtest opened on November 23, 2026 — request access on the store page.",
+      "url": "https://store.steampowered.com/app/5286610/Knights_Of_Four_Kingdoms/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5286610/1d3cc58d222cebfad00a7aec2e8044931259fbc1/header.jpg",
+      "accent": "#B45309"
+    },
+    {
+      "id": "dankest-dungeon-playtest",
+      "title": "Dankest Dungeon: Cleanup with friends and magic — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Casual",
+        "Indie",
+        "Simulation"
+      ],
+      "desc_de": "Räume mit Magie und Werkzeugen Millionen physikbasierter Münzen und Gegenstände auf (mostlypants): Verbessere deine Fähigkeiten und säubere den Dungeon immer schneller – solo oder mit 1–4 Spielern online. Der Steam-Playtest ist seit dem 23. November 2026 offen – Zugang auf der Store-Seite anfordern.",
+      "desc_en": "Use a variety of magic and tools to tidy up millions of physics-based coins and items (mostlypants): upgrade your abilities and clean up the dungeon faster — solo or with 1-4 players online. The Steam playtest opened on November 23, 2026 — request access on the store page.",
+      "url": "https://store.steampowered.com/app/5524680/Dankest_Dungeon_Cleanup_with_friends_and_magic/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5524680/b1e4644f498be248e7cd58e4356ad6073c0db245/header.jpg",
+      "accent": "#7C3AED"
+    },
+    {
+      "id": "kid-on-couch-quest-playtest",
+      "title": "Kid on Couch Quest — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Action",
+        "Indie"
+      ],
+      "desc_de": "Actiongeladener 2D-Plattform-Shooter von Kid on Couch Studio: Niedliche Helden gegen gefährliche Monster, mächtige Bosse und tonnenweise Loot – allein oder mit Freunden, plus Arena-Kämpfe gegeneinander. Der Steam-Playtest ist seit dem 23. November 2026 offen – Zugang auf der Store-Seite anfordern.",
+      "desc_en": "An action-packed 2D platform shooter from Kid on Couch Studio: adorable characters face dangerous monsters, powerful bosses and tons of loot — fight through hordes alone or with friends, or challenge each other in arena battles. The Steam playtest opened on November 23, 2026 — request access on the store page.",
+      "url": "https://store.steampowered.com/app/5581770/Kid_on_Couch_Quest/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5581770/d2e7e9e907ad96c362b3605abcda78ab9203f46a/header.jpg",
+      "accent": "#F59E0B"
+    },
+    {
+      "id": "bela-back-to-the-sea-playtest",
+      "title": "BÉLA: Back to the Sea! — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Casual",
+        "Indie",
+        "Co-op"
+      ],
+      "desc_de": "Koop-Partyspiel von Bug Factory: Wal Béla ist an einem überfüllten Strand gestrandet und rührt keine Flosse – bring ihn zurück ins Meer, solo oder mit bis zu drei Freunden online, während Möwen deine Eimer klauen und WHALE TV jeden Patzer live sendet. Der Steam-Playtest ist seit dem 23. November 2026 offen – Zugang auf der Store-Seite anfordern.",
+      "desc_en": "A co-op party game from Bug Factory: Béla the whale is stranded on a crowded beach and won't push himself — get him back to the sea solo or with up to three friends online, while seagulls steal your buckets and WHALE TV broadcasts every blunder live. The Steam playtest opened on November 23, 2026 — request access on the store page.",
+      "url": "https://store.steampowered.com/app/5545820/B%C3%89LA_Back_to_the_Sea/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5545820/bcfa9335847662c68f7611fffc7eba2f8cef013a/header.jpg",
+      "accent": "#06B6D4"
+    },
+    {
+      "id": "frog-forage-playtest",
+      "title": "Frog Forage — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Casual",
+        "Farming"
+      ],
+      "desc_de": "Gemütliches Incremental-Farming als sammelnder Frosch (Pixre): Erkunde vier Biome, stelle Helfer ein, koche Marmelade und stärke deinen Upgrade-Baum, damit jeder Run besser wird. Der Steam-Playtest ist seit dem 23. November 2026 offen – Zugang auf der Store-Seite anfordern.",
+      "desc_en": "Become a frog forager in a cozy incremental farming game (Pixre): explore four biomes, hire helpers, brew jam and power up your upgrade tree to make every run better than the last. The Steam playtest opened on November 23, 2026 — request access on the store page.",
+      "url": "https://store.steampowered.com/app/5544900/Frog_Forage/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5544900/04b1ad6f2dcd0cc67e68e9a3e094f1da061b644f/header.jpg",
+      "accent": "#22C55E"
+    },
+    {
+      "id": "mission-to-the-lost-galaxy-playtest",
+      "title": "Mission to the Lost Galaxy — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
+      "desc_de": "Baue deine Raumstation in diesem 1960er-Sci-Fi-City-Builder von Zombie Bonsai, in dem eine Galaxis fremder neuer Welten wartet. Der Steam-Playtest ist seit dem 23. November 2026 offen – Zugang auf der Store-Seite anfordern.",
+      "desc_en": "Build your space station in this 1960s sci-fi city builder from Zombie Bonsai, where a galaxy of strange new worlds awaits. The Steam playtest opened on November 23, 2026 — request access on the store page.",
+      "url": "https://store.steampowered.com/app/4236470/Mission_to_the_Lost_Galaxy/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4236470/226766daf0a837830bf14d88f42c8f640217c6f9/header.jpg",
+      "accent": "#6366F1"
+    },
+    {
+      "id": "flame-and-blame",
+      "title": "Flame and Blame",
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Adventure",
+        "Co-op",
+        "Indie"
+      ],
+      "desc_de": "First-Person-Koop-Komödie von RetroStyle Games für bis zu vier Feuerwehrleute, die sehr schlecht in ihrem Job sind: Fahre den Löschzug, bekämpfe das Feuer, rette den Panda – und schieb die Schuld auf die anderen, wenn alles in Rauch aufgeht. Anmeldung über FirstLook / player.gg.",
+      "desc_en": "A first-person co-op comedy from RetroStyle Games for up to 4 firefighters who are very bad at their job: drive the truck, blast the fire, rescue the panda, and blame each other when it all goes up in smoke. Sign-ups run through FirstLook / player.gg.",
+      "url": "https://player.gg/playtests",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4908460/bb7b59090b61954419189f5309f44b36dc3b7856/header.jpg",
+      "accent": "#EF4444"
+    },
+    {
+      "id": "pizzapoly",
+      "title": "Pizzapoly",
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Indie",
+        "Simulation",
+        "Co-op"
+      ],
+      "desc_de": "Führe dein eigenes Pizza-Restaurant mit bis zu vier Freunden (Polytan Games): Bereite Pizzen zu, bediene Gäste, verwalte Vorräte und liefere Bestellungen per Motorrad durch die Stadt – Teamwork, Chaos und jede Menge Pizza. Anmeldung über FirstLook / player.gg.",
+      "desc_en": "Run your own pizza restaurant with up to 4 friends (Polytan Games): prepare pizzas, serve customers, manage supplies, and deliver orders across the city on your motorbike — teamwork, chaos, and plenty of pizza await. Sign-ups run through FirstLook / player.gg.",
+      "url": "https://player.gg/playtests",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4414500/557b20e336b52c75db4cc4353c07282c676ddf3e/header.jpg",
+      "accent": "#F97316"
+    },
+    {
+      "id": "mirealle",
+      "title": "Mirealle",
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Adventure",
+        "Casual",
+        "Indie"
+      ],
+      "desc_de": "Eine Welt ist in tausende schwebende Inseln zerbrochen, in Ruinen liegt eine vergessene Geschichte verborgen (qovagames): Berührendes Puzzle-Abenteuer in einem gemütlichen Universum über die Suche nach Hoffnung. Anmeldung über FirstLook / player.gg.",
+      "desc_en": "A world has split into thousands of floating islands and a forgotten history is hidden in ruins (qovagames): a touching puzzle adventure set in a cozy universe, about the search for hope. Sign-ups run through FirstLook / player.gg.",
+      "url": "https://player.gg/playtests",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3701140/821b4a518a6ac389e0e5c32b6a75941327d64141/header.jpg",
+      "accent": "#38BDF8"
+    },
+    {
+      "id": "sea-of-rifts",
+      "title": "Sea Of Rifts",
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Action",
+        "Adventure",
+        "Indie",
+        "RPG"
+      ],
+      "desc_de": "Kapitäniere ein Panzerschiff in einen zerbrochenen Ozean in diesem Lovecraft-Sandbox-RPG von Out Of Bounds Games: Heuere eine Crew aus Außenseitern mit eigenen Macken und Bruchpunkten an, verhindere Meuterei und kämpfe unter Dampf und Segeln gegen Seemonster. Anmeldung über FirstLook / player.gg.",
+      "desc_en": "Captain an ironclad into a broken ocean in this Lovecraftian sandbox RPG from Out Of Bounds Games: hire a crew of misfits with their own traits, grudges and breaking points, keep mutiny at bay and fight sea monsters under steam and sail. Sign-ups run through FirstLook / player.gg.",
+      "url": "https://player.gg/playtests",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2527970/77caf608fdcc7e11ddeccbe134d1a1fff21e2b93/header.jpg",
+      "accent": "#0F766E"
+    },
+    {
+      "id": "above-colonies-of-the-mist",
+      "title": "Above: Colonies of the Mist",
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Strategy"
+      ],
+      "desc_de": "Baue eine Hügelkolonie im letzten Land, das vor dem giftigen Nebel sicher ist (Docklight Games / Forklift Interactive): Überlebe, expandiere, erkunde antike Monumente und finde einen Ausweg, bevor der Nebel alles beansprucht. Der November-Closed-Playtest läuft; Anmeldung über FirstLook / player.gg.",
+      "desc_en": "Build a hilltop colony in the last land safe from the toxic mist (Docklight Games / Forklift Interactive): survive, expand, explore ancient monuments, and look for a way out before the mist claims everything. The November closed playtest is running; sign-ups run through FirstLook / player.gg.",
+      "url": "https://player.gg/playtests",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3783980/9a77dab3b5877338c473f9529971a30319aa5d66/header.jpg",
+      "accent": "#64748B"
+    },
+    {
+      "id": "station-58",
+      "title": "Station 58",
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Adventure",
+        "Indie",
+        "Puzzle"
+      ],
+      "desc_de": "Setze einen über den Himmel verstreuten Nationalpark wieder zusammen in diesem gemütlichen Puzzle-Abenteuer von Amber Originals: Spiele solo oder im Couch-Koop als Rangerin Starla und ihr riesiger Roboterfreund Shorty, löse Alien-Würfelrätsel und decke auf, was den Park zerbrochen hat. Anmeldung über FirstLook / player.gg.",
+      "desc_en": "Piece together a national park scattered across the sky in this cozy puzzle adventure from Amber Originals: play solo or couch co-op as ranger Starla and her giant robot friend Shorty, solve alien cube puzzles, rearrange lost parklands, and uncover what fractured the park. Sign-ups run through FirstLook / player.gg.",
+      "url": "https://player.gg/playtests",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3757660/bf2f7cf0c6e7ed4497ad7c95e9c9633594317e46/header.jpg",
+      "accent": "#84CC16"
+    },
+    {
+      "id": "greendawn",
+      "title": "GREEN DAWN",
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Action",
+        "Indie",
+        "Shooter"
+      ],
+      "desc_de": "Third-Person-Team-Shooter für Vierer-Squads von GREEN DAWN Studio: Sammle Schrott, baue Waffen und Mauern um deinen Camper-Van und überfalle rivalisierende Vans – dein Van ist dein Respawn, das letzte Squad gewinnt. Anmeldung über FirstLook / player.gg.",
+      "desc_en": "Third-person team shooter for squads of four from GREEN DAWN Studio: scavenge scrap, build guns and walls around your camper van, then raid rival vans — your van is your respawn, and last squad standing wins. Sign-ups run through FirstLook / player.gg.",
+      "url": "https://player.gg/playtests",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3028030/a747e04bf2e360ec08cd128326d151039ea41502/header.jpg",
+      "accent": "#16A34A"
+    },
+    {
+      "id": "irradiant-skies",
+      "title": "Irradiant Skies",
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Action",
+        "Casual",
+        "Indie"
+      ],
+      "desc_de": "Arcade-Roguelite von Cuboids Interactive, das Brick-Breaking mit Kugel-Abwehr-Kampf verbindet: Reflektiere Gegnerangriffe, verkette mächtige Upgrades und meistere einzigartige Schiffe, während du durch Gegnerwellen aufsteigst. Anmeldung über FirstLook / player.gg.",
+      "desc_en": "An arcade roguelite from Cuboids Interactive blending brick-breaking and bullet-parrying combat: reflect enemy attacks, chain powerful upgrades, and master unique ships as you ascend through waves of enemies. Sign-ups run through FirstLook / player.gg.",
+      "url": "https://player.gg/playtests",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4166780/1fc12c7b643d133864f67e289ceeffe9d8e9b8c8/header.jpg",
+      "accent": "#EAB308"
+    },
+    {
+      "id": "urine-trouble-pee-v-pee",
+      "title": "Urine Trouble: PEE V PEE ™",
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Action",
+        "Indie",
+        "Shooter"
+      ],
+      "desc_de": "Urin-basierter Stealth-Shooter von CMY2K: Schließe dich den Pissers an und bemale die Stadt – oder jage sie als Polizei und schieße sie ab. Anmeldung über FirstLook / player.gg.",
+      "desc_en": "A urine-based stealth shooter from CMY2K: team up with The Pissers to paint the city with pee — or hunt them down and shoot them as The Police. Sign-ups run through FirstLook / player.gg.",
+      "url": "https://player.gg/playtests",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3835800/ca21ed44fe8b36929e2ea87ae99e4a02639033ab/header.jpg",
+      "accent": "#FACC15"
+    },
+    {
       "id": "backframes-escape-together-playtest",
       "title": "Backframes: Escape Together — Playtest",
       "platform": "Steam",
@@ -747,7 +1048,7 @@
       "id": "guns-and-dragons-playtest",
       "title": "Guns & Dragons — Playtest 3",
       "platform": "Steam",
-      "status": "Live now",
+      "status": "Ended",
       "deadline": "2026-11-22T23:59:00Z",
       "tags": [
         "FPS",
@@ -2098,5 +2399,5 @@
       "accent": "#5B21B6"
     }
   ],
-  "updated": "2026-11-22T08:41:17Z"
+  "updated": "2026-11-23T08:40:33Z"
 }
