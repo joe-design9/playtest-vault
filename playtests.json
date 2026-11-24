@@ -1,6 +1,140 @@
 {
   "playtests": [
     {
+      "id": "sea-of-remnants-dawnbreaker-beta",
+      "title": "Sea of Remnants — Dawnbreaker Closed Beta",
+      "platform": "Xbox",
+      "status": "Signups open",
+      "deadline": "2026-12-18T12:00:00Z",
+      "tags": [
+        "Adventure",
+        "Roguelike",
+        "RPG"
+      ],
+      "desc_de": "Free-to-play rundenbasiertes Roguelike-Abenteuer von Joker Studio (NetEase) in einer Puppenvolk-Welt: Die Dawnbreaker Closed Beta kommt über das Xbox-Insider-Programm auf die Xbox Series X – Pre-Download ab 1. Dezember, Test vom 3. Dezember (16:00 PST) bis 18. Dezember (04:00 PST), mit White Sea und Bridge Sea, Kapitäns-Quests bis Kapitel 3 und einer exklusiven Belohnung zum Launch. Plätze sind begrenzt: am Starttag direkt registrieren oder über die Auslosung mit NetEase-Passport-Konto.",
+      "desc_en": "A free-to-play turn-based roguelike adventure from Joker Studio (NetEase) set in a puppetfolk world: the Dawnbreaker Closed Beta comes to Xbox Series X via the Xbox Insider Program — pre-download from December 1, test running December 3 (4:00 PM PST) to December 18 (4:00 AM PST), with the White Sea and Bridge Sea, captain quests through Chapter 3 and an exclusive launch reward. Places are limited: register directly on launch day or enter the access draw with a NetEase Passport account.",
+      "url": "https://news.xbox.com/en-us/2026/11/23/sea-of-remnants-set-sail-for-the-dawnbreaker-closed-beta-on-xbox-series-x/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3633680/580ba61ac8ebbc47c64725be35fe751760e93b0a/header.jpg",
+      "accent": "#0891B2"
+    },
+    {
+      "id": "the-lantern-man-cometh-playtest",
+      "title": "The Lantern Man Cometh — Playtest",
+      "platform": "Steam",
+      "status": "Live now",
+      "deadline": null,
+      "tags": [
+        "Casual",
+        "Indie",
+        "Strategy"
+      ],
+      "desc_de": "Gruseliges Incremental-Roguelite von Peculiar Games: Werde zum Lantern Man der Seen, locke mit deinem mystischen Licht Bootsleute in ihr Verderben, ernte ihre Seelen und verbessere deine Kräfte. Der Steam-Playtest ist seit dem 23. November 2026 live und für alle sofort zugänglich.",
+      "desc_en": "A spooky incremental roguelite from Peculiar Games: become the Lantern Man of the lakes, use your mystical light to lure boatmen to their doom, harvest their souls, and upgrade your powers. The Steam playtest went live on November 23, 2026 and anyone can join instantly.",
+      "url": "https://store.steampowered.com/app/4805310/The_Lantern_Man_Cometh/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4805310/2aa61b941a4afe4ef4eda5836c823560fa4f6b04/header.jpg",
+      "accent": "#FBBF24"
+    },
+    {
+      "id": "grave-train-playtest",
+      "title": "Grave Train — Playtest",
+      "platform": "Steam",
+      "status": "Live now",
+      "deadline": null,
+      "tags": [
+        "Action",
+        "Roguelike"
+      ],
+      "desc_de": "Action-Roguelike von PaulMCreates, in dem deine Party ein Zug aus Chaos und Blut ist: Stelle dein Monster-Team zusammen, pflüge durch Wellen unfreiwilliger Opfer und führe ein Ritual durch, das die stärksten Wesen beschwört – um sie alle zu töten. Der Steam-Playtest ist seit dem 23. November 2026 live und für alle sofort zugänglich.",
+      "desc_en": "An action roguelike from PaulMCreates where your party is a train of chaos and blood: arrange your team of monsters, charge through waves of unwilling sacrifices, and perform a ritual summoning of the strongest beings — then kill them all. The Steam playtest went live on November 23, 2026 and anyone can join instantly.",
+      "url": "https://store.steampowered.com/app/5630000/Grave_Train/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5630000/da406834de908eac97f47f8f5ad68abae793bdcb/header.jpg",
+      "accent": "#BE123C"
+    },
+    {
+      "id": "quilomboz-palmares-playtest",
+      "title": "QuilomboZ: Palmares — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Action",
+        "Indie",
+        "Strategy"
+      ],
+      "desc_de": "Echtzeit-Taktik von AlpaK' games: Führe Elite-Krieger wie Zumbi und Dandara, um das legendäre Quilombo dos Palmares zu verteidigen – mit Stealth, Gelände und koordinierten Fähigkeiten gegen portugiesische Truppen und Söldner, verstärkt durch Orisha-Kräfte über das Axé-System. Der Steam-Playtest ist seit dem 23. November 2026 offen – Zugang auf der Store-Seite anfordern.",
+      "desc_en": "Real-time tactics from AlpaK' games: lead elite warriors like Zumbi and Dandara to defend the legendary Quilombo dos Palmares — use stealth, terrain and coordinated abilities to outsmart Portuguese forces and mercenaries, and channel Orisha powers through the Axé system. The Steam playtest opened on November 23, 2026 — request access on the store page.",
+      "url": "https://store.steampowered.com/app/4596660/QuilomboZ_Palmares/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4596660/d1af510cc09874721ebb675a6f945e1b33769ce3/header.jpg",
+      "accent": "#EA580C"
+    },
+    {
+      "id": "we-love-casting-spells-playtest",
+      "title": "We Love Casting Spells — Playtest",
+      "platform": "Steam",
+      "status": "Live now",
+      "deadline": null,
+      "tags": [
+        "Action",
+        "Adventure"
+      ],
+      "desc_de": "Magischer prozeduraler Dungeon-Extractor von Shadow Government Gaming: Ziehe solo oder mit Freunden durch prozedurale Dungeons voller Gegner, Fallen und Belohnungen, fülle deinen Beutel und extrahiere in dein Sanktum, bevor deine Magie ausgeht. Der Steam-Playtest ist seit dem 23. November 2026 live und für alle sofort zugänglich.",
+      "desc_en": "A magic fantasy procedural dungeon extractor from Shadow Government Gaming: advance solo or with friends through procedural dungeons full of enemies, traps and rewards, fill your satchel, and extract to your sanctum before your magic runs out. The Steam playtest went live on November 23, 2026 and anyone can join instantly.",
+      "url": "https://store.steampowered.com/app/5226700/We_Love_Casting_Spells/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5226700/a1ffe8fddd333237a4b5ce6856c1e270fdf4a93f/header.jpg",
+      "accent": "#A855F7"
+    },
+    {
+      "id": "rog-lite-playtest",
+      "title": "ROG Lite — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Adventure",
+        "Indie",
+        "MMORPG",
+        "RPG"
+      ],
+      "desc_de": "Isometrisches Fantasy-MMORPG von Black Bee: Dungeon-Expeditionen, Open-World-PvP und Gilden-Eroberungen – meistere Waffen und Magie, erkunde mit Freunden tiefe Dungeons, baue ein Zuhause und kämpfe in einer geteilten, persistenten Welt um Forts. Der Steam-Playtest ist seit dem 23. November 2026 offen – Zugang auf der Store-Seite anfordern.",
+      "desc_en": "An isometric fantasy MMORPG from Black Bee: dungeon expeditions, open-world PvP and guild conquest — master weapons and magic, explore deep dungeons with friends, build a home and fight for control of forts in a shared, persistent world. The Steam playtest opened on November 23, 2026 — request access on the store page.",
+      "url": "https://store.steampowered.com/app/5204490/ROG_Lite/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5204490/ea1e3fa92da7a426be096b43666b1e65c6c33922/header.jpg",
+      "accent": "#4F46E5"
+    },
+    {
+      "id": "islands-collide-playtest",
+      "title": "Islands Collide — Playtest",
+      "platform": "Steam",
+      "status": "Live now",
+      "deadline": null,
+      "tags": [
+        "Action",
+        "Indie"
+      ],
+      "desc_de": "Bullet-Heaven-Roguelite von studio-studio-studio übers Inseln-Rammen: Kraché in andere Inseln, schweiße sie dauerhaft an deine, räume ab, wer dort lebt, und wachse mit jedem Crash – bis das Meer einen lebenden Kontinent gegen dich aufstellt. Der Steam-Playtest ist seit dem 24. November 2026 live und für alle sofort zugänglich.",
+      "desc_en": "A bullet-heaven roguelite from studio-studio-studio about ramming islands: crash into other islands to weld them on for good, clear whoever lives there, and grow bigger with every crash, until the sea raises a living continent to swallow you. The Steam playtest went live on November 24, 2026 and anyone can join instantly.",
+      "url": "https://store.steampowered.com/app/5293060/Islands_Collide/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5293060/acb9524bcc2cb2d7688cb4eec055687f40bcb598/header.jpg",
+      "accent": "#14B8A6"
+    },
+    {
+      "id": "zombie-outbreak-simulator-playtest",
+      "title": "Zombie Outbreak Simulator — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Action",
+        "Simulation",
+        "Strategy"
+      ],
+      "desc_de": "Zombie-Apokalypse im Maßstab einer echten Stadt (Potato Puppy): Wähle eine beliebige Stadt der Erde und sieh zu, wie Hunderttausende Zombies sie Straße für Straße verschlingen – verteidige sie mit Freunden in RTS-Missionen, führe die Horde selbst oder spiele Gott im Sandbox-Modus. Der Steam-Playtest ist seit dem 24. November 2026 offen – Zugang auf der Store-Seite anfordern.",
+      "desc_en": "A zombie apocalypse at the scale of a real city (Potato Puppy): pick any city on Earth and watch hundreds of thousands of zombies swallow it street by street — defend it with friends in RTS missions, lead the horde yourself, or play god in the Sandbox. The Steam playtest opened on November 24, 2026 — request access on the store page.",
+      "url": "https://store.steampowered.com/app/5431400/Zombie_Outbreak_Simulator/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5431400/40dfff3585354d9d945861c48ac5affd903e4d76/header.jpg",
+      "accent": "#DC2626"
+    },
+    {
       "id": "seawrights-playtest",
       "title": "Seawrights — Playtest",
       "platform": "Steam",
@@ -657,7 +791,7 @@
       "id": "the-looter-playtest",
       "title": "The Looter — Playtest",
       "platform": "Steam",
-      "status": "Live now",
+      "status": "Ended",
       "deadline": "2026-11-23T23:59:00Z",
       "tags": [
         "Action",
@@ -2182,7 +2316,7 @@
       "id": "superbird-playtest",
       "title": "SuperBird — Public Playtest",
       "platform": "Steam",
-      "status": "Live now",
+      "status": "Ended",
       "deadline": "2026-11-24T03:00:00Z",
       "tags": [
         "Deckbuilder",
@@ -2318,7 +2452,7 @@
       "id": "rasterfall-beta",
       "title": "Rasterfall — Beta Test",
       "platform": "Steam",
-      "status": "Live now",
+      "status": "Ended",
       "deadline": "2026-11-23T14:59:00Z",
       "tags": [
         "Indie",
@@ -2399,5 +2533,5 @@
       "accent": "#5B21B6"
     }
   ],
-  "updated": "2026-11-23T08:40:33Z"
+  "updated": "2026-11-24T09:37:51Z"
 }
