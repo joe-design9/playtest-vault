@@ -1,6 +1,119 @@
 {
   "playtests": [
     {
+      "id": "predatory-islands-playtest",
+      "title": "Predatory Islands — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Strategy"
+      ],
+      "desc_de": "Online-RTS von Mattone Studio: Nach einer Notlandung auf einem Ozeanplaneten führst du einen Insel-Außenposten – Überleben, Bauen, Handel und Kriege um Einfluss in einem lebendigen Archipel. Der Steam-Playtest ist seit dem 24. November 2026 offen – Zugang auf der Store-Seite anfordern.",
+      "desc_en": "An online RTS from Mattone Studio: after an emergency aboard their starship, groups of settlers were evacuated to an ocean planet — lead an island outpost in a game about survival, building, trade and wars for influence across a living archipelago. The Steam playtest opened on November 24, 2026 — request access on the store page.",
+      "url": "https://store.steampowered.com/app/2322700/Predatory_Islands/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322700/3c29dd6c84b2e93fc886599d39709756c8eb0371/header.jpg",
+      "accent": "#0E7490"
+    },
+    {
+      "id": "survival-games-director-playtest",
+      "title": "Survival Games Director — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Indie",
+        "Simulation",
+        "Strategy"
+      ],
+      "desc_de": "Tödliche TV-Show-Simulation von Clementine Wolf Games: Du baust die Arena, schürst Rivalitäten und manipulierst den Wettbewerb – jeder Kandidat hat eigene Persönlichkeit, Bedürfnisse und Ängste, aber alle sind Figuren in deinem Spiel. Halte das Publikum bei der Stange, sonst bist du der Nächste. Der Steam-Playtest ist seit dem 24. November 2026 offen – Zugang auf der Store-Seite anfordern.",
+      "desc_en": "A deadly TV show simulation from Clementine Wolf Games: you build the arena, fuel rivalries and rig the competition — each contestant has their own personality, needs, and fears, but they're all pawns in your game. Keep the audience entertained, or you're next. The Steam playtest opened on November 24, 2026 — request access on the store page.",
+      "url": "https://store.steampowered.com/app/5436220/Survival_Games_Director/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5436220/fccb90e083af916fc489c33373c0bc850856ec78/header.jpg",
+      "accent": "#7C2D12"
+    },
+    {
+      "id": "aftertouch-playtest",
+      "title": "Aftertouch — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Sports"
+      ],
+      "desc_de": "Klassischer Arcade-Fußball von James Randall, inspiriert von den Fußballspielen der 80er und 90er: schnelle Matches, befriedigende Tore und der unwiderstehliche Drang, noch ein Spiel zu machen – leicht zu lernen, lohnend zu meistern. Der Steam-Playtest ist seit dem 24. November 2026 offen – Zugang auf der Store-Seite anfordern.",
+      "desc_en": "Classic arcade football from James Randall, inspired by the football games of the 80s and 90s: quick matches, satisfying goals, and that irresistible urge to play just one more game — easy to pick up, rewarding to master. The Steam playtest opened on November 24, 2026 — request access on the store page.",
+      "url": "https://store.steampowered.com/app/5237690/Aftertouch/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5237690/0834636b105c02350d537ce0e20183049e39120a/header.jpg",
+      "accent": "#16A34A"
+    },
+    {
+      "id": "tavar-playtest",
+      "title": "Tavar — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Action",
+        "FPS"
+      ],
+      "desc_de": "Brutaler Hochgeschwindigkeits-FPS von Sam Murray voller Nahkampf-Gefecht, zerstörbarer Umgebung und tödlicher Kopfschüsse – angesiedelt in Tavar, einer turmhohen dystopischen Mauerstadt mitten in ihrer rituellen, alle zehn Jahre stattfindenden Säuberung. Der Steam-Playtest ist seit dem 25. November 2026 offen – Zugang auf der Store-Seite anfordern.",
+      "desc_en": "A brutal high-octane FPS from Sam Murray overflowing with close-quarters gunfights, environmental destruction and deadly headshots, set within Tavar, a towering dystopian walled city in the midst of its ritual once-a-decade Purge. The Steam playtest opened on November 25, 2026 — request access on the store page.",
+      "url": "https://store.steampowered.com/app/5576250/Tavar/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5576250/6bdebf619b15032dac668c7035b8c74144d11d8d/header.jpg",
+      "accent": "#991B1B"
+    },
+    {
+      "id": "dicenado-playtest",
+      "title": "Dicenado — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Action",
+        "Adventure",
+        "Indie"
+      ],
+      "desc_de": "Würfel-Roguelite von Varvara Games, in dem die Zahlen nie aufhören zu steigen: Würfle aufs Brett und triff Monster mit dem, was oben liegt – gleiche Zahlen verschmelzen (6 und 6 werden 15, 15 und 15 werden 38), und zwischen den Runs verbesserst du die Seiten deiner Würfel. Der Steam-Playtest ist seit dem 25. November 2026 offen – Zugang auf der Store-Seite anfordern.",
+      "desc_en": "A dice roguelite from Varvara Games where the numbers never stop climbing: roll your dice onto the board and hit monsters with whatever comes up — matching numbers merge (6 and 6 make 15, 15 and 15 make 38), and between runs you upgrade the faces on your dice. The Steam playtest opened on November 25, 2026 — request access on the store page.",
+      "url": "https://store.steampowered.com/app/5547420/Dicenado/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5547420/e718316a128de0ae43a2aa424d4fb873fe582050/header.jpg",
+      "accent": "#DB2777"
+    },
+    {
+      "id": "haul-playtest",
+      "title": "HAUL — Playtest",
+      "platform": "Steam",
+      "status": "Live now",
+      "deadline": null,
+      "tags": [
+        "Indie",
+        "Simulation"
+      ],
+      "desc_de": "Kleinstadt-Hustle-Sim von Deadstock Digital: vom pleite und arbeitslos zum Vollzeit-Flipper – Ware in Secondhand-Läden, blauen Tonnen und bei zwielichtigen Treffen aufstöbern, säubern und weiterverkaufen. Der Steam-Playtest ist seit dem 25. November 2026 live und für alle sofort zugänglich.",
+      "desc_en": "A small-town hustle sim from Deadstock Digital: go from broke and jobless to full-time flipper — source, clean, and resell your way through thrift stores, blue bins, and sketchy meetups. The Steam playtest went live on November 25, 2026 and anyone can join instantly.",
+      "url": "https://store.steampowered.com/app/4623720/HAUL/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4623720/afa0f81de0084336ef65b18cfd1dfe0fb72a1589/header.jpg",
+      "accent": "#65A30D"
+    },
+    {
+      "id": "mahjong-bai-xiang-pai-playtest",
+      "title": "Mahjong: Bai Xiang Pai — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Casual",
+        "Indie",
+        "Strategy"
+      ],
+      "desc_de": "Singleplayer-Roguelite-Deckbuilder von eleven rund ums Mahjong: Spiele 1–5 von 14 Steinen zu Paaren, Chows, Pungs oder Kongs, multipliziere Chips gegen Zielwerte, forme dein Deck um und sammle Edikte, Items und regelverändernde Maskenkarten. Der Steam-Playtest ist seit dem 25. November 2026 offen – Zugang auf der Store-Seite anfordern.",
+      "desc_en": "A single-player roguelite deckbuilder from eleven built around Mahjong: play 1–5 of 14 tiles to form Pairs, Chows, Pungs or Kongs, then multiply Chips to beat each target. Reshape your deck, collect Edicts, items and rule-changing Mask Cards, and chase explosive Self-Draw combos. The Steam playtest opened on November 25, 2026 — request access on the store page.",
+      "url": "https://store.steampowered.com/app/5193510/Mahjong_Bai_Xiang_Pai/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5193510/f6fc1276819bbd8335608fb081cd335642512a52/header.jpg",
+      "accent": "#B45309"
+    },
+    {
       "id": "sea-of-remnants-dawnbreaker-beta",
       "title": "Sea of Remnants — Dawnbreaker Closed Beta",
       "platform": "Xbox",
@@ -2418,7 +2531,7 @@
       "id": "void-hunters-hunting-grounds-playtest",
       "title": "Void Hunters — Hunting Grounds Playtest",
       "platform": "PC",
-      "status": "Live now",
+      "status": "Ended",
       "deadline": "2026-11-24T10:00:00Z",
       "tags": [
         "RPG",
@@ -2533,5 +2646,5 @@
       "accent": "#5B21B6"
     }
   ],
-  "updated": "2026-11-24T09:37:51Z"
+  "updated": "2026-11-25T08:39:36Z"
 }
