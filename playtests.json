@@ -1,6 +1,106 @@
 {
   "playtests": [
     {
+      "id": "driftworn-playtest",
+      "title": "Driftworn — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Indie",
+        "RPG",
+        "Simulation"
+      ],
+      "desc_de": "Open-World-Sandbox-RPG von Ramza Engine: Führe einen Trupp Drifter durch ein Sonnensystem, das ein zehn Jahre alter Krieg zerbrochen hat – kämpfen, handeln, bergen und bauen auf den Planeten und Monden von Sol, bis du dir ein eigenes Schiff kaufst und dein Abenteuer beginnst. Der Steam-Playtest ist seit dem 26. November 2026 offen – Zugang auf der Store-Seite anfordern.",
+      "desc_en": "An open-world sandbox RPG from Ramza Engine: lead a squad of drifters through a solar system still broken by a decade-old war — fight, trade, salvage and build across the planets and moons of Sol, where nobody is the chosen one, then buy a ship and start your adventure. The Steam playtest opened on November 26, 2026 — request access on the store page.",
+      "url": "https://store.steampowered.com/app/5625730/Driftworn/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5625730/44526caf55fad1e5d4ab910d228ab55b1681a1f7/header.jpg",
+      "accent": "#B45309"
+    },
+    {
+      "id": "beautiful-light-playtest",
+      "title": "Beautiful Light — Playtest (26.–28. Nov.)",
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "deadline": "2026-11-28T22:00:00Z",
+      "tags": [
+        "Extraction",
+        "Horror",
+        "Shooter"
+      ],
+      "desc_de": "PvPvE-Extraction-Shooter von Deep Worlds: Sechs Squads aus je drei Operatoren sichern ein Artefakt in einer feindseligen Horror-Umgebung – gegen andere Operatoren und spielergesteuerte Anomalien. Der neue Playtest läuft vom 26. November (19:00 Uhr MEZ) bis 28. November 2026 (23:00 Uhr MEZ), rund 2.000 neue Einladungen werden über FirstLook vergeben.",
+      "desc_en": "A PvPvE tactical extraction shooter from Deep Worlds: six squads of three operators enter, secure and extract an artifact in a hostile, horrific environment, facing other operators and player-controlled anomalies. The new playtest runs from November 26 (7 PM CET) to November 28, 2026 (11 PM CET), with around 2,000 fresh invites handed out via FirstLook.",
+      "url": "https://beautiful-light.firstlook.gg",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1313230/d6c1ffdbbe474c7828365e472481b00e5f239ecd/header.jpg",
+      "accent": "#0F766E"
+    },
+    {
+      "id": "mvx-london-playtest",
+      "title": "MVX: London — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Action",
+        "Co-op",
+        "Shooter"
+      ],
+      "desc_de": "Shared-World-Koop-Shooter von World Makers in einer 1:1-Nachbildung Londons: Rette die Stadt und bekämpfe Kreaturen mit echten Waffen und mysteriösen Flux-Kräften. Der Steam-Playtest ist seit dem 25. November 2026 offen – Zugang auf der Store-Seite anfordern.",
+      "desc_en": "A shared-world co-op shooter from World Makers set in a 1:1 recreation of London: save the city and battle creatures with real-world weapons and mysterious Flux powers. The Steam playtest opened on November 25, 2026 — request access on the store page.",
+      "url": "https://store.steampowered.com/app/3517190/MVX_London/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3517190/6197c396c07b83d9fa5456e1b188ecbe580658b3/header.jpg",
+      "accent": "#2563EB"
+    },
+    {
+      "id": "calyx-playtest",
+      "title": "Calyx — Playtest",
+      "platform": "Steam",
+      "status": "Live now",
+      "deadline": null,
+      "tags": [
+        "RTS",
+        "Strategy"
+      ],
+      "desc_de": "Strategiespiel von Studio 568 mit einer neuen Art von Gegner: Du leitest einen Weltraum-Bergbau-Außenposten im Kampf gegen mächtige Pflanzen-Aliens – Basis bauen, Ressourcen sammeln, Truppen aufstellen und dich mit nur einer veralteten KI als Gesellschaft gegen den Calyx behaupten. Der Steam-Playtest ist seit dem 25. November 2026 live und für alle sofort zugänglich.",
+      "desc_en": "A strategy game from Studio 568 with a new kind of enemy: you run a space mining outpost locked in battle against powerful plant-aliens — build your base, gather resources, assemble your forces and take on the Calyx, with only an out-of-date AI for company. The Steam playtest went live on November 25, 2026 and anyone can join instantly.",
+      "url": "https://store.steampowered.com/app/3211850/Calyx/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3211850/b21f588a0da55577f5f147f60d64b9e7ec5e245a/header_alt_assets_5.jpg",
+      "accent": "#65A30D"
+    },
+    {
+      "id": "timothy-wasteland-janitor-playtest",
+      "title": "Timothy: Wasteland Janitor — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Incremental",
+        "Indie"
+      ],
+      "desc_de": "Incremental-Spiel von Spherical Cow und Poppy Labs: Hilf Timothy, einem ausrangierten Droiden, sich gegen Horden aggressiver Ödland-Kreaturen zu verteidigen – verbessere Timmy, wähle die besten Builds und genieße das Feuerwerk auf dem Schlachtfeld. Der Steam-Playtest ist seit dem 25. November 2026 offen – Zugang auf der Store-Seite anfordern.",
+      "desc_en": "An incremental game from Spherical Cow and Poppy Labs: help Timothy, a discarded droid, defend himself against hordes of aggressive Wasteland creatures — upgrade Timmy, pick the best builds, and enjoy the fireworks of the battlefield. The Steam playtest opened on November 25, 2026 — request access on the store page.",
+      "url": "https://store.steampowered.com/app/5075990/Timothy_Wasteland_Janitor/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5075990/a43fdb7dcc12b52415c84906d4872a2d0812fc3b/header.jpg",
+      "accent": "#F59E0B"
+    },
+    {
+      "id": "the-gloaming-hand-playtest",
+      "title": "The Gloaming Hand — Playtest",
+      "platform": "Steam",
+      "status": "Live now",
+      "deadline": null,
+      "tags": [
+        "Card Battler",
+        "Indie",
+        "Strategy"
+      ],
+      "desc_de": "Kostenloser 1-gegen-1-Karten-Battler von Offworld Corporation, in dem der Himmel den Kampf entscheidet: Platziere Einheiten im Morgengrauen, lass sie über den Tag reifen, schlage vor der Dämmerung zu und bluffe dich durch die Nacht – fünf Lanes, vier Phasen, eine Sonnenuhr. Der Steam-Playtest läuft seit dem 17. November 2026 und ist seit dem 25. November für alle sofort zugänglich.",
+      "desc_en": "A free one-on-one card battler from Offworld Corporation where the sky decides the fight: plant units at Dawn, let them ripen through the Day, strike before Dusk and bluff through the Night — five lanes, four phases, one sundial. The Steam playtest has been running since November 17, 2026 and switched to instant access for everyone on November 25.",
+      "url": "https://store.steampowered.com/app/5485540/The_Gloaming_Hand/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5485540/395149998b969915da5255d15dcaf4bca3c36fc0/header.jpg",
+      "accent": "#7C3AED"
+    },
+    {
       "id": "predatory-islands-playtest",
       "title": "Predatory Islands — Playtest",
       "platform": "Steam",
@@ -2646,5 +2746,5 @@
       "accent": "#5B21B6"
     }
   ],
-  "updated": "2026-11-25T08:39:36Z"
+  "updated": "2026-11-26T10:32:12Z"
 }
