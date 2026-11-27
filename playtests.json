@@ -1,6 +1,124 @@
 {
   "playtests": [
     {
+      "id": "dustwire-playtest",
+      "title": "Dustwire — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Action",
+        "Co-op",
+        "Extraction"
+      ],
+      "desc_de": "Koop-PvPvE-Extraction-Shooter von Strange Picnic: In Wirehaven, einer von Maschinen übernommenen, überwucherten Stadt, plünderst du solo oder im Squad zu dritt, kämpfst gegen Jäger-Drohnen und riesige Maschinen-Bosse und musst rivalisierenden Squads bei der Extraction zuvorkommen. Der Steam-Playtest ist seit dem 26. November 2026 offen – Zugang auf der Store-Seite anfordern.",
+      "desc_en": "A co-op PvPvE extraction shooter from Strange Picnic: in Wirehaven, an overgrown city taken over by machines, you loot solo or in a squad of up to three, fight hunter drones and giant machine bosses, and beat rival squads to extraction. The Steam playtest opened on November 26, 2026 — request access on the store page.",
+      "url": "https://store.steampowered.com/app/5182080/Dustwire/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5182080/9b0e8721a917b308c5da929fd8012966967553cf/header.jpg",
+      "accent": "#F97316"
+    },
+    {
+      "id": "loopquarium-playtest",
+      "title": "Loopquarium — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Roguelite",
+        "Simulation",
+        "Indie"
+      ],
+      "desc_de": "Aquarium-Roguelite von Fellswell: Stelle einen Schwarm Fische mit einzigartigen Fähigkeiten zusammen, um eindringende Apex-Raubtiere abzuwehren – beginne mit Guppys, vergrößere deine Population und balanciere Jäger und Beute. Der Steam-Playtest wurde am 25. November 2026 angekündigt, die Aufnahme erfolgt in Wellen – Zugang auf der Store-Seite anfordern.",
+      "desc_en": "An aquarium roguelite from Fellswell: assemble a school of fish with unique abilities to repel invading apex predators — start with guppies, grow your population and balance predator and prey. The Steam playtest was announced on November 25, 2026, with players admitted in batches — request access on the store page.",
+      "url": "https://store.steampowered.com/app/4875190/Loopquarium/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4875190/c8de777de46da2520de2c66801f2c6e9e6e79562/header.jpg",
+      "accent": "#0EA5E9"
+    },
+    {
+      "id": "barely-civilized-playtest",
+      "title": "Barely Civilized — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Survival",
+        "Crafting",
+        "Co-op"
+      ],
+      "desc_de": "Open-World-Survival-Crafting-Sandbox von ArTchie Studios: Baue ein schwimmendes Zuhause, bastle ein Wasserflugzeug und erkunde allein oder mit Freunden eine offene Welt – Werkstatt und Garten ans Ufer schleppen, angeln und dich auf den Winter vorbereiten. Der kostenlose Full-Game-Playtest ist auf Steam offen – Zugang auf der Store-Seite anfordern.",
+      "desc_en": "An open-world survival crafting sandbox from ArTchie Studios: build a floating home, craft a seaplane and explore an open world alone or with friends — tow your workshop and garden to a new coast, fish for dinner and prepare for winter. The free full-game playtest is open on Steam — request access on the store page.",
+      "url": "https://store.steampowered.com/app/5535110/Barely_Civilized/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5535110/8373105176aec2d6ba77ca30542e89ff593efd8e/header.jpg",
+      "accent": "#0D9488"
+    },
+    {
+      "id": "chaos-islands-playtest",
+      "title": "Chaos Islands — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "City Builder",
+        "Deckbuilder",
+        "Strategy"
+      ],
+      "desc_de": "City-Builder von Sirex Productions, der Deck-Building und Tower Defense mit Roguelite-Elementen verbindet: Als letzte Bastion der Menschheit fliehst du vor dämonischen Invasoren in den Himmel und verteidigst deine schwebende Siedlung. Der Steam-Playtest ist seit dem 26. November 2026 offen – Zugang auf der Store-Seite anfordern.",
+      "desc_en": "A city-builder from Sirex Productions that unites deck-building and tower defense with roguelite elements: as humanity's last bastion fleeing demonic invaders into the skies, you defend your floating settlement. The Steam playtest opened on November 26, 2026 — request access on the store page.",
+      "url": "https://store.steampowered.com/app/2891320/Chaos_Islands/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2891320/f639e9f11bb264c223b89cdb15c44addd7d70319/header_alt_assets_0.jpg",
+      "accent": "#8B5CF6"
+    },
+    {
+      "id": "every-castle-needs-a-wizard-playtest",
+      "title": "Every Castle Needs a Wizard — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Roguelite",
+        "Turn-Based",
+        "Indie"
+      ],
+      "desc_de": "Rundenbasiertes Roguelite von WizardMerk: Passe deine magischen Projektile mit mehreren Runen an, um ihr Verhalten zu verändern und unzählige Combos zu erschaffen – pralle durch Horden, sammle Loot und baue deine Burg wieder auf. Der Steam-Playtest ist seit dem 26. November 2026 offen – Zugang auf der Store-Seite anfordern.",
+      "desc_en": "A turn-based roguelite from WizardMerk: customize your magic projectiles with multiple runes to change how they behave and create countless combos — ricochet through hordes, gather loot and rebuild your castle. The Steam playtest opened on November 26, 2026 — request access on the store page.",
+      "url": "https://store.steampowered.com/app/5612690/Every_Castle_Needs_a_Wizard/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5612690/4336c747b6a95249e820e6bf502a3834747a00da/header.jpg",
+      "accent": "#A855F7"
+    },
+    {
+      "id": "fairyland-online-playtest",
+      "title": "Fairyland Online — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "MMORPG",
+        "Free To Play"
+      ],
+      "desc_de": "Charmantes MMORPG im beliebten Fairyland-Universum: Ikonische Charaktere, Quests und Pets aus aller Welt in einem warmen Fantasy-Abenteuer – die Global Edition lädt Spieler zum Playtest ein. Der Steam-Playtest ist seit dem 26. November 2026 offen – Zugang auf der Store-Seite anfordern.",
+      "desc_en": "A charming MMORPG set in the beloved Fairyland universe: iconic characters, quests and pets from around the world in a warm, whimsical fantasy adventure — the Global Edition is inviting players to the playtest. The Steam playtest opened on November 26, 2026 — request access on the store page.",
+      "url": "https://store.steampowered.com/app/4766400/Fairyland_Online/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4766400/6700df1e647650a58a788b58cb5ee7f82088dede/header.jpg",
+      "accent": "#EC4899"
+    },
+    {
+      "id": "defect-playtest",
+      "title": "DEFECT — Playtest",
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Shooter",
+        "PvPvE",
+        "Co-op"
+      ],
+      "desc_de": "Cyberpunk-SWAT-Sim von emptyvessel in einer zerstörbaren dystopischen Welt: 4v4v4v4-PvPvE-Gefechte, Koop und Singleplayer – als Truppe des Systems, abtrünnige Polizei oder Gang. Nach dem geschlossenen Friends-&-Family-Test (5.–6. November) ist die Anmeldung für kommende Playtests über FirstLook offen.",
+      "desc_en": "A cyberpunk SWAT sim from emptyvessel set in a destructible dystopian world: 4v4v4v4 PvPvE battles, co-op and single-player — as the System's own force, rogue police or a gang. After the closed friends-and-family test (November 5–6), sign-ups for future playtests are open via FirstLook.",
+      "url": "https://defect.firstlook.gg/signup/playtester",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2470010/header.jpg",
+      "accent": "#DC2626"
+    },
+    {
       "id": "driftworn-playtest",
       "title": "Driftworn — Playtest",
       "platform": "Steam",
@@ -1750,15 +1868,15 @@
       "id": "honkai-nexus-anima",
       "title": "Honkai: Nexus Anima — Final Closed Beta",
       "platform": "PC",
-      "status": "Coming soon",
-      "deadline": null,
+      "status": "Live now",
+      "deadline": "2027-01-06T10:00:00Z",
       "tags": [
         "RPG",
         "Closed Beta",
         "Mobile"
       ],
-      "desc_de": "HoYoverse hat die Rekrutierung für die finale Closed Beta des Kreaturen-Sammel-RPGs am 22. November 2026 geschlossen. Der Test startet am 25. November auf PC, Android und iOS für ausgewählte Bewerber, alle Daten werden danach gelöscht.",
-      "desc_en": "HoYoverse closed recruitment for the final closed beta of its creature-collecting RPG on November 22, 2026. The test starts November 25 on PC, Android and iOS for selected applicants, with a full data wipe at the end.",
+      "desc_de": "HoYoverses Kreaturen-Sammel-RPG ist in der finalen Closed Beta: Der Test läuft seit dem 25. November 2026 auf PC, Android und iOS und endet am 6. Januar 2027 (18:00 Uhr UTC+8). Die Rekrutierung ist geschlossen, ausgewählte Bewerber prüfen ihren Status auf der offiziellen Website; alle Daten werden danach gelöscht. Der Launch ist für Frühjahr 2027 geplant.",
+      "desc_en": "HoYoverse's creature-collecting RPG is in its final closed beta: the test has been live since November 25, 2026 on PC, Android and iOS and ends January 6, 2027 (6 PM UTC+8). Recruitment is closed; selected applicants check their status on the official website, and all data is wiped afterwards. Launch is planned for spring 2027.",
       "url": "https://hoyo.link/gXA5dV4eK",
       "image": "https://fastcdn.hoyoverse.com/mi18n/abc_global/m20260911hy2hf2xwxs/upload/e73e89de73c157c397d79308e2212780_7539477038074762987.jpg",
       "accent": "#C084FC"
@@ -1886,15 +2004,15 @@
       "id": "mabinogi-mobile",
       "title": "Mabinogi Mobile — Free Life Test",
       "platform": "Mobile",
-      "status": "Signups open",
+      "status": "Live now",
       "deadline": null,
       "tags": [
         "MMORPG",
         "Mobile",
         "Region: SEA"
       ],
-      "desc_de": "NEXONs Cross-Plattform-MMORPG sucht Tester für den Free Life Test vom 25. bis 30. November 2026 auf PC, iOS und Android. Achtung: Die Rekrutierung gilt nur für Südostasien (u. a. Philippinen, Thailand, Singapur), Bewerbung bis 22. November.",
-      "desc_en": "NEXON's cross-platform MMORPG is recruiting for its Free Life Test, running November 25–30, 2026 on PC, iOS and Android. Note: recruitment is limited to Southeast Asia (incl. the Philippines, Thailand, Singapore); applications close November 22.",
+      "desc_de": "NEXONs Cross-Plattform-MMORPG: Der Free Life Test läuft vom 25. bis 30. November 2026 auf PC, iOS und Android. Achtung: Die Rekrutierung ist seit dem 22. November geschlossen und galt nur für Südostasien (u. a. Philippinen, Thailand, Singapur).",
+      "desc_en": "NEXON's cross-platform MMORPG: the Free Life Test runs November 25–30, 2026 on PC, iOS and Android. Note: recruitment closed on November 22 and was limited to Southeast Asia (incl. the Philippines, Thailand, Singapore).",
       "url": "https://mabinogimobile.game-tree.com/actv/2026/questionnaire/index.html",
       "image": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/e0/57/c4/e057c4f7-3da3-d378-0265-9a9a25e480a1/01_KeyVisual_2796x1290.jpg/2796x1290bb.jpg",
       "accent": "#4ADE80"
@@ -2445,7 +2563,7 @@
       "title": "Steam Next Fest",
       "platform": "Steam",
       "status": "Coming soon",
-      "deadline": null,
+      "deadline": "2027-03-01T18:00:00Z",
       "tags": [
         "Demos",
         "Festival",
@@ -2715,15 +2833,15 @@
       "id": "thveit-playtest",
       "title": "Thveit — Open Playtest",
       "platform": "Steam",
-      "status": "Coming soon",
+      "status": "Signups open",
       "deadline": null,
       "tags": [
         "Simulation",
         "Settlement Builder",
         "Open Playtest"
       ],
-      "desc_de": "Bilderbuchartiger nordischer Siedlungsbau von Winter Cats Studios: Ein erster offener Playtest auf Steam steht bevor und bietet etwa 3–6 Stunden in einem Dorf, in dem Menschen mit Trollen, Drachen und Geistern zusammenleben – Seefahrt und Glaubenssystem sind noch in Entwicklung. Zugang über die Steam-Seite.",
-      "desc_en": "Picture-book-style Nordic settlement builder from Winter Cats Studios: an initial open playtest on Steam is coming soon, offering roughly 3–6 hours in a village where humans live alongside trolls, dragons and spirits — sailing and the faith system are still in development. Join via the Steam page.",
+      "desc_de": "Bilderbuchartiger nordischer Siedlungsbau von Winter Cats Studios: Die Anmeldung zum ersten offenen Playtest auf Steam ist offen – er bietet etwa 3–6 Stunden in einem Dorf, in dem Menschen mit Trollen, Drachen und Geistern zusammenleben; Seefahrt und Glaubenssystem sind noch in Entwicklung. Zugang über die Steam-Seite anfordern.",
+      "desc_en": "Picture-book-style Nordic settlement builder from Winter Cats Studios: sign-ups for the first open playtest on Steam are open — it offers roughly 3–6 hours in a village where humans live alongside trolls, dragons and spirits, with sailing and the faith system still in development. Request access on the Steam page.",
       "url": "https://store.steampowered.com/app/3924780/",
       "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3924780/dbf0634e0605214a3e3f5d7d106d5532b8f2c718/header.jpg",
       "accent": "#4A6FA5"
@@ -2746,5 +2864,5 @@
       "accent": "#5B21B6"
     }
   ],
-  "updated": "2026-11-26T10:32:12Z"
+  "updated": "2026-11-27T08:41:36Z"
 }
