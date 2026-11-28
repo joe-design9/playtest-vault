@@ -1,6 +1,108 @@
 {
   "playtests": [
     {
+      "id": "the-holdouts-playtest",
+      "title": "The Holdouts — Playtest",
+      "platform": "FirstLook",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Action",
+        "Shooter",
+        "Co-op"
+      ],
+      "desc_de": "Session-basierter Third-Person-Shooter von Ruckus: Allein oder im Koop durch Kleinstadt-Schauplätze prügeln und Rasenmäher, Küchengeräte, 8-Track-Spielzeug oder Waldhörner in die absurdesten tödlichen Waffen verwandeln. Die Anmeldung zum Playtest läuft über FirstLook – die Steam-Seite verlinkt direkt auf ruckus.firstlook.gg.",
+      "desc_en": "A session-based third-person shooter from Ruckus: smash, grab and grow solo or in co-op through small-town locales, turning lawn tools, kitchen appliances, 8-track toys or French horns into the most unhinged and deadly weapons ever. Playtest sign-ups run via FirstLook — the Steam page links directly to ruckus.firstlook.gg.",
+      "url": "https://ruckus.firstlook.gg/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1851810/077e64e76604ade7a0b0fe508314f0070851c919/header.jpg",
+      "accent": "#F97316"
+    },
+    {
+      "id": "paradoxical-playtest",
+      "title": "Paradoxical — Playtest (20.–26. Dez.)",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": "2026-12-27T02:00:00Z",
+      "tags": [
+        "Puzzle",
+        "Indie",
+        "Adventure"
+      ],
+      "desc_de": "Portal-Puzzle-Abenteuer von Venn Studios: Portale sind physische Objekte – trage sie, setze sie um und erschaffe unmögliche Verbindungen, um die ersten Kammern einer untergegangenen Wüsten-Zivilisation zu erkunden. Der erste öffentliche Playtest läuft vom 20. Dezember 2026 (12:00 Uhr MEZ) bis 27. Dezember 2026 (03:00 Uhr MEZ) – Zugang jetzt auf der Store-Seite anfordern, der Zugang startet mit dem Playtest.",
+      "desc_en": "A portal puzzle adventure from Venn Studios: portals are physical objects — carry and reposition them to create impossible connections through space while exploring the first chambers of a fallen desert civilization. The first public playtest runs from December 20, 2026 (12:00 PM CET) to December 27, 2026 (3:00 AM CET) — request access on the store page now; access begins rolling out when the playtest starts.",
+      "url": "https://store.steampowered.com/app/4040750/Paradoxical/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4040750/d9ccb06c507d5687b7d59227131c66340fe63ec0/header.jpg",
+      "accent": "#0891B2"
+    },
+    {
+      "id": "rogue-reigns-playtest",
+      "title": "Rogue Reigns — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Roguelike",
+        "Deckbuilder",
+        "Strategy"
+      ],
+      "desc_de": "Dark-Fantasy-Roguelike-Deckbuilder von Venn Studios über Vertrauen und Opfer: Führe vier egoistische Antihelden durch eine Welt, in der es keinen Tod mehr gibt – und in der dich etwas über die Karte jagt. Baue Synergien, die sie binden, oder Rivalitäten, die sie brechen. Die Anmeldung zum limitierten Playtest ist seit dem 25. Oktober 2026 offen – Zugang auf der Store-Seite anfordern, Einladungen kommen in Wellen.",
+      "desc_en": "A dark fantasy roguelike deckbuilder from Venn Studios about trust and sacrifice: lead four selfish antiheroes through a world where death is no more — and something still hunts you across the map. Build synergies that bind them or rivalries that break them. Registration for the limited playtest has been open since October 25, 2026 — request access on the store page; invitations arrive in waves.",
+      "url": "https://store.steampowered.com/app/3942630/Rogue_Reigns/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3942630/d008c8d288aca7e74dada9604bb286e8d7d1afea/header.jpg",
+      "accent": "#991B1B"
+    },
+    {
+      "id": "synchro-playtest",
+      "title": "Synchro — Open Playtest",
+      "platform": "Steam",
+      "status": "Live now",
+      "deadline": "2026-11-30T19:00:00Z",
+      "tags": [
+        "RPG",
+        "Tactical",
+        "Horror"
+      ],
+      "desc_de": "Taktik-RPG mit Horror-Elementen von Komisoft: Du führst einen Widerstands-Trupp gegen getarnte Monster in einer dystopischen Welt voller Täuschung – plane die Aktionen deines Squads im Voraus, entlarve versteckte Bedrohungen mit einem Realitäts-Scanner und überlebe synchronisierten Kampf, in dem sich jeder Zug gleichzeitig entfaltet. Der offene Playtest läuft seit dem 9. November 2026 und endet am 30. November 2026 um 19:00 Uhr MEZ – für alle sofort zugänglich.",
+      "desc_en": "A tactical RPG with horror elements from Komisoft: lead a resistance squad against disguised monsters in a dystopian world built on deception — plan your squad's actions in advance, expose hidden threats with a reality scanner, and survive synchronized combat where every move unfolds simultaneously. The open playtest has run since November 9, 2026 and ends on November 30, 2026 at 7:00 PM CET — anyone can join instantly.",
+      "url": "https://store.steampowered.com/app/2814880/Synchro/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2814880/ecb85a4daaba784daa63393644627f79f517c37b/header.jpg",
+      "accent": "#7C3AED"
+    },
+    {
+      "id": "stampers-playtest",
+      "title": "Stampers — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Action",
+        "Indie",
+        "Free To Play"
+      ],
+      "desc_de": "Sechs-gegen-sechs-Luftkämpfe in handgebauten Kriegsflugzeugen der 1930er von Print and Play Creative: Über einem tobenden Stadion, mit Live-Kommentar, der jeden Kill ansagt – Free to Play, mit Bots auf jedem leeren Sitz, damit immer ein Match bereitsteht. Die meisten Kills gewinnen. Der Steam-Playtest ist seit dem 26. November 2026 offen – Zugang auf der Store-Seite anfordern.",
+      "desc_en": "Six against six in hand-built 1930s warplanes over a roaring stadium from Print and Play Creative, with a live commentary booth calling every kill. Free to play, with bots in every empty seat, so a match is always ready. The most kills wins. The Steam playtest opened on November 26, 2026 — request access on the store page.",
+      "url": "https://store.steampowered.com/app/5532440/Stampers/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5532440/8883ac9877e8513cc97711a1008652a90406f3f4/header.jpg",
+      "accent": "#B45309"
+    },
+    {
+      "id": "the-reach-unknown-playtest",
+      "title": "The Reach: Unknown — Playtest",
+      "platform": "Steam",
+      "status": "Signups open",
+      "deadline": null,
+      "tags": [
+        "Action",
+        "Indie",
+        "Mech"
+      ],
+      "desc_de": "Persistenter Mech-Krieg aus der First-Person-Cockpit-Perspektive von Mach Tuck Games: Fünf-gegen-fünf-Matches bewegen eine Frontlinie, die alle Piloten teilen, und Clans mit bis zu fünfzig Piloten halten, was sie erobern. Jede Waffe hat Gewicht – überladen fliegst du langsamer und überhitzt schneller. Der Steam-Playtest ist seit dem 28. November 2026 offen – Zugang auf der Store-Seite anfordern.",
+      "desc_en": "A persistent mech war fought from a first-person cockpit by Mach Tuck Games: five-on-five matches move one front line that every pilot shares, and clans of up to fifty pilots hold what they take. Every weapon you mount has weight — fly overloaded and you give up speed and cooling. The Steam playtest opened on November 28, 2026 — request access on the store page.",
+      "url": "https://store.steampowered.com/app/5587950/The_Reach_Unknown/",
+      "image": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/5587950/e5f5d6b8cd081166964be7a549381d64671a008f/header.jpg",
+      "accent": "#EA580C"
+    },
+    {
       "id": "dustwire-playtest",
       "title": "Dustwire — Playtest",
       "platform": "Steam",
@@ -1801,8 +1903,8 @@
       "id": "grampage-life-at-67",
       "title": "Grampage: Life at 67",
       "platform": "Steam",
-      "status": "Signups open",
-      "deadline": "2026-11-27T23:59:00Z",
+      "status": "Ended",
+      "deadline": "2026-11-27T22:00:00Z",
       "tags": [
         "Co-op",
         "Comedy",
@@ -2864,5 +2966,5 @@
       "accent": "#5B21B6"
     }
   ],
-  "updated": "2026-11-27T08:41:36Z"
+  "updated": "2026-11-28T08:40:43Z"
 }
